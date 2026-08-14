@@ -1,0 +1,10 @@
+{
+  "name": "scenes-gathered-zine-v1-3",
+  "display_name": "拾景纸刊 v1.3",
+  "version": "1.3.0",
+  "description": "Source-faithful tactile paper collage that preserves photo orientation, semantic subject boundaries, and original colors.",
+  "entrypoint": "scenes-gathered-zine-v1-3/SKILL.md",
+  "reference": "scenes-gathered-zine-v1-3/references/subject-collage-workflow.md",
+  "metadata": "scenes-gathered-zine-v1-3/agents/openai.yaml",
+  "release_notes": "Local revision of a photo-plus-paper collage workflow, with subject-led boundaries, color fidelity, natural paper transitions, and text suppression."
+}

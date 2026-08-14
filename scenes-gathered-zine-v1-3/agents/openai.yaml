@@ -1,0 +1,4 @@
+interface:
+  display_name: "拾景纸刊 v1.3"
+  short_description: "按原图方向提取主体，结构线优先并用自然曲线激活纸面"
+  default_prompt: "Use $scenes-gathered-zine-v1-3 to make a source-faithful paper collage that preserves orientation, subject boundary, and original colors; extend subject structure first, use sparse natural fallback curves in dead paper, and add no generated text."
