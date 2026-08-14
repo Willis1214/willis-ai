@@ -10,7 +10,7 @@
 | Date | 2026-08-14 |
 | Change Type | Initial public release of the local revision |
 | Repository | Willis1214/willis-ai |
-| Commit | Filled after publication |
+| Commit | `6bb18d38c7af7ed28d10242621287d6dbc2a39a8` |
 | Release | None |
 
 #### Summary
@@ -61,7 +61,7 @@ Published the local revision of a source-faithful paper-collage skill as a stand
 | 日期 | 2026-08-14 |
 | 变更类型 | 本地修订版首次公开发布 |
 | 仓库 | Willis1214/willis-ai |
-| Commit | 发布后回填 |
+| Commit | `6bb18d38c7af7ed28d10242621287d6dbc2a39a8` |
 | Release | None |
 
 #### 摘要
