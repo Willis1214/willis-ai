@@ -42,7 +42,7 @@ Published the local revision of a source-faithful paper-collage skill as a stand
 
 - Skill repository contract: pass before publication.
 - Secret scan: pass before publication.
-- Remote branch and package readback: pending until push.
+- Remote branch and package readback: pass after push to `main`.
 
 #### Known Gaps
 
@@ -93,7 +93,7 @@ Published the local revision of a source-faithful paper-collage skill as a stand
 
 - Skill 仓库合同：发布前通过。
 - Secret scan：发布前通过。
-- 远端分支与包内容读回：推送后完成。
+- 远端分支与包内容读回：已推送到 `main` 并完成。
 
 #### 已知缺口
 
