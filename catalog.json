@@ -1,0 +1,18 @@
+{
+  "packages": [
+    {
+      "name": "ai-article-clarify",
+      "version": "1.0.0",
+      "path": "ai-article-clarify",
+      "manifest": "ai-article-clarify/manifest.json",
+      "license": "MIT"
+    },
+    {
+      "name": "scenes-gathered-zine-v1-3",
+      "version": "1.3.0",
+      "path": "scenes-gathered-zine-v1-3",
+      "manifest": "manifest.json",
+      "license": null
+    }
+  ]
+}

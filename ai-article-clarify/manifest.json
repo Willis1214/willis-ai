@@ -1,0 +1,10 @@
+{
+  "name": "ai-article-clarify",
+  "display_name": "AI Article Clarify",
+  "version": "1.0.0",
+  "description": "从内容、表达和阅读三层编辑已有中文文章，处理 AI 味并保留事实与原意。",
+  "entrypoint": "SKILL.md",
+  "metadata": "agents/openai.yaml",
+  "license": "MIT",
+  "language": "zh-CN"
+}

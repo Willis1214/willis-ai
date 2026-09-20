@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI Article Clarify"
+  short_description: "从内容、表达和阅读三层编辑中文文章，去除空话与机械感，保住原意"
+  default_prompt: "使用 $ai-article-clarify 编辑这篇中文文章。按本篇目的与读者检查内容取舍、中文表达和阅读体验，遵守我指定的结构和修改范围，保留事实与条件，交付修订稿或所需审阅意见。"
+policy:
+  allow_implicit_invocation: true
