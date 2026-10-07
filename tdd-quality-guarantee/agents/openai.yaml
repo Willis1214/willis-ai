@@ -1,0 +1,6 @@
+interface:
+  display_name: "TDD Quality Guarantee"
+  short_description: "Create test cases and evidence-based TDD reports"
+  default_prompt: "Use $tdd-quality-guarantee when the user explicitly requests TDD Quality Guarantee for a task."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill Cleaner"
+  short_description: "中文审计 skill 预算、使用情况和重复项"
+  default_prompt: "Use $skill-cleaner to audit loaded Codex/OpenClaw skills, duplicate skill copies, unused skills from recent logs, and compact description candidates. 输出给用户的结论、风险和建议必须使用中文；默认只生成报告，不自动删除、禁用或改写任何 skill。 For low-risk report triage, delegate a bounded sidecar task to default subagent with model gpt-5.4-mini."

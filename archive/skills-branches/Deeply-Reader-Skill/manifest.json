@@ -1,0 +1,39 @@
+{
+  "name": "deeply-reader-skill",
+  "display_title": "Deeply Reader",
+  "version": "1.0.0",
+  "release_date": "2026-07-01",
+  "description": "Evidence-grounded deep reading skill for book-like PDF, DOCX, EPUB, Markdown, and TXT files, producing useful intelligence, cognitive maps, and actionable reading notes.",
+  "language": [
+    "en",
+    "zh-CN"
+  ],
+  "repository": {
+    "owner": "Willis1214",
+    "name": "Skills",
+    "branch": "Deeply-Reader-Skill",
+    "visibility": "public"
+  },
+  "package_type": "single-skill",
+  "skills": [
+    {
+      "name": "deeply-reader",
+      "folder": "deeply-reader",
+      "description": "Create evidence-grounded deep reading HTML reports from whole-book files (PDF/DOCX/EPUB/MD/TXT). Use for book intelligence, cognitive maps, method extraction, actionable notes, and work/life reflection; not document editing, OCR, conversion, slides, or shallow mind maps."
+    }
+  ],
+  "missing_requested_skills": [],
+  "skill_files": [
+    "deeply-reader/SKILL.md",
+    "deeply-reader/agents/openai.yaml",
+    "deeply-reader/references/note_output_contract.md",
+    "deeply-reader/references/pdf_evidence_links.md",
+    "deeply-reader/references/reading_protocol.md",
+    "deeply-reader/references/source_acquisition.md"
+  ],
+  "documentation": [
+    "README.md",
+    "REVISION_HISTORY.md"
+  ],
+  "license": "UNLICENSED"
+}

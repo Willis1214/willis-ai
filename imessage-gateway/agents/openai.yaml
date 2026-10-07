@@ -1,0 +1,6 @@
+interface:
+  display_name: "Willis x AI iMessage Gateway"
+  short_description: "Diagnose and send verified local macOS iMessages"
+  default_prompt: "Use $imessage-gateway to run a Mac-to-iPhone iMessage self-test and explain the delivery state."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,63 @@
+{
+  "name": "sdd-quality-guarantee",
+  "display_name": "SDD Quality Guarantee",
+  "version": "1.0.0",
+  "description": "形成 Spec、架构、验收和证据之间的可追溯记录。",
+  "entrypoint": "SKILL.md",
+  "metadata": "agents/openai.yaml",
+  "repository": "https://github.com/Willis1214/willis-ai",
+  "branch": "main",
+  "license": null,
+  "license_note": "原分支未指定开源许可；迁移未新增授权。",
+  "migration_date": "2026-10-07",
+  "readme": "README.md",
+  "source": {
+    "repository": "Willis1214/Skills",
+    "branch": "SDD-Quality-Guarantee-Skill",
+    "commit": "7e43f8010cef42d7056a77aa2f729489ae24af32",
+    "manifest": "archive/skills-branches/SDD-Quality-Guarantee-Skill/manifest.json",
+    "history_tag": "archive/skills-branches/SDD-Quality-Guarantee-Skill/2026-10-07"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "b8535e30d53ad83873a7f70d1f845f39cc3b7b215c34dae127b8304664b5eea5",
+      "bytes": 2549
+    },
+    {
+      "path": "REVISION_HISTORY.md",
+      "sha256": "ef005985a617d018a1c33aa4b959fd324546eae764c7d8c90304e93513a1d077",
+      "bytes": 795
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "5ab68a8a4263f400e57a3d5123bc7be9c9ddc40267318d3fff80ad2f2a2de989",
+      "bytes": 3579
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "34e12662cce84ddcbc0badd5277e8d7becad56baface26b0d30ed86250ccbe79",
+      "bytes": 275
+    },
+    {
+      "path": "references/quality-guarantee-review.md",
+      "sha256": "6f8e2963e40203d75f917e335b24b03c43c689e60e1782c0d281631d95209e45",
+      "bytes": 1345
+    },
+    {
+      "path": "references/sdd-output-contract.md",
+      "sha256": "ba04416f343767b8fbcc0787ecf2b084af9128adf679377142069416f5e7345e",
+      "bytes": 2877
+    },
+    {
+      "path": "scripts/scaffold_sdd.py",
+      "sha256": "b521edbd99e965ae31b3d04ca9f2f5da3204e02f2e297689043e45e59c712629",
+      "bytes": 2340
+    },
+    {
+      "path": "scripts/validate_sdd_report.py",
+      "sha256": "a76f82cc8b68857a4d10bb1a241573e3d9a0e7b43f245c43f98950afbc5b3c07",
+      "bytes": 1747
+    }
+  ]
+}

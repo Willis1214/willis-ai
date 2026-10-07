@@ -1,0 +1,34 @@
+{
+  "name": "pm-consultant",
+  "display_title": "PM Consultant",
+  "version": "1.2.0",
+  "release_date": "2026-06-03",
+  "description": "Codex skill for PRD-first requirement clarification, QC-gated delivery, and Red Team review before final PRD, user-story-map, and QC checklist outputs.",
+  "language": [
+    "en",
+    "zh-CN"
+  ],
+  "source_skill_path": "/Users/lizhendong/.codex/skills/pm-consultant",
+  "repository": {
+    "owner": "Willis1214",
+    "repo": "Skills",
+    "branch": "PM-Consultant-Skill",
+    "visibility": "public"
+  },
+  "skill_files": [
+    "pm-consultant/SKILL.md",
+    "pm-consultant/agents/openai.yaml",
+    "pm-consultant/references/workflow.md",
+    "pm-consultant/references/requirement-clarification.md",
+    "pm-consultant/references/confirmation-summary-template.md",
+    "pm-consultant/references/prd-template.md",
+    "pm-consultant/references/user-story-map-template.html",
+    "pm-consultant/references/qc-checklist-template.md",
+    "pm-consultant/references/final-output-contract.md"
+  ],
+  "documentation": [
+    "README.md",
+    "REVISION_HISTORY.md"
+  ],
+  "license": "UNLICENSED"
+}

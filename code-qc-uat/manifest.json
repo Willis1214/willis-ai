@@ -1,0 +1,58 @@
+{
+  "name": "code-qc-uat",
+  "display_name": "Code-QC-UAT",
+  "version": "1.1.0",
+  "description": "为可执行程序设计并运行功能、边界和回归检查。",
+  "entrypoint": "SKILL.md",
+  "metadata": "agents/openai.yaml",
+  "repository": "https://github.com/Willis1214/willis-ai",
+  "branch": "main",
+  "license": null,
+  "license_note": "原分支未指定开源许可；迁移未新增授权。",
+  "migration_date": "2026-10-07",
+  "readme": "README.md",
+  "source": {
+    "repository": "Willis1214/Skills",
+    "branch": "Code-QC-UAT-Skill",
+    "commit": "e6c21aac914c8c5cf16427caf0a0769f1a63a482",
+    "manifest": "archive/skills-branches/Code-QC-UAT-Skill/manifest.json",
+    "history_tag": "archive/skills-branches/Code-QC-UAT-Skill/2026-10-07"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "b5b54d7c4c1c40dd6496f95624905a2f6fa7ccfed6b580ea3a2b26e2487633e8",
+      "bytes": 2528
+    },
+    {
+      "path": "REVISION_HISTORY.md",
+      "sha256": "fb7ed3dae07d2cb98073c1fd89b408731f0725c338fa6470448d8cbd2db8ab4b",
+      "bytes": 991
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "290a24faebb9f9f8ef17f438e59607cc45a2b0a68c0db6295c048913cb3b7a0e",
+      "bytes": 6448
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "c2803d523295e2c11cb818148ddd90bc5bed3015cf6b12056e28d0d8ff77a316",
+      "bytes": 348
+    },
+    {
+      "path": "references/qc-scenario-patterns.md",
+      "sha256": "dff519127e37c25509cba05e24d3a4b880ecee3bcb04f225f9cf481ab4b0555e",
+      "bytes": 2756
+    },
+    {
+      "path": "scripts/generate_synthetic_cases.py",
+      "sha256": "558de6a24cc23aba699d147dd04fc784292cd78a259cb7ee6dcf34dd19e9e9d3",
+      "bytes": 5975
+    },
+    {
+      "path": "scripts/scaffold_qc_uat.py",
+      "sha256": "9602815af3067741195f5c235f382a78cdcf5fae9c68049ba35803fe9f7f9e58",
+      "bytes": 3679
+    }
+  ]
+}

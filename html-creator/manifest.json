@@ -1,0 +1,83 @@
+{
+  "name": "html-creator",
+  "display_name": "HTML Creator",
+  "version": "1.2.1",
+  "description": "把报告、方案、证据和比较材料制作成独立 HTML 页面。",
+  "entrypoint": "SKILL.md",
+  "metadata": "agents/openai.yaml",
+  "repository": "https://github.com/Willis1214/willis-ai",
+  "branch": "main",
+  "license": null,
+  "license_note": "原分支未指定开源许可；迁移未新增授权。",
+  "migration_date": "2026-10-07",
+  "readme": "README.md",
+  "source": {
+    "repository": "Willis1214/Skills",
+    "branch": "HTML-Creator-Skill",
+    "commit": "b2cc9fe29b49c41c3e505e16c53384a860b5b6b4",
+    "manifest": "archive/skills-branches/HTML-Creator-Skill/manifest.json",
+    "history_tag": "archive/skills-branches/HTML-Creator-Skill/2026-10-07"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "28f162adf34f3078db6e78e315999e7388bfdcf70833b793ca7a6a98dfa53f06",
+      "bytes": 2558
+    },
+    {
+      "path": "REVISION_HISTORY.md",
+      "sha256": "1d2ebd36a0589243d37a545074c1f181630c9472a728d856a6c08d94f7ee1b0a",
+      "bytes": 3506
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "42dd2568ad6691b88661132b64680c60b4c5ad2cfb47da0174395365a0b4e4d4",
+      "bytes": 5823
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "4c7808fb55bf55019b4f0a3b8bc3c4739c0127e51825ebd1dc4f0bda227967f0",
+      "bytes": 379
+    },
+    {
+      "path": "references/canvas_profile.md",
+      "sha256": "64abe83b9791fc30e3e57fb290a59aa20789b8d3f7653b47b8d47c6f63313184",
+      "bytes": 1763
+    },
+    {
+      "path": "references/component_catalog.md",
+      "sha256": "0f46e88b4b7f45b7af296251c6b6442b165fe72ffd1661b3fd6452ea7d252e42",
+      "bytes": 6207
+    },
+    {
+      "path": "references/design_plan_schema.md",
+      "sha256": "abc0d9dae77e32f4c8d1615287ed9274b8ba2d21854697eec5fc691f3a6ad9f6",
+      "bytes": 1763
+    },
+    {
+      "path": "references/diagram_patterns.md",
+      "sha256": "2a2f3d2b950d45b1252f22e5ef9fd5aa32d31b82665bbcaea5658167656a8412",
+      "bytes": 3728
+    },
+    {
+      "path": "references/html_creator_patterns.md",
+      "sha256": "56290d1b8d52d192686050ddf498b82163ab66f47b8ab898060833e579a22663",
+      "bytes": 3445
+    },
+    {
+      "path": "references/layout_atlas.md",
+      "sha256": "f17379b9d697c10f0fe72b3f1fc38117c7efc481123375a084c28696b4a32e9b",
+      "bytes": 4918
+    },
+    {
+      "path": "references/visual_directions.md",
+      "sha256": "0b8d89935c73b215e66a10f8bf25c820c6e88b98657d6a8134097c8ae49328fa",
+      "bytes": 2174
+    },
+    {
+      "path": "references/visual_qc.md",
+      "sha256": "2dd4e8129a1d668dd544d5a1a6a16eedf9eb310b7c076fa34500b9b070a36bca",
+      "bytes": 2034
+    }
+  ]
+}

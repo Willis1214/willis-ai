@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{project_name} - User Story Map</title>
+  <style>
+    :root {
+      --bg: #f7f8fb;
+      --panel: #ffffff;
+      --ink: #1f2937;
+      --muted: #667085;
+      --line: #d9dee8;
+      --accent: #2563eb;
+      --warn: #b45309;
+      --risk: #b42318;
+      --ok: #047857;
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.5;
+    }
+    header, main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+    h1, h2, h3 { margin: 0 0 12px; }
+    section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      margin: 16px 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid var(--line);
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: #eef2ff; }
+    .muted { color: var(--muted); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+    }
+    .node {
+      border: 1px solid var(--line);
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      padding: 12px;
+      background: #fff;
+    }
+    .flow {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+      gap: 10px;
+    }
+    .step {
+      min-width: 160px;
+      flex: 1 1 160px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: #f9fafb;
+      position: relative;
+    }
+    .step strong { display: block; margin-bottom: 6px; }
+    .condition { border-left-color: var(--warn); }
+    .risk { border-left-color: var(--risk); }
+    .ok { border-left-color: var(--ok); }
+    code { background: #eef2f7; padding: 2px 5px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>{project_name} - User Story Map</h1>
+    <p class="muted">Version: {version_or_TBD} · Status: {Draft_or_Final} · Updated: {date}</p>
+  </header>
+  <main>
+    <section>
+      <h2>1. Story Map Overview</h2>
+      <table>
+        <tr><th>Field</th><th>Value</th></tr>
+        <tr><td>Primary User</td><td>{primary_user}</td></tr>
+        <tr><td>Primary Job</td><td>{primary_job}</td></tr>
+        <tr><td>Input</td><td>{input_contract}</td></tr>
+        <tr><td>Output</td><td>{output_contract}</td></tr>
+        <tr><td>Boundary</td><td>{boundary_summary}</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>2. User Roles</h2>
+      <div class="grid">
+        <div class="node"><h3>{role_1}</h3><p>{role_1_goal}</p></div>
+        <div class="node"><h3>{role_2}</h3><p>{role_2_goal}</p></div>
+        <div class="node"><h3>{role_3}</h3><p>{role_3_goal}</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>3. Activity Backbone</h2>
+      <div class="flow">
+        <div class="step"><strong>1. {activity_1}</strong><span>{activity_1_description}</span></div>
+        <div class="step"><strong>2. {activity_2}</strong><span>{activity_2_description}</span></div>
+        <div class="step"><strong>3. {activity_3}</strong><span>{activity_3_description}</span></div>
+        <div class="step"><strong>4. {activity_4}</strong><span>{activity_4_description}</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>4. Detailed User Story Table</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Role</th>
+            <th>Activity</th>
+            <th>User Task</th>
+            <th>System Response</th>
+            <th>Acceptance Signal</th>
+            <th>Priority</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{role}</td>
+            <td>{activity}</td>
+            <td>{task}</td>
+            <td>{system_response}</td>
+            <td>{acceptance_signal}</td>
+            <td>{priority}</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>5. Process Flow</h2>
+      <div class="flow">
+        <div class="step ok"><strong>Start</strong><span>{start_condition}</span></div>
+        <div class="step"><strong>Input</strong><span>{input_step}</span></div>
+        <div class="step"><strong>Process</strong><span>{process_step}</span></div>
+        <div class="step"><strong>Output</strong><span>{output_step}</span></div>
+        <div class="step ok"><strong>Done</strong><span>{done_condition}</span></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>6. Condition Architecture</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Condition</th>
+            <th>Trigger</th>
+            <th>System Behavior</th>
+            <th>User Feedback</th>
+            <th>QC Check</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>{condition_name}</td>
+            <td>{trigger}</td>
+            <td>{system_behavior}</td>
+            <td>{user_feedback}</td>
+            <td>{qc_check}</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>7. Exceptions And Edge Cases</h2>
+      <table>
+        <thead>
+          <tr><th>Case</th><th>Expected Handling</th><th>Impact</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>{edge_case}</td><td>{handling}</td><td>{impact}</td><td>{status}</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+</html>
+

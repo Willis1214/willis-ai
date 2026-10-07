@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code Reviewer"
+  short_description: "Static release review for source code"
+  default_prompt: "Use $code-reviewer to perform a static-text release code review with score, severity summary, contract stability, engineering quality, and release decision."

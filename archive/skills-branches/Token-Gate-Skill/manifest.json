@@ -1,0 +1,28 @@
+{
+  "name": "token-gate",
+  "version": "0.1.0",
+  "release_date": "2026-05-05",
+  "description": "Silent pre-execution gate for detecting large avoidable token waste while preserving the user's goal, deliverable, quality standard, and acceptance criteria.",
+  "skill_path": "token-gate",
+  "entrypoint": "token-gate/SKILL.md",
+  "ui_metadata": "token-gate/agents/openai.yaml",
+  "recommended_install_path": "$CODEX_HOME/skills/token-gate",
+  "publish_target": {
+    "platform": "GitHub",
+    "repository_name": "Token-Gate_Skill",
+    "visibility": "public"
+  },
+  "files": [
+    "README.md",
+    "RELEASE_NOTES.md",
+    "manifest.json",
+    "token-gate/SKILL.md",
+    "token-gate/agents/openai.yaml"
+  ],
+  "quality_gates": [
+    "skill-creator quick_validate",
+    "innovation and recommendation sections present",
+    "staging package structure verified",
+    "sensitive-token scan before publication"
+  ]
+}

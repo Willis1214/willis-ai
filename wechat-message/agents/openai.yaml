@@ -1,0 +1,7 @@
+interface:
+  display_name: "Wechat Message"
+  short_description: "Send WeChat messages via desktop shortcuts"
+  default_prompt: "Use $wechat-message to send a desktop WeChat message to <用户> with <信息>."
+
+policy:
+  allow_implicit_invocation: true

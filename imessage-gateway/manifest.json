@@ -1,0 +1,58 @@
+{
+  "name": "imessage-gateway",
+  "display_name": "Willis x AI iMessage Gateway",
+  "version": "1.0.0",
+  "description": "在 macOS 上做限定会话读取、明确发送及 iMessage 状态核验。",
+  "entrypoint": "SKILL.md",
+  "metadata": "agents/openai.yaml",
+  "repository": "https://github.com/Willis1214/willis-ai",
+  "branch": "main",
+  "license": null,
+  "license_note": "原 manifest 声明 MIT，但源分支没有 LICENSE 文件。",
+  "migration_date": "2026-10-07",
+  "readme": "README.md",
+  "source": {
+    "repository": "Willis1214/Skills",
+    "branch": "Willis-x-AI-iMessage-Gateway-Skill",
+    "commit": "34a35e88e1d3d958c2cfd2c14efbb0ae7ca06a87",
+    "manifest": "archive/skills-branches/Willis-x-AI-iMessage-Gateway-Skill/manifest.json",
+    "history_tag": "archive/skills-branches/Willis-x-AI-iMessage-Gateway-Skill/2026-10-07"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "c6cd32cfa173130ff86be4aacd6b4bfa011af246eaf3228cbf77b4830bd68785",
+      "bytes": 2679
+    },
+    {
+      "path": "REVISION_HISTORY.md",
+      "sha256": "e4cbda1c256fc6a9636648c4d3f53394c06c6579ad330ef71fc7919f6ef661c6",
+      "bytes": 383
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "dc735ffa9ccd3d2e0d8b02a4bb949693453e70308267a1ca8be167b173c86298",
+      "bytes": 2917
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "50bd78a2b534e8c4c6d95590cb8ce7cb5805133640b50d8c693cb6ba91d7c6f7",
+      "bytes": 288
+    },
+    {
+      "path": "references/delivery-diagnosis.md",
+      "sha256": "22b97b03b7eebc0dc6d3869c5ced53c057615089bda793340b21a84a9762a901",
+      "bytes": 1849
+    },
+    {
+      "path": "scripts/imessage_gateway.py",
+      "sha256": "d9b2a827d64100d54f986e618c4695dee30d057002504ef5b97500cefae7b920",
+      "bytes": 8642
+    },
+    {
+      "path": "test/test_imessage_gateway.py",
+      "sha256": "1982aa7fc237193be4461edb37a9107eb13ae16488f82f4d0f88b686e7c0e859",
+      "bytes": 747
+    }
+  ]
+}

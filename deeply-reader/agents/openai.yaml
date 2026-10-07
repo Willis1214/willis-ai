@@ -1,0 +1,4 @@
+interface:
+  display_name: "Deeply Reader"
+  short_description: "Books in PDF/DOCX/EPUB/MD/TXT to evidence-rich HTML reports"
+  default_prompt: "Use $deeply-reader to turn this book file into an evidence-rich deep reading HTML report."

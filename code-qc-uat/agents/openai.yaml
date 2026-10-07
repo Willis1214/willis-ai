@@ -1,0 +1,4 @@
+interface:
+  display_name: "Code-QC-UAT"
+  short_description: "Executable code QC/UAT with functional, boundary, and regression cases"
+  default_prompt: "Use $code-qc-uat to run executable code QC/UAT. Create all QC artifacts under qc_uat/, execute the target program with functional and boundary cases, and report a strict Pass/Fail/Reject gate."

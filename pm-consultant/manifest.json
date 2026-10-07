@@ -1,0 +1,78 @@
+{
+  "name": "pm-consultant",
+  "display_name": "PM Consultant",
+  "version": "1.2.0",
+  "description": "需求咨询与 PRD 工作流的历史版本；后续演进见 Brainstorm。",
+  "entrypoint": "SKILL.md",
+  "metadata": "agents/openai.yaml",
+  "repository": "https://github.com/Willis1214/willis-ai",
+  "branch": "main",
+  "license": null,
+  "license_note": "原分支未指定开源许可；迁移未新增授权。",
+  "migration_date": "2026-10-07",
+  "readme": "README.md",
+  "source": {
+    "repository": "Willis1214/Skills",
+    "branch": "PM-Consultant-Skill",
+    "commit": "ef29d53d833143cd6d76cb130120966093861586",
+    "manifest": "archive/skills-branches/PM-Consultant-Skill/manifest.json",
+    "history_tag": "archive/skills-branches/PM-Consultant-Skill/2026-10-07"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "6e1882382b0f83f540eada8f0838e08c7a03b7a5d2905eb59700df7e5fd5c2d8",
+      "bytes": 2826
+    },
+    {
+      "path": "REVISION_HISTORY.md",
+      "sha256": "7b8d423421825208edb8e909398ace7d44d8e279a9715a507ebdb8d7de952192",
+      "bytes": 7208
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "67effd3f22962d8d6962f772f81c96631f0d10496c0763b57ae87a339f46de87",
+      "bytes": 5948
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "74dd6f14b96aebe7d53e30e0f270f902e956cb3dd059b27d2b36ebbca9008ef0",
+      "bytes": 494
+    },
+    {
+      "path": "references/confirmation-summary-template.md",
+      "sha256": "e128dea084816708c56c07aa056c0c04b7a0649218aedbb52bd5b8d0544f09bb",
+      "bytes": 1672
+    },
+    {
+      "path": "references/final-output-contract.md",
+      "sha256": "240a170f2210efac5b69a693b78f1ce2710b22b573ac879d48de5b7193c0b1ff",
+      "bytes": 2534
+    },
+    {
+      "path": "references/prd-template.md",
+      "sha256": "082804cbb6e9a93dd9a1a756d9db5d4db79a3dcb7efdeaaa5e33a3a05e121cda",
+      "bytes": 2001
+    },
+    {
+      "path": "references/qc-checklist-template.md",
+      "sha256": "ef147171194c2a9c4e880d89823d680515c22ed47cf1d9a4fcadfd00053cb2fe",
+      "bytes": 3867
+    },
+    {
+      "path": "references/requirement-clarification.md",
+      "sha256": "3b5f72080dcb0c7fe42ed37ca365434932be4a4cd1759a076d00c4dbccdb0d4a",
+      "bytes": 2720
+    },
+    {
+      "path": "references/user-story-map-template.html",
+      "sha256": "616a7427e77728d5ed22a693c43733200fd3008adbb740f2c8cceda0bd504180",
+      "bytes": 5608
+    },
+    {
+      "path": "references/workflow.md",
+      "sha256": "9977d23af9afaeb9036a681e4b01ae483db31afa60763b279a46f58f5a704ac4",
+      "bytes": 3514
+    }
+  ]
+}

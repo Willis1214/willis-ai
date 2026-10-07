@@ -1,0 +1,8 @@
+interface:
+  display_name: "Intelligence Forge"
+  short_description: "Forge reusable domain intelligence from professional corpora."
+  default_prompt: "Use $intelligence-forge to build a domain_intelligence.md from a same-domain professional corpus, with onboarding, evidence, red-team gates, and extraction boundaries."
+policy:
+  allow_implicit_invocation: true
+version: "2026-06-11"
+status: "installed"

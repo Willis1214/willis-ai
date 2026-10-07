@@ -1,0 +1,53 @@
+{
+  "name": "skill-researcher",
+  "display_name": "Skill Researcher",
+  "version": "1.1.0",
+  "description": "在创建、更新或安装 Skill 前研究已有能力和适配缺口。",
+  "entrypoint": "SKILL.md",
+  "metadata": "agents/openai.yaml",
+  "repository": "https://github.com/Willis1214/willis-ai",
+  "branch": "main",
+  "license": null,
+  "license_note": "原分支未指定开源许可；迁移未新增授权。",
+  "migration_date": "2026-10-07",
+  "readme": "README.md",
+  "source": {
+    "repository": "Willis1214/Skills",
+    "branch": "Skill-Researcher-Skill",
+    "commit": "bacf79312f1ab0ba37c19734650713090e11a47b",
+    "manifest": "archive/skills-branches/Skill-Researcher-Skill/manifest.json",
+    "history_tag": "archive/skills-branches/Skill-Researcher-Skill/2026-10-07"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "c597efcfb545975440da7eba9764d9e9cd71432b5467f790230d3d9c5381e559",
+      "bytes": 2610
+    },
+    {
+      "path": "REVISION_HISTORY.md",
+      "sha256": "0241c02b3da930906dcaced4a438041a109f63384ea48a602088c2ef7f6697a6",
+      "bytes": 1045
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "287d9f0e9a7d33736bf7c306d23eac5f28ed3d10082e6b8118f722a04cffb389",
+      "bytes": 5620
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "4a3ad6695b212387367bd7b56fc23d41318be0435ffbbec8c1bb5b164149648a",
+      "bytes": 382
+    },
+    {
+      "path": "references/skill_research_methodology.md",
+      "sha256": "c4c9ff1ad1862b1aee0d6b5c144f8d84e06c837fa6435beb61048cfb10a2b4d6",
+      "bytes": 3770
+    },
+    {
+      "path": "scripts/validate_skill_researcher.py",
+      "sha256": "916c78cc4aae29f7cfc0c08a24ed3a48d30ebdb30d95a1e8f98dd6428be8523a",
+      "bytes": 2372
+    }
+  ]
+}

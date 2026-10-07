@@ -1,0 +1,4 @@
+interface:
+  display_name: "Red Team"
+  short_description: "Adversarial review for plans, prompts, workflows, and proposals"
+  default_prompt: "Use $red-team to perform an adversarial review of this plan or document, focusing on boundary conditions, hidden assumptions, logic gaps, execution risk, and the top five required improvements."

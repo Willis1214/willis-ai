@@ -1,0 +1,6 @@
+interface:
+  display_name: "HTML Creator"
+  short_description: "Create decision-ready HTML with richer layouts"
+  default_prompt: "Use $html-creator to turn this material into a standalone decision-ready HTML page with a justified document or canvas profile, clear evidence, semantic components, diagrams when useful, and next actions."
+policy:
+  allow_implicit_invocation: true

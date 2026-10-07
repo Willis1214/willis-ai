@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diff Output"
+  short_description: "Table-format change and comparison summaries"
+  default_prompt: "Use $diff-output to summarize modifications, updates, comparisons, version differences, or before/after results with the table header: Type | Content | As is | To be | Why."

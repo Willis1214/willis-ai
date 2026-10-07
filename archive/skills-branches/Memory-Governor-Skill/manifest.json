@@ -1,0 +1,30 @@
+{
+  "name": "memory-governor",
+  "version": "0.1.0",
+  "release_date": "2026-05-18",
+  "description": "Approval-gated long-term command memory governance for reusable user preferences, prohibitions, shortcuts, and workflow rules.",
+  "skill_path": "memory-governor",
+  "entrypoint": "memory-governor/SKILL.md",
+  "ui_metadata": "memory-governor/agents/openai.yaml",
+  "recommended_install_path": "$CODEX_HOME/skills/memory-governor",
+  "publish_target": {
+    "platform": "GitHub",
+    "repository": "Willis1214/Skills",
+    "branch": "Memory-Governor-Skill",
+    "visibility": "public"
+  },
+  "files": [
+    "README.md",
+    "manifest.json",
+    "memory-governor/SKILL.md",
+    "memory-governor/agents/openai.yaml",
+    "memory-governor/scripts/append_memory_entry.py"
+  ],
+  "quality_gates": [
+    "SKILL.md frontmatter has name and description",
+    "manifest.json parses as JSON",
+    "README.md is public-facing",
+    "sensitive-token scan before publication",
+    "remote branch and main catalog verification"
+  ]
+}

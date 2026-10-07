@@ -1,0 +1,4 @@
+interface:
+  display_name: "Token Gate"
+  short_description: "Silent preflight gate for avoidable token waste"
+  default_prompt: "Use $token-gate before large reads, logs, PDFs, generated artifacts, or subagent-heavy workflows to preserve the same goal while avoiding meaningless model-context waste."

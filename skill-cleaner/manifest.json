@@ -1,0 +1,53 @@
+{
+  "name": "skill-cleaner",
+  "display_name": "Skill Cleaner",
+  "version": "1.0.0",
+  "description": "只读审计 Skill 根目录、重复包、使用情况和清理候选。",
+  "entrypoint": "SKILL.md",
+  "metadata": "agents/openai.yaml",
+  "repository": "https://github.com/Willis1214/willis-ai",
+  "branch": "main",
+  "license": null,
+  "license_note": "原分支未指定开源许可；迁移未新增授权。",
+  "migration_date": "2026-10-07",
+  "readme": "README.md",
+  "source": {
+    "repository": "Willis1214/Skills",
+    "branch": "Skill-Cleaner-Skill",
+    "commit": "066b1f10218b4a801e77715d69b4f6e16eada455",
+    "manifest": "archive/skills-branches/Skill-Cleaner-Skill/manifest.json",
+    "history_tag": "archive/skills-branches/Skill-Cleaner-Skill/2026-10-07"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "239aba5b4f24d5e8d13b670fafe497b551da4af22c7ed189d0c8f9b7d2be19e4",
+      "bytes": 2757
+    },
+    {
+      "path": "REVISION_HISTORY.md",
+      "sha256": "36e9c45835cd6c26c871226208c5cc5e70959f01484ee4399d8e665c66ea4064",
+      "bytes": 877
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "4447d4c6711713dec5e132e02fdbb8a5d484116a68ce4221ba3b35344aff21eb",
+      "bytes": 5343
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "0ab7c25fab740904b89ee9368052c0506dfd7c12781c28af90ec58ab829cca6c",
+      "bytes": 530
+    },
+    {
+      "path": "scripts/skill-cleaner-cn.mjs",
+      "sha256": "e44ab89a5c90c17ed6ff74193dc7cccbcf7958c201cd20414d4f9735827ecbf0",
+      "bytes": 10886
+    },
+    {
+      "path": "scripts/skill-cleaner.ts",
+      "sha256": "f855d649cfd083eb1683359ed92cf76108d5d9c5817c2b611ac79dd1b19fe35b",
+      "bytes": 34655
+    }
+  ]
+}

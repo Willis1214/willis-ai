@@ -1,0 +1,52 @@
+{
+  "name": "intelligence-forge",
+  "display_title": "Intelligence Forge",
+  "version": "1.0.0",
+  "release_date": "2026-06-11",
+  "description": "Codex skill for forging reusable domain intelligence from many same-domain professional files through domain onboarding, evidence-backed claim extraction, counterexample pressure, user feedback, promotion gates, overlays, and explicit Cannot infer boundaries.",
+  "language": [
+    "en",
+    "zh-CN"
+  ],
+  "source_skill_path": "/Users/lizhendong/.codex/skills/intelligence-forge",
+  "repository": {
+    "owner": "Willis1214",
+    "name": "Skills",
+    "branch": "Intelligence-Forge-Skill",
+    "visibility": "public"
+  },
+  "skill_files": [
+    "intelligence-forge/SKILL.md",
+    "intelligence-forge/agents/openai.yaml",
+    "intelligence-forge/references/anti_hallucination_contract.md",
+    "intelligence-forge/references/artifact_contract.md",
+    "intelligence-forge/references/blind_validation_contract.md",
+    "intelligence-forge/references/core_overlay_separation.md",
+    "intelligence-forge/references/deep_read_sampling_protocol.md",
+    "intelligence-forge/references/domain_onboarding_protocol.md",
+    "intelligence-forge/references/domain_profile_contract.md",
+    "intelligence-forge/references/iteration_protocol.md",
+    "intelligence-forge/references/prior_contamination_audit.md",
+    "intelligence-forge/references/progressive_corpus_protocol.md",
+    "intelligence-forge/references/promotion_gate_matrix.md",
+    "intelligence-forge/references/question_ledger_contract.md",
+    "intelligence-forge/references/universality_rubric.md",
+    "intelligence-forge/scripts/_dki_common.py",
+    "intelligence-forge/scripts/append_feedback_case.py",
+    "intelligence-forge/scripts/blind_validate_claims.py",
+    "intelligence-forge/scripts/build_file_profiles.py",
+    "intelligence-forge/scripts/build_manifest.py",
+    "intelligence-forge/scripts/extract_candidate_claims.py",
+    "intelligence-forge/scripts/plan_deep_read_queue.py",
+    "intelligence-forge/scripts/render_iteration_report.py",
+    "intelligence-forge/scripts/render_question_ledger.py",
+    "intelligence-forge/scripts/score_coverage.py",
+    "intelligence-forge/scripts/search_counterexamples.py",
+    "intelligence-forge/scripts/validate_claims.py"
+  ],
+  "documentation": [
+    "README.md",
+    "REVISION_HISTORY.md"
+  ],
+  "license": "UNLICENSED"
+}

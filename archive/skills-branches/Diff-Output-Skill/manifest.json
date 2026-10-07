@@ -1,0 +1,26 @@
+{
+  "name": "diff-output",
+  "display_title": "Diff Output",
+  "version": "1.0.0",
+  "release_date": "2026-05-18",
+  "description": "Codex skill for summarizing modifications, updates, comparisons, and before/after results in a fixed Markdown table with Type, Content, As is, To be, and Why columns.",
+  "language": [
+    "en",
+    "zh-CN"
+  ],
+  "source_skill_path": "/Users/lizhendong/.codex/skills/diff-output",
+  "repository": {
+    "owner": "Willis1214",
+    "requested_name": "Diff Output",
+    "repo_slug": "Diff-Output-Skill",
+    "visibility": "public"
+  },
+  "skill_files": [
+    "diff-output/SKILL.md",
+    "diff-output/agents/openai.yaml"
+  ],
+  "documentation": [
+    "README.md"
+  ],
+  "license": "UNLICENSED"
+}

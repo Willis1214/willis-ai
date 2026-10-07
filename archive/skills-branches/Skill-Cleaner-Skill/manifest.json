@@ -1,0 +1,29 @@
+{
+  "name": "skill-cleaner",
+  "display_title": "Skill Cleaner",
+  "version": "1.0.0",
+  "release_date": "2026-06-24",
+  "description": "Codex skill for auditing local Codex/OpenClaw skill roots, prompt-budget pressure, long descriptions, duplicate skills, and possibly unused skills, with Chinese-first cleanup recommendations and read-only default behavior.",
+  "language": [
+    "en",
+    "zh-CN"
+  ],
+  "source_skill_path": "/Users/lizhendong/.codex/skills/skill-cleaner",
+  "repository": {
+    "owner": "Willis1214",
+    "requested_name": "Skill Cleaner",
+    "repo_slug": "Skill-Cleaner-Skill",
+    "visibility": "public"
+  },
+  "skill_files": [
+    "skill-cleaner/SKILL.md",
+    "skill-cleaner/agents/openai.yaml",
+    "skill-cleaner/scripts/skill-cleaner-cn.mjs",
+    "skill-cleaner/scripts/skill-cleaner.ts"
+  ],
+  "documentation": [
+    "README.md",
+    "REVISION_HISTORY.md"
+  ],
+  "license": "UNLICENSED"
+}

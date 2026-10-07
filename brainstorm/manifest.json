@@ -1,0 +1,83 @@
+{
+  "name": "brainstorm",
+  "display_name": "Brainstorm",
+  "version": "2.2.0",
+  "description": "把模糊的产品或工程想法梳理成需求、流程和验收方案。",
+  "entrypoint": "SKILL.md",
+  "metadata": "agents/openai.yaml",
+  "repository": "https://github.com/Willis1214/willis-ai",
+  "branch": "main",
+  "license": null,
+  "license_note": "原分支未指定开源许可；迁移未新增授权。",
+  "migration_date": "2026-10-07",
+  "readme": "README.md",
+  "source": {
+    "repository": "Willis1214/Skills",
+    "branch": "Brainstorm-Skill",
+    "commit": "df843c83b99a90060691dd53e3d2883c79df027c",
+    "manifest": "archive/skills-branches/Brainstorm-Skill/manifest.json",
+    "history_tag": "archive/skills-branches/Brainstorm-Skill/2026-10-07"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "1da9f4a9e0a6596c285bd8f065c5df89be70e292ded00d58d743fb949cb7fb32",
+      "bytes": 2807
+    },
+    {
+      "path": "REVISION_HISTORY.md",
+      "sha256": "bc11f86f10a64e557ff768bf23f2bfbbf65f82f3655e83723eb016317a1e590c",
+      "bytes": 5281
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "ba6974f003bf5b6f9a26a42cbe8e487c3bdae0e18721c9015177548d6002998a",
+      "bytes": 9362
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "5446a19df46ff400e3f9276e6830e1f713b80705e374f1c0afb1865119585314",
+      "bytes": 534
+    },
+    {
+      "path": "references/confirmation-summary-template.md",
+      "sha256": "f2cfb5e433c5db53f109c6b313b4c789fe31a7de4bf8b1f88a38b6d2083aa84f",
+      "bytes": 2153
+    },
+    {
+      "path": "references/discussion-output-format.md",
+      "sha256": "1b9755154e96fb124bb87d14aab1aa9ad6fa5c37aa4a0853260f56444305f047",
+      "bytes": 4968
+    },
+    {
+      "path": "references/final-output-contract.md",
+      "sha256": "054c99092602d3e7bca2892a64a4f5a7e70add24ae3e4759cdaed2474f7d3d81",
+      "bytes": 3788
+    },
+    {
+      "path": "references/prd-template.md",
+      "sha256": "8468b302e7e82293cb0c0294c98951da9342954af85c3c9f3ddfaed6e5a217f0",
+      "bytes": 2514
+    },
+    {
+      "path": "references/qc-checklist-template.md",
+      "sha256": "40b60a61c3573c61dc0f7872fc7fbcb8cee6b4722eb41b3d9af08c6ceb8e49ba",
+      "bytes": 4437
+    },
+    {
+      "path": "references/requirement-clarification.md",
+      "sha256": "3b5f72080dcb0c7fe42ed37ca365434932be4a4cd1759a076d00c4dbccdb0d4a",
+      "bytes": 2720
+    },
+    {
+      "path": "references/user-story-map-template.html",
+      "sha256": "616a7427e77728d5ed22a693c43733200fd3008adbb740f2c8cceda0bd504180",
+      "bytes": 5608
+    },
+    {
+      "path": "references/workflow.md",
+      "sha256": "9374bc7ee7be7c48ba4ecb01c3a818929f568ccafc5c3a2b36cafbf00b6796a7",
+      "bytes": 10537
+    }
+  ]
+}

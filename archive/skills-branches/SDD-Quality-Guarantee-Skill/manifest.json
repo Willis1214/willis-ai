@@ -1,0 +1,29 @@
+{
+  "name": "sdd-quality-guarantee",
+  "display_title": "SDD Quality Guarantee",
+  "version": "1.0.0",
+  "release_date": "2026-07-12",
+  "description": "Creates Markdown-only SDD Quality & Control documents with source-backed requirements, architecture, acceptance evidence, and Pass/Fail/Reject review decisions.",
+  "language": ["en", "zh-CN"],
+  "source_skill_path": "sdd-quality-guarantee",
+  "repository": {
+    "owner": "Willis1214",
+    "central_repository": "Skills",
+    "branch": "SDD-Quality-Guarantee-Skill",
+    "visibility": "public"
+  },
+  "skill_files": [
+    "sdd-quality-guarantee/SKILL.md",
+    "sdd-quality-guarantee/agents/openai.yaml",
+    "sdd-quality-guarantee/references/sdd-output-contract.md",
+    "sdd-quality-guarantee/references/quality-guarantee-review.md",
+    "sdd-quality-guarantee/scripts/scaffold_sdd.py",
+    "sdd-quality-guarantee/scripts/validate_sdd_report.py"
+  ],
+  "artifact_contract": {
+    "format": "Markdown-only",
+    "root": "output/<task-slug>/sdd-quality-guarantee/SDD/",
+    "files": ["spec.md", "acceptance.md", "diagram.md", "SDD.md"]
+  },
+  "license": "UNLICENSED"
+}

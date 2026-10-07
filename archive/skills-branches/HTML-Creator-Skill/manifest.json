@@ -1,0 +1,25 @@
+{
+  "name": "html-creator",
+  "display_name": "HTML Creator",
+  "version": "1.2.1",
+  "description": "Create standalone decision-ready HTML pages with evidence, richer semantic layouts, document/canvas profiles, and visual QC.",
+  "repository": "https://github.com/Willis1214/Skills",
+  "branch": "HTML-Creator-Skill",
+  "skill_path": "html-creator",
+  "updated_at": "2026-07-12",
+  "files": [
+    "README.md",
+    "REVISION_HISTORY.md",
+    "html-creator/SKILL.md",
+    "html-creator/agents/openai.yaml",
+    "html-creator/references/canvas_profile.md",
+    "html-creator/references/component_catalog.md",
+    "html-creator/references/design_plan_schema.md",
+    "html-creator/references/diagram_patterns.md",
+    "html-creator/references/html_creator_patterns.md",
+    "html-creator/references/layout_atlas.md",
+    "html-creator/references/visual_directions.md",
+    "html-creator/references/visual_qc.md",
+    "manifest.json"
+  ]
+}

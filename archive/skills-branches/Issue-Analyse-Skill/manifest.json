@@ -1,0 +1,20 @@
+{
+  "name": "issue-analyse",
+  "display_name": "Issue Analyse",
+  "version": "1.3.0",
+  "description": "Customer issue support analysis with complaint challenge, scene reconstruction, POR/SOP/Email/QC/Policy evidence review, delivery-issue judgment, support strategy, attribution, and Chinese external-facing solution framing.",
+  "repository": "https://github.com/Willis1214/Skills",
+  "branch": "Issue-Analyse-Skill",
+  "skill_path": "issue-analyse/SKILL.md",
+  "resources": {
+    "agents": [
+      "issue-analyse/agents/openai.yaml"
+    ],
+    "references": [
+      "issue-analyse/references/attribution-rubric.md",
+      "issue-analyse/references/communication-boundary.md",
+      "issue-analyse/references/investigation-methods.md",
+      "issue-analyse/references/output-template.md"
+    ]
+  }
+}

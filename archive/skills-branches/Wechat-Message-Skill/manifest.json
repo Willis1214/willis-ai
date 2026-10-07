@@ -1,0 +1,10 @@
+{
+  "name": "wechat-message",
+  "display_name": "Wechat Message",
+  "version": "1.0.0",
+  "description": "Send WeChat messages via the macOS desktop WeChat app using a fixed keyboard shortcut workflow.",
+  "skill_path": "wechat-message/SKILL.md",
+  "agents_path": "wechat-message/agents/openai.yaml",
+  "license": "UNLICENSED",
+  "repository": "https://github.com/Willis1214/Wechat-Message-Skill"
+}

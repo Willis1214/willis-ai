@@ -1,0 +1,4 @@
+interface:
+  display_name: "Brainstorm"
+  short_description: "Role-based requirement, boundary, risk, practice, and final gate workflow"
+  default_prompt: "Use $brainstorm for role-based requirement rounds: clarify requirements, map story/flow, confirm decisions, define boundaries, attack boundary risks, check QC, check safe shortest-path MVP/demo probes when useful, and expose map-changing unknowns without prescribing implementation. Then run Red Team as the final gate and optional Front Taste before PRD/story-map/QC outputs."

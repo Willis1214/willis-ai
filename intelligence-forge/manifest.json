@@ -1,0 +1,168 @@
+{
+  "name": "intelligence-forge",
+  "display_name": "Intelligence Forge",
+  "version": "1.0.0",
+  "description": "从同领域资料提炼有证据、可复用的知识和约束。",
+  "entrypoint": "SKILL.md",
+  "metadata": "agents/openai.yaml",
+  "repository": "https://github.com/Willis1214/willis-ai",
+  "branch": "main",
+  "license": null,
+  "license_note": "原分支未指定开源许可；迁移未新增授权。",
+  "migration_date": "2026-10-07",
+  "readme": "README.md",
+  "source": {
+    "repository": "Willis1214/Skills",
+    "branch": "Intelligence-Forge-Skill",
+    "commit": "f89cc3ad315f8328abdb94bb05172f2ee7dc77d7",
+    "manifest": "archive/skills-branches/Intelligence-Forge-Skill/manifest.json",
+    "history_tag": "archive/skills-branches/Intelligence-Forge-Skill/2026-10-07"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "b4716bbf69b07caf69b5edb94f2b805909426f86529797beb571cffc51c0748f",
+      "bytes": 2587
+    },
+    {
+      "path": "REVISION_HISTORY.md",
+      "sha256": "bad5bef793605a99fb3f463fffac1834202baa2a150c024e3d7b6e793c1c198e",
+      "bytes": 1882
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "3ea09958e9e5be79142583536f036095d1d066cfdccb794105cd8f3488482b25",
+      "bytes": 7510
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "41fad66fa408fa1b25bb22f6c49c55a7b19b0747505eabe3e758c9e3d8868ec4",
+      "bytes": 405
+    },
+    {
+      "path": "references/anti_hallucination_contract.md",
+      "sha256": "5cdff3c869d3cf963a9c336f66fe81aa191b4c5f87d096ddc631aa405cb7b3dd",
+      "bytes": 1907
+    },
+    {
+      "path": "references/artifact_contract.md",
+      "sha256": "f1192234d8dda13f29c18145d7e5cb58fa74a728e406e2a2e1599432ad253f22",
+      "bytes": 1821
+    },
+    {
+      "path": "references/blind_validation_contract.md",
+      "sha256": "1b7dcc11be613cc43b8f4082e6e46e4ea504908d7ae5fde871ad4d72e3c428bf",
+      "bytes": 1249
+    },
+    {
+      "path": "references/core_overlay_separation.md",
+      "sha256": "475ba25d95cf99494945af95ab61482406ba4a0bde89b65c81ba3dd962ac589f",
+      "bytes": 1772
+    },
+    {
+      "path": "references/deep_read_sampling_protocol.md",
+      "sha256": "cc12a6a73ad6f226de27cbeb781c1b0fbc47540b0927d7efdd5858e3a75adea8",
+      "bytes": 2027
+    },
+    {
+      "path": "references/domain_onboarding_protocol.md",
+      "sha256": "474abfc40c45a4647ff0004058802f979ab9d819567fb8da0caa840b8bbe1f23",
+      "bytes": 2513
+    },
+    {
+      "path": "references/domain_profile_contract.md",
+      "sha256": "7f2fbc568f3e9b68dba196e4d0b7a86749cc7190105fcb51cfbe264692f301ad",
+      "bytes": 2029
+    },
+    {
+      "path": "references/iteration_protocol.md",
+      "sha256": "cec0e83ce5253a3f864a2877e14cbaf685f1d442df2a20b92e96b736b9ec5dc3",
+      "bytes": 2337
+    },
+    {
+      "path": "references/prior_contamination_audit.md",
+      "sha256": "de09adea8237a50465eb65072940cf58cf9e8464d150da0dd57ccafb0e73eb6c",
+      "bytes": 1527
+    },
+    {
+      "path": "references/progressive_corpus_protocol.md",
+      "sha256": "04db089812e02c629a43836ecfa054819ef8e3890ecfc923b159f473a182f0aa",
+      "bytes": 3317
+    },
+    {
+      "path": "references/promotion_gate_matrix.md",
+      "sha256": "71c9456202b5bfec0f2e6d512356c527a8dc0a37fa9658486422425a637a0fd3",
+      "bytes": 3807
+    },
+    {
+      "path": "references/question_ledger_contract.md",
+      "sha256": "be6e7c52758e001199a1d22a50851fe45c69aca203246cd3e0df80b250eea21b",
+      "bytes": 1927
+    },
+    {
+      "path": "references/universality_rubric.md",
+      "sha256": "805cb7c39904d96a209d94a6e2635d581f54d75d951397e016d87542468b7358",
+      "bytes": 3021
+    },
+    {
+      "path": "scripts/_dki_common.py",
+      "sha256": "fff7141ab3887e8a0a34796a221860fe35b24e61201a0ae85b49aa5459c04b26",
+      "bytes": 4533
+    },
+    {
+      "path": "scripts/append_feedback_case.py",
+      "sha256": "a22ef422aa9d62eab8205dc7df43ef44f9dbb276b509861725ed34d13a5e7c03",
+      "bytes": 1974
+    },
+    {
+      "path": "scripts/blind_validate_claims.py",
+      "sha256": "5b1b382e4b3b0648813aaec93c37037d75b7c575efe5777b8451ec5082c5971b",
+      "bytes": 4250
+    },
+    {
+      "path": "scripts/build_file_profiles.py",
+      "sha256": "51a985f9c486a128f82b071a552061af2581277dc04d5bc663599ff147bbc056",
+      "bytes": 4114
+    },
+    {
+      "path": "scripts/build_manifest.py",
+      "sha256": "0d5d49cc8a8234c959f46bb93d8fceb83a2749cd51ecb29cfc0b7aa7cf81ee75",
+      "bytes": 4032
+    },
+    {
+      "path": "scripts/extract_candidate_claims.py",
+      "sha256": "4f1f53917341cbd50787a8fabd8a6af9eaf85441fa3b3adead8e050df9a60988",
+      "bytes": 6651
+    },
+    {
+      "path": "scripts/plan_deep_read_queue.py",
+      "sha256": "e04ddeaba4c43b5d8e50773226a2291d77892c1250dc356c36d7deb15e49a8d9",
+      "bytes": 5529
+    },
+    {
+      "path": "scripts/render_iteration_report.py",
+      "sha256": "437baa4c627f4e1f39b127ca379963eaa5c04fd5fffd1883c409fd75f266747f",
+      "bytes": 3496
+    },
+    {
+      "path": "scripts/render_question_ledger.py",
+      "sha256": "13a419d36e4314c976e9a89b7d4ba06ccfcd8964333d2f026d780f8a0caea359",
+      "bytes": 6962
+    },
+    {
+      "path": "scripts/score_coverage.py",
+      "sha256": "fa885795526ec04136e5cf9d4f8121f153f6f5de08f5473ce2798dbebba2bdfa",
+      "bytes": 3278
+    },
+    {
+      "path": "scripts/search_counterexamples.py",
+      "sha256": "47502440e29c5558d0d425690dc78fb6cf8e871c81fb8cd54f92b576510b9b6d",
+      "bytes": 3242
+    },
+    {
+      "path": "scripts/validate_claims.py",
+      "sha256": "c73ce29cb3e1075804f20a04f74a631dc779c8db8a8da6d828e3b8bce46d8f06",
+      "bytes": 11014
+    }
+  ]
+}

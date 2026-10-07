@@ -1,0 +1,3 @@
+display_name: Memory Governor
+short_description: Detect durable user rules, request approval, and write approved items into long-term command memory.
+default_prompt: Detect reusable preferences, prohibitions, shortcuts, and workflows; ask for approval before writing them into long-term memory.

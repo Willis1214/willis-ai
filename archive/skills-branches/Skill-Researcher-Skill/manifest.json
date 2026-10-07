@@ -1,0 +1,19 @@
+{
+  "name": "skill-researcher",
+  "display_name": "Skill Researcher",
+  "version": "1.1.0",
+  "description": "Research gate before creating, updating, installing, or publishing Codex skills.",
+  "repository": "https://github.com/Willis1214/Skills",
+  "branch": "Skill-Researcher-Skill",
+  "skill_path": "skill-researcher",
+  "updated_at": "2026-05-19",
+  "files": [
+    "README.md",
+    "REVISION_HISTORY.md",
+    "manifest.json",
+    "skill-researcher/SKILL.md",
+    "skill-researcher/agents/openai.yaml",
+    "skill-researcher/references/skill_research_methodology.md",
+    "skill-researcher/scripts/validate_skill_researcher.py"
+  ]
+}

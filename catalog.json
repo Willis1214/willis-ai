@@ -13,6 +13,186 @@
       "path": "scenes-gathered-zine-v1-3",
       "manifest": "manifest.json",
       "license": null
+    },
+    {
+      "name": "brainstorm",
+      "version": "2.2.0",
+      "path": "brainstorm",
+      "manifest": "brainstorm/manifest.json",
+      "license": null,
+      "license_note": "原分支未指定开源许可；迁移未新增授权。",
+      "description": "把模糊的产品或工程想法梳理成需求、流程和验收方案。",
+      "readme": "brainstorm/README.md"
+    },
+    {
+      "name": "code-qc-uat",
+      "version": "1.1.0",
+      "path": "code-qc-uat",
+      "manifest": "code-qc-uat/manifest.json",
+      "license": null,
+      "license_note": "原分支未指定开源许可；迁移未新增授权。",
+      "description": "为可执行程序设计并运行功能、边界和回归检查。",
+      "readme": "code-qc-uat/README.md"
+    },
+    {
+      "name": "code-reviewer",
+      "version": "1.0.0",
+      "path": "code-reviewer",
+      "manifest": "code-reviewer/manifest.json",
+      "license": null,
+      "license_note": "原分支未指定开源许可；迁移未新增授权。",
+      "description": "基于源代码和差异进行静态审查，说明问题与发布判断。",
+      "readme": "code-reviewer/README.md"
+    },
+    {
+      "name": "deeply-reader",
+      "version": "1.0.0",
+      "path": "deeply-reader",
+      "manifest": "deeply-reader/manifest.json",
+      "license": null,
+      "license_note": "原分支未指定开源许可；迁移未新增授权。",
+      "description": "从整本书或长文档提炼主张、方法及反思，形成有证据的阅读报告。",
+      "readme": "deeply-reader/README.md"
+    },
+    {
+      "name": "diff-output",
+      "version": "1.0.0",
+      "path": "diff-output",
+      "manifest": "diff-output/manifest.json",
+      "license": null,
+      "license_note": "原分支未指定开源许可；迁移未新增授权。",
+      "description": "用统一比较表说明前后变化及改变的原因。",
+      "readme": "diff-output/README.md"
+    },
+    {
+      "name": "html-creator",
+      "version": "1.2.1",
+      "path": "html-creator",
+      "manifest": "html-creator/manifest.json",
+      "license": null,
+      "license_note": "原分支未指定开源许可；迁移未新增授权。",
+      "description": "把报告、方案、证据和比较材料制作成独立 HTML 页面。",
+      "readme": "html-creator/README.md"
+    },
+    {
+      "name": "intelligence-forge",
+      "version": "1.0.0",
+      "path": "intelligence-forge",
+      "manifest": "intelligence-forge/manifest.json",
+      "license": null,
+      "license_note": "原分支未指定开源许可；迁移未新增授权。",
+      "description": "从同领域资料提炼有证据、可复用的知识和约束。",
+      "readme": "intelligence-forge/README.md"
+    },
+    {
+      "name": "issue-analyse",
+      "version": "1.3.0",
+      "path": "issue-analyse",
+      "manifest": "issue-analyse/manifest.json",
+      "license": null,
+      "license_note": "原分支未指定开源许可；迁移未新增授权。",
+      "description": "梳理客户或相关方问题、责任证据、支持策略和沟通方案。",
+      "readme": "issue-analyse/README.md"
+    },
+    {
+      "name": "memory-governor",
+      "version": "0.1.0",
+      "path": "memory-governor",
+      "manifest": "memory-governor/manifest.json",
+      "license": null,
+      "license_note": "原分支未指定开源许可；迁移未新增授权。",
+      "description": "识别需要长期记住的用户规则，并在确认后维护记忆。",
+      "readme": "memory-governor/README.md"
+    },
+    {
+      "name": "pm-consultant",
+      "version": "1.2.0",
+      "path": "pm-consultant",
+      "manifest": "pm-consultant/manifest.json",
+      "license": null,
+      "license_note": "原分支未指定开源许可；迁移未新增授权。",
+      "description": "需求咨询与 PRD 工作流的历史版本；后续演进见 Brainstorm。",
+      "readme": "pm-consultant/README.md"
+    },
+    {
+      "name": "red-team",
+      "version": "1.0.0",
+      "path": "red-team",
+      "manifest": "red-team/manifest.json",
+      "license": null,
+      "license_note": "原分支未指定开源许可；迁移未新增授权。",
+      "description": "对方案、提示词和决策作对抗性审阅，指出实际风险。",
+      "readme": "red-team/README.md"
+    },
+    {
+      "name": "sdd-quality-guarantee",
+      "version": "1.0.0",
+      "path": "sdd-quality-guarantee",
+      "manifest": "sdd-quality-guarantee/manifest.json",
+      "license": null,
+      "license_note": "原分支未指定开源许可；迁移未新增授权。",
+      "description": "形成 Spec、架构、验收和证据之间的可追溯记录。",
+      "readme": "sdd-quality-guarantee/README.md"
+    },
+    {
+      "name": "skill-cleaner",
+      "version": "1.0.0",
+      "path": "skill-cleaner",
+      "manifest": "skill-cleaner/manifest.json",
+      "license": null,
+      "license_note": "原分支未指定开源许可；迁移未新增授权。",
+      "description": "只读审计 Skill 根目录、重复包、使用情况和清理候选。",
+      "readme": "skill-cleaner/README.md"
+    },
+    {
+      "name": "skill-researcher",
+      "version": "1.1.0",
+      "path": "skill-researcher",
+      "manifest": "skill-researcher/manifest.json",
+      "license": null,
+      "license_note": "原分支未指定开源许可；迁移未新增授权。",
+      "description": "在创建、更新或安装 Skill 前研究已有能力和适配缺口。",
+      "readme": "skill-researcher/README.md"
+    },
+    {
+      "name": "tdd-quality-guarantee",
+      "version": "1.0.0",
+      "path": "tdd-quality-guarantee",
+      "manifest": "tdd-quality-guarantee/manifest.json",
+      "license": null,
+      "license_note": "原分支未指定开源许可；迁移未新增授权。",
+      "description": "整理详细测试场景、执行证据及 Spec 对应关系。",
+      "readme": "tdd-quality-guarantee/README.md"
+    },
+    {
+      "name": "token-gate",
+      "version": "0.1.0",
+      "path": "token-gate",
+      "manifest": "token-gate/manifest.json",
+      "license": null,
+      "license_note": "原分支未指定开源许可；迁移未新增授权。",
+      "description": "在大扫描、长材料或高消耗任务前选择能保留结果的节省路径。",
+      "readme": "token-gate/README.md"
+    },
+    {
+      "name": "wechat-message",
+      "version": "1.0.0",
+      "path": "wechat-message",
+      "manifest": "wechat-message/manifest.json",
+      "license": null,
+      "license_note": "原分支未指定开源许可；迁移未新增授权。",
+      "description": "通过可见的 macOS 微信界面向指定对象发送已授权消息。",
+      "readme": "wechat-message/README.md"
+    },
+    {
+      "name": "imessage-gateway",
+      "version": "1.0.0",
+      "path": "imessage-gateway",
+      "manifest": "imessage-gateway/manifest.json",
+      "license": null,
+      "license_note": "原 manifest 声明 MIT，但源分支没有 LICENSE 文件。",
+      "description": "在 macOS 上做限定会话读取、明确发送及 iMessage 状态核验。",
+      "readme": "imessage-gateway/README.md"
     }
   ]
 }

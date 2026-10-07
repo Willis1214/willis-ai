@@ -1,0 +1,63 @@
+{
+  "name": "tdd-quality-guarantee",
+  "display_name": "TDD Quality Guarantee",
+  "version": "1.0.0",
+  "description": "整理详细测试场景、执行证据及 Spec 对应关系。",
+  "entrypoint": "SKILL.md",
+  "metadata": "agents/openai.yaml",
+  "repository": "https://github.com/Willis1214/willis-ai",
+  "branch": "main",
+  "license": null,
+  "license_note": "原分支未指定开源许可；迁移未新增授权。",
+  "migration_date": "2026-10-07",
+  "readme": "README.md",
+  "source": {
+    "repository": "Willis1214/Skills",
+    "branch": "TDD-Quality-Guarantee-Skill",
+    "commit": "4b490dba9362942a01c8907c2a6d08135ba8ff52",
+    "manifest": "archive/skills-branches/TDD-Quality-Guarantee-Skill/manifest.json",
+    "history_tag": "archive/skills-branches/TDD-Quality-Guarantee-Skill/2026-10-07"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "2e9340d4dcd83932326599d7159e0502b61ee4f7a9e3d0a6223d9806471114ee",
+      "bytes": 2547
+    },
+    {
+      "path": "REVISION_HISTORY.md",
+      "sha256": "96940fd9a727eb1fe68d4a086807e4b5362981457333c1e2b785827cff574aad",
+      "bytes": 905
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "bc6bfa38e7c88e3754a781db415b2034952fbf5c6c3a308ffa4ba92d88594043",
+      "bytes": 4556
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "3a1d8482013270c1f287b52d83c2e5cdad14b7d217d4d526ea5eb43e2dc9e425",
+      "bytes": 281
+    },
+    {
+      "path": "references/quality-guarantee-review.md",
+      "sha256": "c28154316c9c71ee9fd224379e40a64c0265ba63851f5c6a97dcadae4dce7792",
+      "bytes": 1680
+    },
+    {
+      "path": "references/tdd-output-contract.md",
+      "sha256": "703feabac6f2b61a2653f9c8599e8a7d8070c91268f07dfe79cc6a904843f5ea",
+      "bytes": 2484
+    },
+    {
+      "path": "scripts/scaffold_tdd.py",
+      "sha256": "54471f40544fb48a9987c5127326599dff6f715e6246d64e94c215ac0536e54b",
+      "bytes": 2652
+    },
+    {
+      "path": "scripts/validate_tdd_report.py",
+      "sha256": "edd418aa5d7129bf014ded1334baa3900ec860378954fac287d8bfb2a257722b",
+      "bytes": 2012
+    }
+  ]
+}

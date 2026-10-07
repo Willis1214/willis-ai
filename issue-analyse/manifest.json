@@ -1,0 +1,63 @@
+{
+  "name": "issue-analyse",
+  "display_name": "Issue Analyse",
+  "version": "1.3.0",
+  "description": "梳理客户或相关方问题、责任证据、支持策略和沟通方案。",
+  "entrypoint": "SKILL.md",
+  "metadata": "agents/openai.yaml",
+  "repository": "https://github.com/Willis1214/willis-ai",
+  "branch": "main",
+  "license": null,
+  "license_note": "原分支未指定开源许可；迁移未新增授权。",
+  "migration_date": "2026-10-07",
+  "readme": "README.md",
+  "source": {
+    "repository": "Willis1214/Skills",
+    "branch": "Issue-Analyse-Skill",
+    "commit": "f014c49e3515f1e38989429aced49712eabab9dc",
+    "manifest": "archive/skills-branches/Issue-Analyse-Skill/manifest.json",
+    "history_tag": "archive/skills-branches/Issue-Analyse-Skill/2026-10-07"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "b39eb4b923819329aaac52e11a59df5f276a72942a66dd33fbf768549ca58787",
+      "bytes": 2742
+    },
+    {
+      "path": "REVISION_HISTORY.md",
+      "sha256": "3da9eabe05eff341e20cb2386552102e41b55d11d2a4f08d2ed7a0770616851f",
+      "bytes": 4932
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "1d30465cbbdd98e21786ca84b97b6deaf7ca17334c712e31b6cdec0715253725",
+      "bytes": 15937
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "694a023266d45d9bdf1ca1af0b62834cbcfccb2998707361f4d9b394e62b23f6",
+      "bytes": 589
+    },
+    {
+      "path": "references/attribution-rubric.md",
+      "sha256": "c505fb81f16c387c71e082b2ca945fb54b207ce0ad6acca51c6cc4264c938941",
+      "bytes": 7253
+    },
+    {
+      "path": "references/communication-boundary.md",
+      "sha256": "d30aa2ca9049ddf7486d78863620ccaea37231d8459904f01f6eaee92e0f35f2",
+      "bytes": 5238
+    },
+    {
+      "path": "references/investigation-methods.md",
+      "sha256": "1020271acfee0e89444230974807606cdb4597a7b9c28ac6d6ea5a44e8be3562",
+      "bytes": 17425
+    },
+    {
+      "path": "references/output-template.md",
+      "sha256": "3705b9d0d98eaeed6ca82911df0158afb2949773719616bee23ca1ae83b25df6",
+      "bytes": 8221
+    }
+  ]
+}

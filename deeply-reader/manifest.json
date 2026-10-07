@@ -1,0 +1,63 @@
+{
+  "name": "deeply-reader",
+  "display_name": "Deeply Reader",
+  "version": "1.0.0",
+  "description": "从整本书或长文档提炼主张、方法及反思，形成有证据的阅读报告。",
+  "entrypoint": "SKILL.md",
+  "metadata": "agents/openai.yaml",
+  "repository": "https://github.com/Willis1214/willis-ai",
+  "branch": "main",
+  "license": null,
+  "license_note": "原分支未指定开源许可；迁移未新增授权。",
+  "migration_date": "2026-10-07",
+  "readme": "README.md",
+  "source": {
+    "repository": "Willis1214/Skills",
+    "branch": "Deeply-Reader-Skill",
+    "commit": "57d83426a4567f2cc1a460c8a7ed0a58794c8faf",
+    "manifest": "archive/skills-branches/Deeply-Reader-Skill/manifest.json",
+    "history_tag": "archive/skills-branches/Deeply-Reader-Skill/2026-10-07"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "4c6679898c2a2952d5ea043ad338255e5b4b684252d06db64eb4bdc4a3b446c2",
+      "bytes": 2559
+    },
+    {
+      "path": "REVISION_HISTORY.md",
+      "sha256": "69a29e11e8ce8289ed2a3cdd8fcf9b69c2202c8971fa14e94959d44bbd01e9bd",
+      "bytes": 487
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "0b32a827fde040c2482e880dbc609c4cb93313d15091a2aee17e8222623f9446",
+      "bytes": 10670
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "1eb59b5ffa020cf187efce33783cd0acf91e8556a5e30efd61d4c37633443c87",
+      "bytes": 236
+    },
+    {
+      "path": "references/note_output_contract.md",
+      "sha256": "1963e5726c4efd80de1bacea5966c22ac01ad267e116ae4ffcb9976ae840c31f",
+      "bytes": 7097
+    },
+    {
+      "path": "references/pdf_evidence_links.md",
+      "sha256": "d704a2f1fad564c035e0086683daab7383b7eb1f07f5424193a2fa4e74ea120d",
+      "bytes": 3794
+    },
+    {
+      "path": "references/reading_protocol.md",
+      "sha256": "cd7c24352c58f1eec337d5b2ba9cb6a27cb2ec5bb47720806630d79703ae7cd8",
+      "bytes": 3469
+    },
+    {
+      "path": "references/source_acquisition.md",
+      "sha256": "9cf29d452b27be49f113b5d41af625c9ce4867976abb9b42bbb046da016e7295",
+      "bytes": 3773
+    }
+  ]
+}

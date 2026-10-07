@@ -1,0 +1,34 @@
+{
+  "name": "code-reviewer",
+  "display_title": "Code Reviewer",
+  "version": "1.0.0",
+  "release_date": "2026-05-18",
+  "description": "Codex skill for static-text release code review of source code, diffs, version comparisons, and Codex skill files, with fixed Source Code Release Review output, scoring, risk levels, contract stability review, and release decision.",
+  "language": [
+    "en",
+    "zh-CN"
+  ],
+  "source_skill_path": "/Users/lizhendong/.codex/skills/code-reviewer",
+  "repository": {
+    "owner": "Willis1214",
+    "central_repository": "Skills",
+    "branch": "Code-Reviewer-Skill",
+    "visibility": "public"
+  },
+  "skill_files": [
+    "code-reviewer/SKILL.md",
+    "code-reviewer/agents/openai.yaml",
+    "code-reviewer/references/report-template.md",
+    "code-reviewer/references/static-review-rubric.md"
+  ],
+  "documentation": [
+    "README.md",
+    "REVISION_HISTORY.md"
+  ],
+  "runtime_contract": {
+    "executes_code": false,
+    "runs_local_tools": false,
+    "modifies_source": false
+  },
+  "license": "UNLICENSED"
+}

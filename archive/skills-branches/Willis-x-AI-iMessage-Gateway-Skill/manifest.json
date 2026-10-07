@@ -1,0 +1,10 @@
+{
+  "name": "imessage-gateway",
+  "display_name": "Willis x AI iMessage Gateway",
+  "version": "1.0.0",
+  "description": "A local macOS iMessage Skill with scoped reads, explicit sends, self-tests, and delivery-state readback.",
+  "skill_path": "imessage-gateway/SKILL.md",
+  "agents_path": "imessage-gateway/agents/openai.yaml",
+  "license": "MIT",
+  "repository": "https://github.com/Willis1214/Skills/tree/Willis-x-AI-iMessage-Gateway-Skill"
+}

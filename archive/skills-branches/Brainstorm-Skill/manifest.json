@@ -1,0 +1,39 @@
+{
+  "name": "brainstorm",
+  "display_title": "Brainstorm",
+  "version": "2.2.0",
+  "release_date": "2026-07-09",
+  "description": "Codex skill for repeatable round-loop requirement clarification, story and flow mapping, structured confirmation, boundary definition, QC thinking, boundary-risk attack, critical reflection, Red Team final gating, optional Front Taste review, and final PRD/story-map/QC outputs.",
+  "language": [
+    "en",
+    "zh-CN"
+  ],
+  "repository": {
+    "owner": "Willis1214",
+    "repo": "Skills",
+    "branch": "Brainstorm-Skill",
+    "visibility": "public"
+  },
+  "skill_files": [
+    "brainstorm/SKILL.md",
+    "brainstorm/agents/openai.yaml",
+    "brainstorm/references/workflow.md",
+    "brainstorm/references/discussion-output-format.md",
+    "brainstorm/references/requirement-clarification.md",
+    "brainstorm/references/confirmation-summary-template.md",
+    "brainstorm/references/prd-template.md",
+    "brainstorm/references/user-story-map-template.html",
+    "brainstorm/references/qc-checklist-template.md",
+    "brainstorm/references/final-output-contract.md"
+  ],
+  "documentation": [
+    "README.md",
+    "REVISION_HISTORY.md"
+  ],
+  "license": "UNLICENSED",
+  "migration": {
+    "previous_name": "pm-consultant",
+    "previous_display_title": "PM Consultant",
+    "previous_branch": "PM-Consultant-Skill"
+  }
+}

@@ -1,0 +1,1828 @@
+{
+  "schema": "skills_collection_migration.v1",
+  "migration_date": "2026-10-07",
+  "source_repository": "Willis1214/Skills",
+  "target_repository": "Willis1214/willis-ai",
+  "destination_base_commit": "cd1ea8d3368a7de46a4bf903373130020becffa3",
+  "source_default_branch": "main",
+  "source_catalog_archive": "archive/skills-branches/main",
+  "packages": [
+    {
+      "name": "brainstorm",
+      "version": "2.2.0",
+      "source_branch": "Brainstorm-Skill",
+      "source_commit": "df843c83b99a90060691dd53e3d2883c79df027c",
+      "source_tree": "872d48387d2d7da5bc05d374ee717251003998d0",
+      "source_package_path": "brainstorm",
+      "target_path": "brainstorm",
+      "archive_path": "archive/skills-branches/Brainstorm-Skill",
+      "archive_tag": "archive/skills-branches/Brainstorm-Skill/2026-10-07",
+      "license_status": "no LICENSE file; no license assigned",
+      "source_file_count": 13,
+      "files": [
+        {
+          "source_path": "README.md",
+          "original_path": "archive/skills-branches/Brainstorm-Skill/README.md",
+          "installed_path": null,
+          "git_blob": "5f2efdeb5d14587efa659d4ba8c0e27dbeff2e3e",
+          "mode": "100644",
+          "sha256": "812bfb36f94a49d379dded4ddf14ca78a542432cebfbf9333298997dba096679",
+          "bytes": 5498
+        },
+        {
+          "source_path": "REVISION_HISTORY.md",
+          "original_path": "archive/skills-branches/Brainstorm-Skill/REVISION_HISTORY.md",
+          "installed_path": null,
+          "git_blob": "2ae582b0bf9f8622e6f1e1c6e8b8504ac26ea4bc",
+          "mode": "100644",
+          "sha256": "b0e20bd7d209c2c399188f0273f965c6c34325caca80a2067ac29b5bf050cb6c",
+          "bytes": 5137
+        },
+        {
+          "source_path": "brainstorm/SKILL.md",
+          "original_path": "brainstorm/SKILL.md",
+          "installed_path": "brainstorm/SKILL.md",
+          "git_blob": "9a6b3b896d7a033e599387be4920c88706381c9e",
+          "mode": "100644",
+          "sha256": "ba6974f003bf5b6f9a26a42cbe8e487c3bdae0e18721c9015177548d6002998a",
+          "bytes": 9362
+        },
+        {
+          "source_path": "brainstorm/agents/openai.yaml",
+          "original_path": "brainstorm/agents/openai.yaml",
+          "installed_path": "brainstorm/agents/openai.yaml",
+          "git_blob": "f0a639c4c1d1913bf2994b9df75687db636ec57c",
+          "mode": "100644",
+          "sha256": "5446a19df46ff400e3f9276e6830e1f713b80705e374f1c0afb1865119585314",
+          "bytes": 534
+        },
+        {
+          "source_path": "brainstorm/references/confirmation-summary-template.md",
+          "original_path": "brainstorm/references/confirmation-summary-template.md",
+          "installed_path": "brainstorm/references/confirmation-summary-template.md",
+          "git_blob": "5425a24e509e933a89ecb7e4395a57f34bfdcd9f",
+          "mode": "100644",
+          "sha256": "f2cfb5e433c5db53f109c6b313b4c789fe31a7de4bf8b1f88a38b6d2083aa84f",
+          "bytes": 2153
+        },
+        {
+          "source_path": "brainstorm/references/discussion-output-format.md",
+          "original_path": "brainstorm/references/discussion-output-format.md",
+          "installed_path": "brainstorm/references/discussion-output-format.md",
+          "git_blob": "aee0d79f1649a56ca92eaed3f75c103b135cde39",
+          "mode": "100644",
+          "sha256": "1b9755154e96fb124bb87d14aab1aa9ad6fa5c37aa4a0853260f56444305f047",
+          "bytes": 4968
+        },
+        {
+          "source_path": "brainstorm/references/final-output-contract.md",
+          "original_path": "brainstorm/references/final-output-contract.md",
+          "installed_path": "brainstorm/references/final-output-contract.md",
+          "git_blob": "2380daaecf2ecb8e6162d94fb1a4d8075aa693be",
+          "mode": "100644",
+          "sha256": "054c99092602d3e7bca2892a64a4f5a7e70add24ae3e4759cdaed2474f7d3d81",
+          "bytes": 3788
+        },
+        {
+          "source_path": "brainstorm/references/prd-template.md",
+          "original_path": "brainstorm/references/prd-template.md",
+          "installed_path": "brainstorm/references/prd-template.md",
+          "git_blob": "6900c63951e50fcc25b6a9ed7e1f7ae284cd0205",
+          "mode": "100644",
+          "sha256": "8468b302e7e82293cb0c0294c98951da9342954af85c3c9f3ddfaed6e5a217f0",
+          "bytes": 2514
+        },
+        {
+          "source_path": "brainstorm/references/qc-checklist-template.md",
+          "original_path": "brainstorm/references/qc-checklist-template.md",
+          "installed_path": "brainstorm/references/qc-checklist-template.md",
+          "git_blob": "bbc671773c92212b52f0cb69388d8035cae46d15",
+          "mode": "100644",
+          "sha256": "40b60a61c3573c61dc0f7872fc7fbcb8cee6b4722eb41b3d9af08c6ceb8e49ba",
+          "bytes": 4437
+        },
+        {
+          "source_path": "brainstorm/references/requirement-clarification.md",
+          "original_path": "brainstorm/references/requirement-clarification.md",
+          "installed_path": "brainstorm/references/requirement-clarification.md",
+          "git_blob": "f93ac745984f2eff56435c3c149ed9707298c48f",
+          "mode": "100644",
+          "sha256": "3b5f72080dcb0c7fe42ed37ca365434932be4a4cd1759a076d00c4dbccdb0d4a",
+          "bytes": 2720
+        },
+        {
+          "source_path": "brainstorm/references/user-story-map-template.html",
+          "original_path": "brainstorm/references/user-story-map-template.html",
+          "installed_path": "brainstorm/references/user-story-map-template.html",
+          "git_blob": "0b5e3f5e81e75a9352c383ea1a92ce7455636b08",
+          "mode": "100644",
+          "sha256": "616a7427e77728d5ed22a693c43733200fd3008adbb740f2c8cceda0bd504180",
+          "bytes": 5608
+        },
+        {
+          "source_path": "brainstorm/references/workflow.md",
+          "original_path": "brainstorm/references/workflow.md",
+          "installed_path": "brainstorm/references/workflow.md",
+          "git_blob": "67ad1294b37e73f3fc0e45990fe6753eb51fabfc",
+          "mode": "100644",
+          "sha256": "9374bc7ee7be7c48ba4ecb01c3a818929f568ccafc5c3a2b36cafbf00b6796a7",
+          "bytes": 10537
+        },
+        {
+          "source_path": "manifest.json",
+          "original_path": "archive/skills-branches/Brainstorm-Skill/manifest.json",
+          "installed_path": null,
+          "git_blob": "c3b3d4ebb1b0b24e78ff06b70046604795c9a8e6",
+          "mode": "100644",
+          "sha256": "e1c0e0d4eb8c7e0a6d1b35ecda0765ba782f955a39ecd0d5645d5ae2dd010858",
+          "bytes": 1353
+        }
+      ],
+      "adaptations": []
+    },
+    {
+      "name": "code-qc-uat",
+      "version": "1.1.0",
+      "source_branch": "Code-QC-UAT-Skill",
+      "source_commit": "e6c21aac914c8c5cf16427caf0a0769f1a63a482",
+      "source_tree": "10bc7ff87963787be4e4c584e10813fd9ebfaaf8",
+      "source_package_path": "code-qc-uat",
+      "target_path": "code-qc-uat",
+      "archive_path": "archive/skills-branches/Code-QC-UAT-Skill",
+      "archive_tag": "archive/skills-branches/Code-QC-UAT-Skill/2026-10-07",
+      "license_status": "no LICENSE file; no license assigned",
+      "source_file_count": 8,
+      "files": [
+        {
+          "source_path": "README.md",
+          "original_path": "archive/skills-branches/Code-QC-UAT-Skill/README.md",
+          "installed_path": null,
+          "git_blob": "429f381d489b995a02e08ca45aa247bea4ee6118",
+          "mode": "100644",
+          "sha256": "ec5c5d04ed8cebf6c51329259c3c4fa2b30ab2703f8db5440b12dab8312f74f8",
+          "bytes": 6919
+        },
+        {
+          "source_path": "REVISION_HISTORY.md",
+          "original_path": "archive/skills-branches/Code-QC-UAT-Skill/REVISION_HISTORY.md",
+          "installed_path": null,
+          "git_blob": "c88bc3074055b32af3dc7642a06c64ae317e0cbf",
+          "mode": "100644",
+          "sha256": "defdeaa2f9bf3aec6112f2c6cae617dcf2b38450c287d43a637f25b086f6a141",
+          "bytes": 847
+        },
+        {
+          "source_path": "code-qc-uat/SKILL.md",
+          "original_path": "code-qc-uat/SKILL.md",
+          "installed_path": "code-qc-uat/SKILL.md",
+          "git_blob": "1a7003534188b7b32aec2de160321737561558fd",
+          "mode": "100644",
+          "sha256": "290a24faebb9f9f8ef17f438e59607cc45a2b0a68c0db6295c048913cb3b7a0e",
+          "bytes": 6448
+        },
+        {
+          "source_path": "code-qc-uat/agents/openai.yaml",
+          "original_path": "code-qc-uat/agents/openai.yaml",
+          "installed_path": "code-qc-uat/agents/openai.yaml",
+          "git_blob": "49ab38ab9fe438183b7e333a568b5d09c604d798",
+          "mode": "100644",
+          "sha256": "c2803d523295e2c11cb818148ddd90bc5bed3015cf6b12056e28d0d8ff77a316",
+          "bytes": 348
+        },
+        {
+          "source_path": "code-qc-uat/references/qc-scenario-patterns.md",
+          "original_path": "code-qc-uat/references/qc-scenario-patterns.md",
+          "installed_path": "code-qc-uat/references/qc-scenario-patterns.md",
+          "git_blob": "ec089861fd3ea1cf08b94b1c326646bd89a56735",
+          "mode": "100644",
+          "sha256": "dff519127e37c25509cba05e24d3a4b880ecee3bcb04f225f9cf481ab4b0555e",
+          "bytes": 2756
+        },
+        {
+          "source_path": "code-qc-uat/scripts/generate_synthetic_cases.py",
+          "original_path": "code-qc-uat/scripts/generate_synthetic_cases.py",
+          "installed_path": "code-qc-uat/scripts/generate_synthetic_cases.py",
+          "git_blob": "2496252706104d88a662eb16487fb912763c6f5c",
+          "mode": "100755",
+          "sha256": "558de6a24cc23aba699d147dd04fc784292cd78a259cb7ee6dcf34dd19e9e9d3",
+          "bytes": 5975
+        },
+        {
+          "source_path": "code-qc-uat/scripts/scaffold_qc_uat.py",
+          "original_path": "code-qc-uat/scripts/scaffold_qc_uat.py",
+          "installed_path": "code-qc-uat/scripts/scaffold_qc_uat.py",
+          "git_blob": "e325196e5fff203f3b00861ef240d3009f8ea73f",
+          "mode": "100755",
+          "sha256": "9602815af3067741195f5c235f382a78cdcf5fae9c68049ba35803fe9f7f9e58",
+          "bytes": 3679
+        },
+        {
+          "source_path": "manifest.json",
+          "original_path": "archive/skills-branches/Code-QC-UAT-Skill/manifest.json",
+          "installed_path": null,
+          "git_blob": "484d59036d075d35ce4c6b4d735cbff3a12ab989",
+          "mode": "100644",
+          "sha256": "5953df33757cc8a639e6ad656a3910e16732c0db0b7a3eab73ef1176eac07c29",
+          "bytes": 1051
+        }
+      ],
+      "adaptations": []
+    },
+    {
+      "name": "code-reviewer",
+      "version": "1.0.0",
+      "source_branch": "Code-Reviewer-Skill",
+      "source_commit": "fd1cdcf53a351b2e23bc0f994e117766fafa7bea",
+      "source_tree": "5f34a9d1d0db1a3a334ab5db4d081e5c2e571b06",
+      "source_package_path": "code-reviewer",
+      "target_path": "code-reviewer",
+      "archive_path": "archive/skills-branches/Code-Reviewer-Skill",
+      "archive_tag": "archive/skills-branches/Code-Reviewer-Skill/2026-10-07",
+      "license_status": "no LICENSE file; no license assigned",
+      "source_file_count": 7,
+      "files": [
+        {
+          "source_path": "README.md",
+          "original_path": "archive/skills-branches/Code-Reviewer-Skill/README.md",
+          "installed_path": null,
+          "git_blob": "696d28ae8dca89c8fb93d75ffd608ac2536bab47",
+          "mode": "100644",
+          "sha256": "51b4dfdd8b0114e9706f03259285173a7c5c023870ed13ebca79c543521d2074",
+          "bytes": 6276
+        },
+        {
+          "source_path": "REVISION_HISTORY.md",
+          "original_path": "archive/skills-branches/Code-Reviewer-Skill/REVISION_HISTORY.md",
+          "installed_path": null,
+          "git_blob": "01449af2c9c885e49be2ed2d5911aa8d94e91b0d",
+          "mode": "100644",
+          "sha256": "bfdb36393bc53e24a861285b285a01ca955137badd315b2d071e41f9e0b37a50",
+          "bytes": 614
+        },
+        {
+          "source_path": "code-reviewer/SKILL.md",
+          "original_path": "code-reviewer/SKILL.md",
+          "installed_path": "code-reviewer/SKILL.md",
+          "git_blob": "c391d4a63ba405de5e282ed64e3ba3b250836b6c",
+          "mode": "100644",
+          "sha256": "0b34ad95e7419d7ed0eae12be6ee31bb0c221522171637c03b3f71297d39a365",
+          "bytes": 6059
+        },
+        {
+          "source_path": "code-reviewer/agents/openai.yaml",
+          "original_path": "code-reviewer/agents/openai.yaml",
+          "installed_path": "code-reviewer/agents/openai.yaml",
+          "git_blob": "f2a2badcd8984e49f2e74dd52fdf6a2b5d76095d",
+          "mode": "100644",
+          "sha256": "aaee1305b465fe22fbc36133be1f62e9ff4942787ddc75c39a4c41bab00a7da7",
+          "bytes": 281
+        },
+        {
+          "source_path": "code-reviewer/references/report-template.md",
+          "original_path": "code-reviewer/references/report-template.md",
+          "installed_path": "code-reviewer/references/report-template.md",
+          "git_blob": "35891992c2360e7b5aed0bfa46fd83ee70759fb2",
+          "mode": "100644",
+          "sha256": "37caf61cebd0f0f9f28e17446696f7a8dc39bb98566b8c9fb288b8e3f7f2f96b",
+          "bytes": 989
+        },
+        {
+          "source_path": "code-reviewer/references/static-review-rubric.md",
+          "original_path": "code-reviewer/references/static-review-rubric.md",
+          "installed_path": "code-reviewer/references/static-review-rubric.md",
+          "git_blob": "48192e7de56952974b0ab4cd312809e8a2f30837",
+          "mode": "100644",
+          "sha256": "5ce7f542802c864e7db02850b51475f811f67c34098cb669641beab7c7f3e7e0",
+          "bytes": 3680
+        },
+        {
+          "source_path": "manifest.json",
+          "original_path": "archive/skills-branches/Code-Reviewer-Skill/manifest.json",
+          "installed_path": null,
+          "git_blob": "d75bc80af97e304d65ef6740156921ef1c5bf9aa",
+          "mode": "100644",
+          "sha256": "5fa804b422efe11855262f1128f995ef68131b86f030e12a4e92c769dad55c74",
+          "bytes": 1050
+        }
+      ],
+      "adaptations": []
+    },
+    {
+      "name": "deeply-reader",
+      "version": "1.0.0",
+      "source_branch": "Deeply-Reader-Skill",
+      "source_commit": "57d83426a4567f2cc1a460c8a7ed0a58794c8faf",
+      "source_tree": "acaebb4dd9035d494e9f26ab5dcb11a83fd07ede",
+      "source_package_path": "deeply-reader",
+      "target_path": "deeply-reader",
+      "archive_path": "archive/skills-branches/Deeply-Reader-Skill",
+      "archive_tag": "archive/skills-branches/Deeply-Reader-Skill/2026-10-07",
+      "license_status": "no LICENSE file; no license assigned",
+      "source_file_count": 9,
+      "files": [
+        {
+          "source_path": "README.md",
+          "original_path": "archive/skills-branches/Deeply-Reader-Skill/README.md",
+          "installed_path": null,
+          "git_blob": "8703d5c11582e349eb18fa56accb13aa573f8f60",
+          "mode": "100644",
+          "sha256": "9eb7e0fd2922f6eeb4fc985fdc312ee58f06c7f66d4c968f31b7a6be465beeb9",
+          "bytes": 1855
+        },
+        {
+          "source_path": "REVISION_HISTORY.md",
+          "original_path": "archive/skills-branches/Deeply-Reader-Skill/REVISION_HISTORY.md",
+          "installed_path": null,
+          "git_blob": "9425f10ecf648277a025e2b9a41128aa9c2075d7",
+          "mode": "100644",
+          "sha256": "1199213c37c771122eae5e888e9363891abbcc77fc41407fc793e1ae8e77475e",
+          "bytes": 343
+        },
+        {
+          "source_path": "deeply-reader/SKILL.md",
+          "original_path": "archive/skills-branches/Deeply-Reader-Skill/deeply-reader/SKILL.md.original",
+          "installed_path": "deeply-reader/SKILL.md",
+          "git_blob": "a7f072a62f8d6d63ad890b30ea012cbc65157d88",
+          "mode": "100644",
+          "sha256": "547d9ad1da747a327f9e4c351f3c03a9f941ff41b71fa08cea6397e79b638389",
+          "bytes": 10686
+        },
+        {
+          "source_path": "deeply-reader/agents/openai.yaml",
+          "original_path": "deeply-reader/agents/openai.yaml",
+          "installed_path": "deeply-reader/agents/openai.yaml",
+          "git_blob": "07177e04f65777ba3e833fc8fabb4b9e929dfe33",
+          "mode": "100644",
+          "sha256": "1eb59b5ffa020cf187efce33783cd0acf91e8556a5e30efd61d4c37633443c87",
+          "bytes": 236
+        },
+        {
+          "source_path": "deeply-reader/references/note_output_contract.md",
+          "original_path": "deeply-reader/references/note_output_contract.md",
+          "installed_path": "deeply-reader/references/note_output_contract.md",
+          "git_blob": "3eea2d42f2c0b84fbddf778b9ffac38fa4608bf3",
+          "mode": "100644",
+          "sha256": "1963e5726c4efd80de1bacea5966c22ac01ad267e116ae4ffcb9976ae840c31f",
+          "bytes": 7097
+        },
+        {
+          "source_path": "deeply-reader/references/pdf_evidence_links.md",
+          "original_path": "deeply-reader/references/pdf_evidence_links.md",
+          "installed_path": "deeply-reader/references/pdf_evidence_links.md",
+          "git_blob": "c9e1a51d7b5b5cd7e331a2e745fba97c53772ca0",
+          "mode": "100644",
+          "sha256": "d704a2f1fad564c035e0086683daab7383b7eb1f07f5424193a2fa4e74ea120d",
+          "bytes": 3794
+        },
+        {
+          "source_path": "deeply-reader/references/reading_protocol.md",
+          "original_path": "deeply-reader/references/reading_protocol.md",
+          "installed_path": "deeply-reader/references/reading_protocol.md",
+          "git_blob": "1512101ba4d0654152ac0b95499b8c6975638cb8",
+          "mode": "100644",
+          "sha256": "cd7c24352c58f1eec337d5b2ba9cb6a27cb2ec5bb47720806630d79703ae7cd8",
+          "bytes": 3469
+        },
+        {
+          "source_path": "deeply-reader/references/source_acquisition.md",
+          "original_path": "deeply-reader/references/source_acquisition.md",
+          "installed_path": "deeply-reader/references/source_acquisition.md",
+          "git_blob": "e0c8e0d291b974a9c5b11381bb3bdf4151c5d500",
+          "mode": "100644",
+          "sha256": "9cf29d452b27be49f113b5d41af625c9ce4867976abb9b42bbb046da016e7295",
+          "bytes": 3773
+        },
+        {
+          "source_path": "manifest.json",
+          "original_path": "archive/skills-branches/Deeply-Reader-Skill/manifest.json",
+          "installed_path": null,
+          "git_blob": "0d3ab3396b1ec7a2c7ca689c893075d974535061",
+          "mode": "100644",
+          "sha256": "51b8ffd89984550f4a819d1494b31c4f87f758b6ce96b81a823f6475d0c6513d",
+          "bytes": 1358
+        }
+      ],
+      "adaptations": [
+        {
+          "source_path": "deeply-reader/SKILL.md",
+          "installed_path": "deeply-reader/SKILL.md",
+          "reason": "Replace machine-specific Codex home prefix with portable home notation.",
+          "source_sha256": "547d9ad1da747a327f9e4c351f3c03a9f941ff41b71fa08cea6397e79b638389",
+          "installed_sha256": "0b32a827fde040c2482e880dbc609c4cb93313d15091a2aee17e8222623f9446"
+        }
+      ]
+    },
+    {
+      "name": "diff-output",
+      "version": "1.0.0",
+      "source_branch": "Diff-Output-Skill",
+      "source_commit": "cacdad25f2134d80badcf39ff3ce77addaa98cdc",
+      "source_tree": "a59907b4f7a914dc1f9370d58b7ed4f03a204b07",
+      "source_package_path": "diff-output",
+      "target_path": "diff-output",
+      "archive_path": "archive/skills-branches/Diff-Output-Skill",
+      "archive_tag": "archive/skills-branches/Diff-Output-Skill/2026-10-07",
+      "license_status": "no LICENSE file; no license assigned",
+      "source_file_count": 4,
+      "files": [
+        {
+          "source_path": "README.md",
+          "original_path": "archive/skills-branches/Diff-Output-Skill/README.md",
+          "installed_path": null,
+          "git_blob": "ba5de9398c2fdee71a21c244ec157d0b6b0cb69a",
+          "mode": "100644",
+          "sha256": "2e35b053daca9293ac71de126aec99683122b05779d14e9ed436780d065e9579",
+          "bytes": 4400
+        },
+        {
+          "source_path": "diff-output/SKILL.md",
+          "original_path": "archive/skills-branches/Diff-Output-Skill/diff-output/SKILL.md.original",
+          "installed_path": "diff-output/SKILL.md",
+          "git_blob": "03a56ccaf31f98e31579c3eda4bacc1b5fe9660a",
+          "mode": "100644",
+          "sha256": "176845c802db527ef7947abe34c5b400b74f2ada16021bb9f895d4f8535c0b6e",
+          "bytes": 3975
+        },
+        {
+          "source_path": "diff-output/agents/openai.yaml",
+          "original_path": "diff-output/agents/openai.yaml",
+          "installed_path": "diff-output/agents/openai.yaml",
+          "git_blob": "c71e3a8e6eeb2e68b275a90a6d0fc74cb7096f67",
+          "mode": "100644",
+          "sha256": "aa5da6083a7e8b0099514782a87fcef393b2d2cca830f1d937736302d976bf1f",
+          "bytes": 302
+        },
+        {
+          "source_path": "manifest.json",
+          "original_path": "archive/skills-branches/Diff-Output-Skill/manifest.json",
+          "installed_path": null,
+          "git_blob": "47ca7e19912411f152ad18972b0cb580674e0b78",
+          "mode": "100644",
+          "sha256": "453d4334d4726da584ef99f054aa7c7a4c73b0270b43665a8e2fc52d056d0ed8",
+          "bytes": 726
+        }
+      ],
+      "adaptations": [
+        {
+          "source_path": "diff-output/SKILL.md",
+          "installed_path": "diff-output/SKILL.md",
+          "reason": "Quote the existing description value to repair invalid YAML; meaning unchanged.",
+          "source_sha256": "176845c802db527ef7947abe34c5b400b74f2ada16021bb9f895d4f8535c0b6e",
+          "installed_sha256": "becc5c83a9495df45938d1f990e35395d9d0894daacac9ba8677cda738c6ea89"
+        }
+      ]
+    },
+    {
+      "name": "html-creator",
+      "version": "1.2.1",
+      "source_branch": "HTML-Creator-Skill",
+      "source_commit": "b2cc9fe29b49c41c3e505e16c53384a860b5b6b4",
+      "source_tree": "6087976a65a424170ed0a6bed17b8c5af6111635",
+      "source_package_path": "html-creator",
+      "target_path": "html-creator",
+      "archive_path": "archive/skills-branches/HTML-Creator-Skill",
+      "archive_tag": "archive/skills-branches/HTML-Creator-Skill/2026-10-07",
+      "license_status": "no LICENSE file; no license assigned",
+      "source_file_count": 13,
+      "files": [
+        {
+          "source_path": "README.md",
+          "original_path": "archive/skills-branches/HTML-Creator-Skill/README.md",
+          "installed_path": null,
+          "git_blob": "487e6cfe55b97841507f082ab25fe7d979a49458",
+          "mode": "100644",
+          "sha256": "4cc832d257399375e88ba4b3147901ad64ddc0f827463fc70cdddc3cfac3af24",
+          "bytes": 3729
+        },
+        {
+          "source_path": "REVISION_HISTORY.md",
+          "original_path": "archive/skills-branches/HTML-Creator-Skill/REVISION_HISTORY.md",
+          "installed_path": null,
+          "git_blob": "2705feeeb326e41e75daa436d0ce8f30589e8bc5",
+          "mode": "100644",
+          "sha256": "f92bcbf386cb0c3fde0b7ccec3dca56a1ed7cffcf54f81953b842326c4c2d676",
+          "bytes": 3362
+        },
+        {
+          "source_path": "html-creator/SKILL.md",
+          "original_path": "html-creator/SKILL.md",
+          "installed_path": "html-creator/SKILL.md",
+          "git_blob": "5066721070a8e2a5fdce396f6d90e3435e54f189",
+          "mode": "100644",
+          "sha256": "42dd2568ad6691b88661132b64680c60b4c5ad2cfb47da0174395365a0b4e4d4",
+          "bytes": 5823
+        },
+        {
+          "source_path": "html-creator/agents/openai.yaml",
+          "original_path": "html-creator/agents/openai.yaml",
+          "installed_path": "html-creator/agents/openai.yaml",
+          "git_blob": "0bfe0837bb7d23b674fdc59d3c539229ba8015f2",
+          "mode": "100644",
+          "sha256": "4c7808fb55bf55019b4f0a3b8bc3c4739c0127e51825ebd1dc4f0bda227967f0",
+          "bytes": 379
+        },
+        {
+          "source_path": "html-creator/references/canvas_profile.md",
+          "original_path": "html-creator/references/canvas_profile.md",
+          "installed_path": "html-creator/references/canvas_profile.md",
+          "git_blob": "1d5b10823ba98013e496a029159e108a8df3585b",
+          "mode": "100644",
+          "sha256": "64abe83b9791fc30e3e57fb290a59aa20789b8d3f7653b47b8d47c6f63313184",
+          "bytes": 1763
+        },
+        {
+          "source_path": "html-creator/references/component_catalog.md",
+          "original_path": "html-creator/references/component_catalog.md",
+          "installed_path": "html-creator/references/component_catalog.md",
+          "git_blob": "03b03eea4634ffdb9ae9ecfadb33aae3bfb990dc",
+          "mode": "100644",
+          "sha256": "0f46e88b4b7f45b7af296251c6b6442b165fe72ffd1661b3fd6452ea7d252e42",
+          "bytes": 6207
+        },
+        {
+          "source_path": "html-creator/references/design_plan_schema.md",
+          "original_path": "html-creator/references/design_plan_schema.md",
+          "installed_path": "html-creator/references/design_plan_schema.md",
+          "git_blob": "75f5360fc1bbd69dfac61d392441102e12943366",
+          "mode": "100644",
+          "sha256": "abc0d9dae77e32f4c8d1615287ed9274b8ba2d21854697eec5fc691f3a6ad9f6",
+          "bytes": 1763
+        },
+        {
+          "source_path": "html-creator/references/diagram_patterns.md",
+          "original_path": "html-creator/references/diagram_patterns.md",
+          "installed_path": "html-creator/references/diagram_patterns.md",
+          "git_blob": "8fbb9e605deed95bc62413d0fd0d5b435666b7bb",
+          "mode": "100644",
+          "sha256": "2a2f3d2b950d45b1252f22e5ef9fd5aa32d31b82665bbcaea5658167656a8412",
+          "bytes": 3728
+        },
+        {
+          "source_path": "html-creator/references/html_creator_patterns.md",
+          "original_path": "html-creator/references/html_creator_patterns.md",
+          "installed_path": "html-creator/references/html_creator_patterns.md",
+          "git_blob": "d914f013be73931b501da309325510f32c7e8c34",
+          "mode": "100644",
+          "sha256": "56290d1b8d52d192686050ddf498b82163ab66f47b8ab898060833e579a22663",
+          "bytes": 3445
+        },
+        {
+          "source_path": "html-creator/references/layout_atlas.md",
+          "original_path": "html-creator/references/layout_atlas.md",
+          "installed_path": "html-creator/references/layout_atlas.md",
+          "git_blob": "2a826a0ec71002884d864f26ae7f2a633755bd53",
+          "mode": "100644",
+          "sha256": "f17379b9d697c10f0fe72b3f1fc38117c7efc481123375a084c28696b4a32e9b",
+          "bytes": 4918
+        },
+        {
+          "source_path": "html-creator/references/visual_directions.md",
+          "original_path": "html-creator/references/visual_directions.md",
+          "installed_path": "html-creator/references/visual_directions.md",
+          "git_blob": "2d17310ad6c48d67bbb8012ed458d220fb2bd167",
+          "mode": "100644",
+          "sha256": "0b8d89935c73b215e66a10f8bf25c820c6e88b98657d6a8134097c8ae49328fa",
+          "bytes": 2174
+        },
+        {
+          "source_path": "html-creator/references/visual_qc.md",
+          "original_path": "html-creator/references/visual_qc.md",
+          "installed_path": "html-creator/references/visual_qc.md",
+          "git_blob": "1fc38d5e5f583ef5d310c8e47063a3952a5b8a59",
+          "mode": "100644",
+          "sha256": "2dd4e8129a1d668dd544d5a1a6a16eedf9eb310b7c076fa34500b9b070a36bca",
+          "bytes": 2034
+        },
+        {
+          "source_path": "manifest.json",
+          "original_path": "archive/skills-branches/HTML-Creator-Skill/manifest.json",
+          "installed_path": null,
+          "git_blob": "adcc8c0fdbf8439397bc974c8f9a56a527a0ad98",
+          "mode": "100644",
+          "sha256": "7ed20caadf6eef89d96bb4c26434def70fd919cfb5f1a89f3b14d80535385c22",
+          "bytes": 936
+        }
+      ],
+      "adaptations": []
+    },
+    {
+      "name": "intelligence-forge",
+      "version": "1.0.0",
+      "source_branch": "Intelligence-Forge-Skill",
+      "source_commit": "f89cc3ad315f8328abdb94bb05172f2ee7dc77d7",
+      "source_tree": "b609189d0a79e3b26c05dd4eaa824d49320e904c",
+      "source_package_path": "intelligence-forge",
+      "target_path": "intelligence-forge",
+      "archive_path": "archive/skills-branches/Intelligence-Forge-Skill",
+      "archive_tag": "archive/skills-branches/Intelligence-Forge-Skill/2026-10-07",
+      "license_status": "no LICENSE file; no license assigned",
+      "source_file_count": 30,
+      "files": [
+        {
+          "source_path": "README.md",
+          "original_path": "archive/skills-branches/Intelligence-Forge-Skill/README.md",
+          "installed_path": null,
+          "git_blob": "96d7762e480592933ba2d9940141f10baafabf20",
+          "mode": "100644",
+          "sha256": "71f04d557b6db4e1c0a6388c0cbb1832c75f5d96ec5e222f600f41e50bd46cf6",
+          "bytes": 8047
+        },
+        {
+          "source_path": "REVISION_HISTORY.md",
+          "original_path": "archive/skills-branches/Intelligence-Forge-Skill/REVISION_HISTORY.md",
+          "installed_path": null,
+          "git_blob": "0df58f1ca6631903e62345c4cf88099ba5dc5d9b",
+          "mode": "100644",
+          "sha256": "53d861cb9ffa2fb19943cd160392e11bb660cedcf103b8483ef606f1f1b0ce4d",
+          "bytes": 1738
+        },
+        {
+          "source_path": "intelligence-forge/SKILL.md",
+          "original_path": "intelligence-forge/SKILL.md",
+          "installed_path": "intelligence-forge/SKILL.md",
+          "git_blob": "96db34b0614533b3af182c2af8567c1b3bf806cb",
+          "mode": "100644",
+          "sha256": "3ea09958e9e5be79142583536f036095d1d066cfdccb794105cd8f3488482b25",
+          "bytes": 7510
+        },
+        {
+          "source_path": "intelligence-forge/agents/openai.yaml",
+          "original_path": "intelligence-forge/agents/openai.yaml",
+          "installed_path": "intelligence-forge/agents/openai.yaml",
+          "git_blob": "24ccf00d480e024e92ec62572c2ae044d744d39f",
+          "mode": "100644",
+          "sha256": "41fad66fa408fa1b25bb22f6c49c55a7b19b0747505eabe3e758c9e3d8868ec4",
+          "bytes": 405
+        },
+        {
+          "source_path": "intelligence-forge/references/anti_hallucination_contract.md",
+          "original_path": "intelligence-forge/references/anti_hallucination_contract.md",
+          "installed_path": "intelligence-forge/references/anti_hallucination_contract.md",
+          "git_blob": "28ef81ce0805e4eb8a61f6c6e53b7971bf05fece",
+          "mode": "100644",
+          "sha256": "5cdff3c869d3cf963a9c336f66fe81aa191b4c5f87d096ddc631aa405cb7b3dd",
+          "bytes": 1907
+        },
+        {
+          "source_path": "intelligence-forge/references/artifact_contract.md",
+          "original_path": "intelligence-forge/references/artifact_contract.md",
+          "installed_path": "intelligence-forge/references/artifact_contract.md",
+          "git_blob": "08dc3aebcb68d84c82933fa7239a093c220b7a48",
+          "mode": "100644",
+          "sha256": "f1192234d8dda13f29c18145d7e5cb58fa74a728e406e2a2e1599432ad253f22",
+          "bytes": 1821
+        },
+        {
+          "source_path": "intelligence-forge/references/blind_validation_contract.md",
+          "original_path": "intelligence-forge/references/blind_validation_contract.md",
+          "installed_path": "intelligence-forge/references/blind_validation_contract.md",
+          "git_blob": "1a72d1c64c0b2ebd3dbdcf86f6c12809a9399a25",
+          "mode": "100644",
+          "sha256": "1b7dcc11be613cc43b8f4082e6e46e4ea504908d7ae5fde871ad4d72e3c428bf",
+          "bytes": 1249
+        },
+        {
+          "source_path": "intelligence-forge/references/core_overlay_separation.md",
+          "original_path": "intelligence-forge/references/core_overlay_separation.md",
+          "installed_path": "intelligence-forge/references/core_overlay_separation.md",
+          "git_blob": "515ee28e52423d4d10c29ae8d7c30fed84532670",
+          "mode": "100644",
+          "sha256": "475ba25d95cf99494945af95ab61482406ba4a0bde89b65c81ba3dd962ac589f",
+          "bytes": 1772
+        },
+        {
+          "source_path": "intelligence-forge/references/deep_read_sampling_protocol.md",
+          "original_path": "intelligence-forge/references/deep_read_sampling_protocol.md",
+          "installed_path": "intelligence-forge/references/deep_read_sampling_protocol.md",
+          "git_blob": "78e0d5263ab13dcf8d54784af52d604ca62aa98e",
+          "mode": "100644",
+          "sha256": "cc12a6a73ad6f226de27cbeb781c1b0fbc47540b0927d7efdd5858e3a75adea8",
+          "bytes": 2027
+        },
+        {
+          "source_path": "intelligence-forge/references/domain_onboarding_protocol.md",
+          "original_path": "intelligence-forge/references/domain_onboarding_protocol.md",
+          "installed_path": "intelligence-forge/references/domain_onboarding_protocol.md",
+          "git_blob": "69cdba6e791dda58da71986a33beca0ee2fbfcb3",
+          "mode": "100644",
+          "sha256": "474abfc40c45a4647ff0004058802f979ab9d819567fb8da0caa840b8bbe1f23",
+          "bytes": 2513
+        },
+        {
+          "source_path": "intelligence-forge/references/domain_profile_contract.md",
+          "original_path": "intelligence-forge/references/domain_profile_contract.md",
+          "installed_path": "intelligence-forge/references/domain_profile_contract.md",
+          "git_blob": "190fb4d2e03abc34fa25e7808fffb4ed75e84f55",
+          "mode": "100644",
+          "sha256": "7f2fbc568f3e9b68dba196e4d0b7a86749cc7190105fcb51cfbe264692f301ad",
+          "bytes": 2029
+        },
+        {
+          "source_path": "intelligence-forge/references/iteration_protocol.md",
+          "original_path": "intelligence-forge/references/iteration_protocol.md",
+          "installed_path": "intelligence-forge/references/iteration_protocol.md",
+          "git_blob": "07aff03918ba64ac5381713605524498551d4078",
+          "mode": "100644",
+          "sha256": "cec0e83ce5253a3f864a2877e14cbaf685f1d442df2a20b92e96b736b9ec5dc3",
+          "bytes": 2337
+        },
+        {
+          "source_path": "intelligence-forge/references/prior_contamination_audit.md",
+          "original_path": "intelligence-forge/references/prior_contamination_audit.md",
+          "installed_path": "intelligence-forge/references/prior_contamination_audit.md",
+          "git_blob": "015f85fa2353d1215aeb810d9ed9fd4834672322",
+          "mode": "100644",
+          "sha256": "de09adea8237a50465eb65072940cf58cf9e8464d150da0dd57ccafb0e73eb6c",
+          "bytes": 1527
+        },
+        {
+          "source_path": "intelligence-forge/references/progressive_corpus_protocol.md",
+          "original_path": "intelligence-forge/references/progressive_corpus_protocol.md",
+          "installed_path": "intelligence-forge/references/progressive_corpus_protocol.md",
+          "git_blob": "1847ace67455780a22b15ec6d3f317c91213423a",
+          "mode": "100644",
+          "sha256": "04db089812e02c629a43836ecfa054819ef8e3890ecfc923b159f473a182f0aa",
+          "bytes": 3317
+        },
+        {
+          "source_path": "intelligence-forge/references/promotion_gate_matrix.md",
+          "original_path": "intelligence-forge/references/promotion_gate_matrix.md",
+          "installed_path": "intelligence-forge/references/promotion_gate_matrix.md",
+          "git_blob": "dfa884c712f138e0af9973acefeb007fda16e794",
+          "mode": "100644",
+          "sha256": "71c9456202b5bfec0f2e6d512356c527a8dc0a37fa9658486422425a637a0fd3",
+          "bytes": 3807
+        },
+        {
+          "source_path": "intelligence-forge/references/question_ledger_contract.md",
+          "original_path": "intelligence-forge/references/question_ledger_contract.md",
+          "installed_path": "intelligence-forge/references/question_ledger_contract.md",
+          "git_blob": "0e6026158160b7fcf747a19bee21463a5980be20",
+          "mode": "100644",
+          "sha256": "be6e7c52758e001199a1d22a50851fe45c69aca203246cd3e0df80b250eea21b",
+          "bytes": 1927
+        },
+        {
+          "source_path": "intelligence-forge/references/universality_rubric.md",
+          "original_path": "intelligence-forge/references/universality_rubric.md",
+          "installed_path": "intelligence-forge/references/universality_rubric.md",
+          "git_blob": "fe054ddd99833550383a3326b1fce86d88340592",
+          "mode": "100644",
+          "sha256": "805cb7c39904d96a209d94a6e2635d581f54d75d951397e016d87542468b7358",
+          "bytes": 3021
+        },
+        {
+          "source_path": "intelligence-forge/scripts/_dki_common.py",
+          "original_path": "intelligence-forge/scripts/_dki_common.py",
+          "installed_path": "intelligence-forge/scripts/_dki_common.py",
+          "git_blob": "15959d2ce0cfd6b1bd40da29308187b784b345bf",
+          "mode": "100755",
+          "sha256": "fff7141ab3887e8a0a34796a221860fe35b24e61201a0ae85b49aa5459c04b26",
+          "bytes": 4533
+        },
+        {
+          "source_path": "intelligence-forge/scripts/append_feedback_case.py",
+          "original_path": "intelligence-forge/scripts/append_feedback_case.py",
+          "installed_path": "intelligence-forge/scripts/append_feedback_case.py",
+          "git_blob": "d67054c6eefbd38280f21746c12a432c69d116ca",
+          "mode": "100755",
+          "sha256": "a22ef422aa9d62eab8205dc7df43ef44f9dbb276b509861725ed34d13a5e7c03",
+          "bytes": 1974
+        },
+        {
+          "source_path": "intelligence-forge/scripts/blind_validate_claims.py",
+          "original_path": "intelligence-forge/scripts/blind_validate_claims.py",
+          "installed_path": "intelligence-forge/scripts/blind_validate_claims.py",
+          "git_blob": "d368f8dfe7c3fda490dd924c5cfa3b3258fc5a93",
+          "mode": "100644",
+          "sha256": "5b1b382e4b3b0648813aaec93c37037d75b7c575efe5777b8451ec5082c5971b",
+          "bytes": 4250
+        },
+        {
+          "source_path": "intelligence-forge/scripts/build_file_profiles.py",
+          "original_path": "intelligence-forge/scripts/build_file_profiles.py",
+          "installed_path": "intelligence-forge/scripts/build_file_profiles.py",
+          "git_blob": "baf3a50415eb4c1628bd78e4aa357b07a71e08c1",
+          "mode": "100755",
+          "sha256": "51a985f9c486a128f82b071a552061af2581277dc04d5bc663599ff147bbc056",
+          "bytes": 4114
+        },
+        {
+          "source_path": "intelligence-forge/scripts/build_manifest.py",
+          "original_path": "intelligence-forge/scripts/build_manifest.py",
+          "installed_path": "intelligence-forge/scripts/build_manifest.py",
+          "git_blob": "2f60fc77b3d058f54a2f956094b69bcbf669c717",
+          "mode": "100755",
+          "sha256": "0d5d49cc8a8234c959f46bb93d8fceb83a2749cd51ecb29cfc0b7aa7cf81ee75",
+          "bytes": 4032
+        },
+        {
+          "source_path": "intelligence-forge/scripts/extract_candidate_claims.py",
+          "original_path": "intelligence-forge/scripts/extract_candidate_claims.py",
+          "installed_path": "intelligence-forge/scripts/extract_candidate_claims.py",
+          "git_blob": "c26bb4e9045d999c2fffa17b40d3baa7cbbb27b7",
+          "mode": "100644",
+          "sha256": "4f1f53917341cbd50787a8fabd8a6af9eaf85441fa3b3adead8e050df9a60988",
+          "bytes": 6651
+        },
+        {
+          "source_path": "intelligence-forge/scripts/plan_deep_read_queue.py",
+          "original_path": "intelligence-forge/scripts/plan_deep_read_queue.py",
+          "installed_path": "intelligence-forge/scripts/plan_deep_read_queue.py",
+          "git_blob": "5fb68888e7114a62b65f0e45b77e5d3ac4678dee",
+          "mode": "100644",
+          "sha256": "e04ddeaba4c43b5d8e50773226a2291d77892c1250dc356c36d7deb15e49a8d9",
+          "bytes": 5529
+        },
+        {
+          "source_path": "intelligence-forge/scripts/render_iteration_report.py",
+          "original_path": "intelligence-forge/scripts/render_iteration_report.py",
+          "installed_path": "intelligence-forge/scripts/render_iteration_report.py",
+          "git_blob": "8c91fedd37d8c3a03ebd936b9d8f6fd30e2ecc35",
+          "mode": "100755",
+          "sha256": "437baa4c627f4e1f39b127ca379963eaa5c04fd5fffd1883c409fd75f266747f",
+          "bytes": 3496
+        },
+        {
+          "source_path": "intelligence-forge/scripts/render_question_ledger.py",
+          "original_path": "intelligence-forge/scripts/render_question_ledger.py",
+          "installed_path": "intelligence-forge/scripts/render_question_ledger.py",
+          "git_blob": "58a369d547244736b2c9db3442f9354066cdd7ed",
+          "mode": "100644",
+          "sha256": "13a419d36e4314c976e9a89b7d4ba06ccfcd8964333d2f026d780f8a0caea359",
+          "bytes": 6962
+        },
+        {
+          "source_path": "intelligence-forge/scripts/score_coverage.py",
+          "original_path": "intelligence-forge/scripts/score_coverage.py",
+          "installed_path": "intelligence-forge/scripts/score_coverage.py",
+          "git_blob": "331ba1283503e88bba77b1eb92de59efedafe40b",
+          "mode": "100755",
+          "sha256": "fa885795526ec04136e5cf9d4f8121f153f6f5de08f5473ce2798dbebba2bdfa",
+          "bytes": 3278
+        },
+        {
+          "source_path": "intelligence-forge/scripts/search_counterexamples.py",
+          "original_path": "intelligence-forge/scripts/search_counterexamples.py",
+          "installed_path": "intelligence-forge/scripts/search_counterexamples.py",
+          "git_blob": "bbd078e34ea4ef60c0ca21ac65613987a09c5096",
+          "mode": "100755",
+          "sha256": "47502440e29c5558d0d425690dc78fb6cf8e871c81fb8cd54f92b576510b9b6d",
+          "bytes": 3242
+        },
+        {
+          "source_path": "intelligence-forge/scripts/validate_claims.py",
+          "original_path": "intelligence-forge/scripts/validate_claims.py",
+          "installed_path": "intelligence-forge/scripts/validate_claims.py",
+          "git_blob": "432bd13f56f7f16b63b210e4a7803209f4906114",
+          "mode": "100755",
+          "sha256": "c73ce29cb3e1075804f20a04f74a631dc779c8db8a8da6d828e3b8bce46d8f06",
+          "bytes": 11014
+        },
+        {
+          "source_path": "manifest.json",
+          "original_path": "archive/skills-branches/Intelligence-Forge-Skill/manifest.json",
+          "installed_path": null,
+          "git_blob": "76fc565fd0902ec9c76fc16b5f2987b42547ac58",
+          "mode": "100644",
+          "sha256": "ba5dfb9fa8f21981146e8f1b7374b37c7891abed3621db94c25bbb0967b1d848",
+          "bytes": 2386
+        }
+      ],
+      "adaptations": []
+    },
+    {
+      "name": "issue-analyse",
+      "version": "1.3.0",
+      "source_branch": "Issue-Analyse-Skill",
+      "source_commit": "f014c49e3515f1e38989429aced49712eabab9dc",
+      "source_tree": "1ea716021f9337c3e41853386fbdd2e98abb09fc",
+      "source_package_path": "issue-analyse",
+      "target_path": "issue-analyse",
+      "archive_path": "archive/skills-branches/Issue-Analyse-Skill",
+      "archive_tag": "archive/skills-branches/Issue-Analyse-Skill/2026-10-07",
+      "license_status": "no LICENSE file; no license assigned",
+      "source_file_count": 9,
+      "files": [
+        {
+          "source_path": "README.md",
+          "original_path": "archive/skills-branches/Issue-Analyse-Skill/README.md",
+          "installed_path": null,
+          "git_blob": "7c05310442f637d1110117f288bd50a8f9c1cdbe",
+          "mode": "100644",
+          "sha256": "170db2928a80593f675cef47d3db98393c548b1bf5b936edf2f8ddd15cdc0fb4",
+          "bytes": 3426
+        },
+        {
+          "source_path": "REVISION_HISTORY.md",
+          "original_path": "archive/skills-branches/Issue-Analyse-Skill/REVISION_HISTORY.md",
+          "installed_path": null,
+          "git_blob": "af1f0c7fb482fbe9b077bd94eac59d8a5548de6b",
+          "mode": "100644",
+          "sha256": "6d6618beda76024c2eb2953531008ed548ebdf2564f1e86a6ff46ff97b7676b5",
+          "bytes": 4788
+        },
+        {
+          "source_path": "issue-analyse/SKILL.md",
+          "original_path": "issue-analyse/SKILL.md",
+          "installed_path": "issue-analyse/SKILL.md",
+          "git_blob": "939a67a5765559ef4748b8ea4bbb49046725423c",
+          "mode": "100644",
+          "sha256": "1d30465cbbdd98e21786ca84b97b6deaf7ca17334c712e31b6cdec0715253725",
+          "bytes": 15937
+        },
+        {
+          "source_path": "issue-analyse/agents/openai.yaml",
+          "original_path": "issue-analyse/agents/openai.yaml",
+          "installed_path": "issue-analyse/agents/openai.yaml",
+          "git_blob": "ec42f7fd3ebcdc30bd7eda2ee6dbf12c8f3c1306",
+          "mode": "100644",
+          "sha256": "694a023266d45d9bdf1ca1af0b62834cbcfccb2998707361f4d9b394e62b23f6",
+          "bytes": 589
+        },
+        {
+          "source_path": "issue-analyse/references/attribution-rubric.md",
+          "original_path": "issue-analyse/references/attribution-rubric.md",
+          "installed_path": "issue-analyse/references/attribution-rubric.md",
+          "git_blob": "f2f7b5708cd2864b0dfe54fa8bcaa07f0ab0950a",
+          "mode": "100644",
+          "sha256": "c505fb81f16c387c71e082b2ca945fb54b207ce0ad6acca51c6cc4264c938941",
+          "bytes": 7253
+        },
+        {
+          "source_path": "issue-analyse/references/communication-boundary.md",
+          "original_path": "issue-analyse/references/communication-boundary.md",
+          "installed_path": "issue-analyse/references/communication-boundary.md",
+          "git_blob": "5b21ed53fdc5f44c8114827e8340321d8e32bdd4",
+          "mode": "100644",
+          "sha256": "d30aa2ca9049ddf7486d78863620ccaea37231d8459904f01f6eaee92e0f35f2",
+          "bytes": 5238
+        },
+        {
+          "source_path": "issue-analyse/references/investigation-methods.md",
+          "original_path": "issue-analyse/references/investigation-methods.md",
+          "installed_path": "issue-analyse/references/investigation-methods.md",
+          "git_blob": "8a695811956c93d4b7ad1a60c4a62b95daa50822",
+          "mode": "100644",
+          "sha256": "1020271acfee0e89444230974807606cdb4597a7b9c28ac6d6ea5a44e8be3562",
+          "bytes": 17425
+        },
+        {
+          "source_path": "issue-analyse/references/output-template.md",
+          "original_path": "issue-analyse/references/output-template.md",
+          "installed_path": "issue-analyse/references/output-template.md",
+          "git_blob": "0fb5b3173daa22635435b0201109114d50553ec3",
+          "mode": "100644",
+          "sha256": "3705b9d0d98eaeed6ca82911df0158afb2949773719616bee23ca1ae83b25df6",
+          "bytes": 8221
+        },
+        {
+          "source_path": "manifest.json",
+          "original_path": "archive/skills-branches/Issue-Analyse-Skill/manifest.json",
+          "installed_path": null,
+          "git_blob": "84ea04c67cb89404a49d77dae963073515ed57b9",
+          "mode": "100644",
+          "sha256": "c6c915b88b891e016080714d2a479147c13efbc8aaae49c31d36e526c536db96",
+          "bytes": 802
+        }
+      ],
+      "adaptations": []
+    },
+    {
+      "name": "memory-governor",
+      "version": "0.1.0",
+      "source_branch": "Memory-Governor-Skill",
+      "source_commit": "d49972cc4cf51a4997a237dea26dd0d5fa0fbe8e",
+      "source_tree": "b9f200aa1cb4d948ae5e3ae7aabbe1089734f208",
+      "source_package_path": "memory-governor",
+      "target_path": "memory-governor",
+      "archive_path": "archive/skills-branches/Memory-Governor-Skill",
+      "archive_tag": "archive/skills-branches/Memory-Governor-Skill/2026-10-07",
+      "license_status": "no LICENSE file; no license assigned",
+      "source_file_count": 5,
+      "files": [
+        {
+          "source_path": "README.md",
+          "original_path": "archive/skills-branches/Memory-Governor-Skill/README.md",
+          "installed_path": null,
+          "git_blob": "3521c352b8b4a2864404124686afe67cf427e2de",
+          "mode": "100644",
+          "sha256": "2c42f10605b8e09e1c1fed22ba3fb2d4e53d4b201578d46667006f3d6471936f",
+          "bytes": 4186
+        },
+        {
+          "source_path": "manifest.json",
+          "original_path": "archive/skills-branches/Memory-Governor-Skill/manifest.json",
+          "installed_path": null,
+          "git_blob": "b4c60e281918730be6471973f557e6ff23f1cb8a",
+          "mode": "100644",
+          "sha256": "35e32ef7ecac9672ec9aaffc663551c61e9a372c211b60ee6ad000f1dfbd5093",
+          "bytes": 1022
+        },
+        {
+          "source_path": "memory-governor/SKILL.md",
+          "original_path": "memory-governor/SKILL.md",
+          "installed_path": "memory-governor/SKILL.md",
+          "git_blob": "3b65d1bb70c330b32de5e499b572931a6eb32170",
+          "mode": "100644",
+          "sha256": "6544e972749821149f8590d627afd6fc2fd9321a030c4d27c8a00a4f82f8cf3a",
+          "bytes": 3444
+        },
+        {
+          "source_path": "memory-governor/agents/openai.yaml",
+          "original_path": "memory-governor/agents/openai.yaml",
+          "installed_path": "memory-governor/agents/openai.yaml",
+          "git_blob": "51da3fd43083b4ced610349769bdcd78ffb08e9a",
+          "mode": "100644",
+          "sha256": "b90f9b74741dd067df9eb788ae76890f873e4aaafecbc07739170d5e8a55cd67",
+          "bytes": 295
+        },
+        {
+          "source_path": "memory-governor/scripts/append_memory_entry.py",
+          "original_path": "memory-governor/scripts/append_memory_entry.py",
+          "installed_path": "memory-governor/scripts/append_memory_entry.py",
+          "git_blob": "e5e05ad06d63186d61d89df5e0227bb098f1ba3e",
+          "mode": "100755",
+          "sha256": "59022f5a23e14af5fa566096c2704bab9e73e03e99a2b43ef8c99e0463091399",
+          "bytes": 4516
+        }
+      ],
+      "adaptations": []
+    },
+    {
+      "name": "pm-consultant",
+      "version": "1.2.0",
+      "source_branch": "PM-Consultant-Skill",
+      "source_commit": "ef29d53d833143cd6d76cb130120966093861586",
+      "source_tree": "8e8a887e473911c97e93d83ba427d610a0722416",
+      "source_package_path": "pm-consultant",
+      "target_path": "pm-consultant",
+      "archive_path": "archive/skills-branches/PM-Consultant-Skill",
+      "archive_tag": "archive/skills-branches/PM-Consultant-Skill/2026-10-07",
+      "license_status": "no LICENSE file; no license assigned",
+      "source_file_count": 12,
+      "files": [
+        {
+          "source_path": "README.md",
+          "original_path": "archive/skills-branches/PM-Consultant-Skill/README.md",
+          "installed_path": null,
+          "git_blob": "48c43432d1a48e24a93623e3578ef85018045b74",
+          "mode": "100644",
+          "sha256": "a116e7c4eadcdd700833ceb83b3d10b81fca39e4a2b42ea6ffc9ab69bfbead77",
+          "bytes": 12082
+        },
+        {
+          "source_path": "REVISION_HISTORY.md",
+          "original_path": "archive/skills-branches/PM-Consultant-Skill/REVISION_HISTORY.md",
+          "installed_path": null,
+          "git_blob": "8ef186bec51f07e3b87d39a55d7ea483bbee2332",
+          "mode": "100644",
+          "sha256": "17fd80f7d961acb5ce14e3566ae3120b9476dc8ae85518106779f307fe8cbad9",
+          "bytes": 7064
+        },
+        {
+          "source_path": "manifest.json",
+          "original_path": "archive/skills-branches/PM-Consultant-Skill/manifest.json",
+          "installed_path": null,
+          "git_blob": "e02a3c632e396625cb7262ea05429b071066f1b2",
+          "mode": "100644",
+          "sha256": "1e36fdae62142ed1921ce2ecb5bfb4ea65931e0bd7b25982972f495cbcb71dc5",
+          "bytes": 1125
+        },
+        {
+          "source_path": "pm-consultant/SKILL.md",
+          "original_path": "pm-consultant/SKILL.md",
+          "installed_path": "pm-consultant/SKILL.md",
+          "git_blob": "cd6edc46a627cc1dcd0a80f98edbcd60302d4273",
+          "mode": "100644",
+          "sha256": "67effd3f22962d8d6962f772f81c96631f0d10496c0763b57ae87a339f46de87",
+          "bytes": 5948
+        },
+        {
+          "source_path": "pm-consultant/agents/openai.yaml",
+          "original_path": "pm-consultant/agents/openai.yaml",
+          "installed_path": "pm-consultant/agents/openai.yaml",
+          "git_blob": "fb9fd72bd594e46dac10b3b2a2a1f6800bc053fc",
+          "mode": "100644",
+          "sha256": "74dd6f14b96aebe7d53e30e0f270f902e956cb3dd059b27d2b36ebbca9008ef0",
+          "bytes": 494
+        },
+        {
+          "source_path": "pm-consultant/references/confirmation-summary-template.md",
+          "original_path": "pm-consultant/references/confirmation-summary-template.md",
+          "installed_path": "pm-consultant/references/confirmation-summary-template.md",
+          "git_blob": "578e7aa8a2af5fa5b6d6ef547b1a12af9699f6f4",
+          "mode": "100644",
+          "sha256": "e128dea084816708c56c07aa056c0c04b7a0649218aedbb52bd5b8d0544f09bb",
+          "bytes": 1672
+        },
+        {
+          "source_path": "pm-consultant/references/final-output-contract.md",
+          "original_path": "pm-consultant/references/final-output-contract.md",
+          "installed_path": "pm-consultant/references/final-output-contract.md",
+          "git_blob": "612794afdbf0da38ca5e40af10840a7778e99afb",
+          "mode": "100644",
+          "sha256": "240a170f2210efac5b69a693b78f1ce2710b22b573ac879d48de5b7193c0b1ff",
+          "bytes": 2534
+        },
+        {
+          "source_path": "pm-consultant/references/prd-template.md",
+          "original_path": "pm-consultant/references/prd-template.md",
+          "installed_path": "pm-consultant/references/prd-template.md",
+          "git_blob": "3471e7069242e997086940a9f206e8868d35ca35",
+          "mode": "100644",
+          "sha256": "082804cbb6e9a93dd9a1a756d9db5d4db79a3dcb7efdeaaa5e33a3a05e121cda",
+          "bytes": 2001
+        },
+        {
+          "source_path": "pm-consultant/references/qc-checklist-template.md",
+          "original_path": "pm-consultant/references/qc-checklist-template.md",
+          "installed_path": "pm-consultant/references/qc-checklist-template.md",
+          "git_blob": "a3c392a8fd25e30082c968c9cb23ebfcb2127373",
+          "mode": "100644",
+          "sha256": "ef147171194c2a9c4e880d89823d680515c22ed47cf1d9a4fcadfd00053cb2fe",
+          "bytes": 3867
+        },
+        {
+          "source_path": "pm-consultant/references/requirement-clarification.md",
+          "original_path": "pm-consultant/references/requirement-clarification.md",
+          "installed_path": "pm-consultant/references/requirement-clarification.md",
+          "git_blob": "f93ac745984f2eff56435c3c149ed9707298c48f",
+          "mode": "100644",
+          "sha256": "3b5f72080dcb0c7fe42ed37ca365434932be4a4cd1759a076d00c4dbccdb0d4a",
+          "bytes": 2720
+        },
+        {
+          "source_path": "pm-consultant/references/user-story-map-template.html",
+          "original_path": "pm-consultant/references/user-story-map-template.html",
+          "installed_path": "pm-consultant/references/user-story-map-template.html",
+          "git_blob": "0b5e3f5e81e75a9352c383ea1a92ce7455636b08",
+          "mode": "100644",
+          "sha256": "616a7427e77728d5ed22a693c43733200fd3008adbb740f2c8cceda0bd504180",
+          "bytes": 5608
+        },
+        {
+          "source_path": "pm-consultant/references/workflow.md",
+          "original_path": "pm-consultant/references/workflow.md",
+          "installed_path": "pm-consultant/references/workflow.md",
+          "git_blob": "34f9d388c1e93508189c94e9e901eaa081bf2d50",
+          "mode": "100644",
+          "sha256": "9977d23af9afaeb9036a681e4b01ae483db31afa60763b279a46f58f5a704ac4",
+          "bytes": 3514
+        }
+      ],
+      "adaptations": []
+    },
+    {
+      "name": "red-team",
+      "version": "1.0.0",
+      "source_branch": "Red-Team-Skill",
+      "source_commit": "bfa25cf79dee4e1246107dd1c789aea327ba7492",
+      "source_tree": "aa27a0946237230d53006bf5286765e978dd9232",
+      "source_package_path": "red-team",
+      "target_path": "red-team",
+      "archive_path": "archive/skills-branches/Red-Team-Skill",
+      "archive_tag": "archive/skills-branches/Red-Team-Skill/2026-10-07",
+      "license_status": "no LICENSE file; no license assigned",
+      "source_file_count": 4,
+      "files": [
+        {
+          "source_path": "README.md",
+          "original_path": "archive/skills-branches/Red-Team-Skill/README.md",
+          "installed_path": null,
+          "git_blob": "512f944e5057b3b1de13cf8bf31b76cf8d64ecdf",
+          "mode": "100644",
+          "sha256": "a0683c2ce90bba686213086774681a49b096c0b403fc3d1100256e6e065f8f19",
+          "bytes": 5605
+        },
+        {
+          "source_path": "manifest.json",
+          "original_path": "archive/skills-branches/Red-Team-Skill/manifest.json",
+          "installed_path": null,
+          "git_blob": "cd114aa03ba864f1a7ab9aa17acb79aabd4a5c25",
+          "mode": "100644",
+          "sha256": "e7d9f4046027a0b98b5e67a563436d22e5ac52bdfadd161265a49a08a92547ed",
+          "bytes": 762
+        },
+        {
+          "source_path": "red-team/SKILL.md",
+          "original_path": "red-team/SKILL.md",
+          "installed_path": "red-team/SKILL.md",
+          "git_blob": "837dbb6f80a86b56958c44b2f45659ab8aa2b2b0",
+          "mode": "100644",
+          "sha256": "086b50b4d2f0d879f6423dade77bbdcd6cf9adc36adb9666cc394f53d0d199be",
+          "bytes": 4963
+        },
+        {
+          "source_path": "red-team/agents/openai.yaml",
+          "original_path": "red-team/agents/openai.yaml",
+          "installed_path": "red-team/agents/openai.yaml",
+          "git_blob": "ec32c56f021754158f23807e1c7fac2a4c00da63",
+          "mode": "100644",
+          "sha256": "e89c7bdceb00b13b0c49024e7189b626d70b691f98dc0acffd5d69d0ff6b0b92",
+          "bytes": 339
+        }
+      ],
+      "adaptations": []
+    },
+    {
+      "name": "sdd-quality-guarantee",
+      "version": "1.0.0",
+      "source_branch": "SDD-Quality-Guarantee-Skill",
+      "source_commit": "7e43f8010cef42d7056a77aa2f729489ae24af32",
+      "source_tree": "de990d2cf395dd9688115c9dc73dcb9c054ac732",
+      "source_package_path": "sdd-quality-guarantee",
+      "target_path": "sdd-quality-guarantee",
+      "archive_path": "archive/skills-branches/SDD-Quality-Guarantee-Skill",
+      "archive_tag": "archive/skills-branches/SDD-Quality-Guarantee-Skill/2026-10-07",
+      "license_status": "no LICENSE file; no license assigned",
+      "source_file_count": 9,
+      "files": [
+        {
+          "source_path": "README.md",
+          "original_path": "archive/skills-branches/SDD-Quality-Guarantee-Skill/README.md",
+          "installed_path": null,
+          "git_blob": "013b86d1660d339cc019ad353c44d85b153e1e4f",
+          "mode": "100644",
+          "sha256": "6d6c32528b2205b5805751a8d24bd1506145e4513fea1c6e5843d431c9bfb9aa",
+          "bytes": 2385
+        },
+        {
+          "source_path": "REVISION_HISTORY.md",
+          "original_path": "archive/skills-branches/SDD-Quality-Guarantee-Skill/REVISION_HISTORY.md",
+          "installed_path": null,
+          "git_blob": "1d2063c9553d807f78962ce2138acacfb8324a78",
+          "mode": "100644",
+          "sha256": "6e6565d1b6b43c4007c1209d136337ea3cd4626b193d1f50b75d6a0dbbdb2d99",
+          "bytes": 651
+        },
+        {
+          "source_path": "manifest.json",
+          "original_path": "archive/skills-branches/SDD-Quality-Guarantee-Skill/manifest.json",
+          "installed_path": null,
+          "git_blob": "3db6a8a9770424d79e6b448d7c4f95382a8b0b83",
+          "mode": "100644",
+          "sha256": "d52d19be8adb4aa13a322ef1c8f086fa2aeb33149612a9230675b757d1861bef",
+          "bytes": 1122
+        },
+        {
+          "source_path": "sdd-quality-guarantee/SKILL.md",
+          "original_path": "sdd-quality-guarantee/SKILL.md",
+          "installed_path": "sdd-quality-guarantee/SKILL.md",
+          "git_blob": "a29eb2215208930be87ef988ef24e7e0bfd91e12",
+          "mode": "100644",
+          "sha256": "5ab68a8a4263f400e57a3d5123bc7be9c9ddc40267318d3fff80ad2f2a2de989",
+          "bytes": 3579
+        },
+        {
+          "source_path": "sdd-quality-guarantee/agents/openai.yaml",
+          "original_path": "sdd-quality-guarantee/agents/openai.yaml",
+          "installed_path": "sdd-quality-guarantee/agents/openai.yaml",
+          "git_blob": "63a97b1f34cbda846c64a4a9ffe9b317c9f6b8a7",
+          "mode": "100644",
+          "sha256": "34e12662cce84ddcbc0badd5277e8d7becad56baface26b0d30ed86250ccbe79",
+          "bytes": 275
+        },
+        {
+          "source_path": "sdd-quality-guarantee/references/quality-guarantee-review.md",
+          "original_path": "sdd-quality-guarantee/references/quality-guarantee-review.md",
+          "installed_path": "sdd-quality-guarantee/references/quality-guarantee-review.md",
+          "git_blob": "0f265fab0d26e4fbdd4aee2ad87cc336fe168453",
+          "mode": "100644",
+          "sha256": "6f8e2963e40203d75f917e335b24b03c43c689e60e1782c0d281631d95209e45",
+          "bytes": 1345
+        },
+        {
+          "source_path": "sdd-quality-guarantee/references/sdd-output-contract.md",
+          "original_path": "sdd-quality-guarantee/references/sdd-output-contract.md",
+          "installed_path": "sdd-quality-guarantee/references/sdd-output-contract.md",
+          "git_blob": "086ff0b2eaf9a7768fa75cfc0b82299a624d6bba",
+          "mode": "100644",
+          "sha256": "ba04416f343767b8fbcc0787ecf2b084af9128adf679377142069416f5e7345e",
+          "bytes": 2877
+        },
+        {
+          "source_path": "sdd-quality-guarantee/scripts/scaffold_sdd.py",
+          "original_path": "sdd-quality-guarantee/scripts/scaffold_sdd.py",
+          "installed_path": "sdd-quality-guarantee/scripts/scaffold_sdd.py",
+          "git_blob": "8b08feca77bd86d958cfb3b87ef5771425ecfbd6",
+          "mode": "100644",
+          "sha256": "b521edbd99e965ae31b3d04ca9f2f5da3204e02f2e297689043e45e59c712629",
+          "bytes": 2340
+        },
+        {
+          "source_path": "sdd-quality-guarantee/scripts/validate_sdd_report.py",
+          "original_path": "sdd-quality-guarantee/scripts/validate_sdd_report.py",
+          "installed_path": "sdd-quality-guarantee/scripts/validate_sdd_report.py",
+          "git_blob": "6b457a79108e51ae5f4c4d5d95779dd0e93715ab",
+          "mode": "100644",
+          "sha256": "a76f82cc8b68857a4d10bb1a241573e3d9a0e7b43f245c43f98950afbc5b3c07",
+          "bytes": 1747
+        }
+      ],
+      "adaptations": []
+    },
+    {
+      "name": "skill-cleaner",
+      "version": "1.0.0",
+      "source_branch": "Skill-Cleaner-Skill",
+      "source_commit": "066b1f10218b4a801e77715d69b4f6e16eada455",
+      "source_tree": "5d5a9c30fe46378303d1b249acf6730f28b2ff2d",
+      "source_package_path": "skill-cleaner",
+      "target_path": "skill-cleaner",
+      "archive_path": "archive/skills-branches/Skill-Cleaner-Skill",
+      "archive_tag": "archive/skills-branches/Skill-Cleaner-Skill/2026-10-07",
+      "license_status": "no LICENSE file; no license assigned",
+      "source_file_count": 7,
+      "files": [
+        {
+          "source_path": "README.md",
+          "original_path": "archive/skills-branches/Skill-Cleaner-Skill/README.md",
+          "installed_path": null,
+          "git_blob": "1ff4de9dc754248dc79bc6c1b5a7f481db15db02",
+          "mode": "100644",
+          "sha256": "17f676b6ad040286c77974666b2e356e446586d918ec2b256e96a0a1e7d58f89",
+          "bytes": 5743
+        },
+        {
+          "source_path": "REVISION_HISTORY.md",
+          "original_path": "archive/skills-branches/Skill-Cleaner-Skill/REVISION_HISTORY.md",
+          "installed_path": null,
+          "git_blob": "1a5e0fdd0f05b27b5eff8f36c276abcaca4c9c02",
+          "mode": "100644",
+          "sha256": "3b5c18c14fa1e5ce9b27f55afb3fbac98018f7a708fe9fed045177ca78900d89",
+          "bytes": 733
+        },
+        {
+          "source_path": "manifest.json",
+          "original_path": "archive/skills-branches/Skill-Cleaner-Skill/manifest.json",
+          "installed_path": null,
+          "git_blob": "59b2bebd578448073ff237fbbc755d645cf922a8",
+          "mode": "100644",
+          "sha256": "75a603fe37af3d8f8dbba7bfca920d2ba67394ec6fab7037da57a29e6af2310f",
+          "bytes": 919
+        },
+        {
+          "source_path": "skill-cleaner/SKILL.md",
+          "original_path": "archive/skills-branches/Skill-Cleaner-Skill/skill-cleaner/SKILL.md.original",
+          "installed_path": "skill-cleaner/SKILL.md",
+          "git_blob": "5c8ec9cfec40e4bb1a400e468faa1c8a67de5905",
+          "mode": "100644",
+          "sha256": "9ef0b30e88cf2a1c7dcfad3c82d17b174b174fe82f3d77f0c8c86a3f2ac6d6c6",
+          "bytes": 5439
+        },
+        {
+          "source_path": "skill-cleaner/agents/openai.yaml",
+          "original_path": "skill-cleaner/agents/openai.yaml",
+          "installed_path": "skill-cleaner/agents/openai.yaml",
+          "git_blob": "81258b789c5ea619eb97e5ceaf16a850ecf6c72e",
+          "mode": "100644",
+          "sha256": "0ab7c25fab740904b89ee9368052c0506dfd7c12781c28af90ec58ab829cca6c",
+          "bytes": 530
+        },
+        {
+          "source_path": "skill-cleaner/scripts/skill-cleaner-cn.mjs",
+          "original_path": "skill-cleaner/scripts/skill-cleaner-cn.mjs",
+          "installed_path": "skill-cleaner/scripts/skill-cleaner-cn.mjs",
+          "git_blob": "aca8a82c4b859196407315d701e93e25b0a4e119",
+          "mode": "100755",
+          "sha256": "e44ab89a5c90c17ed6ff74193dc7cccbcf7958c201cd20414d4f9735827ecbf0",
+          "bytes": 10886
+        },
+        {
+          "source_path": "skill-cleaner/scripts/skill-cleaner.ts",
+          "original_path": "skill-cleaner/scripts/skill-cleaner.ts",
+          "installed_path": "skill-cleaner/scripts/skill-cleaner.ts",
+          "git_blob": "ccf30860c207808792abe6bf8fa675bd70e7ffa0",
+          "mode": "100755",
+          "sha256": "f855d649cfd083eb1683359ed92cf76108d5d9c5817c2b611ac79dd1b19fe35b",
+          "bytes": 34655
+        }
+      ],
+      "adaptations": [
+        {
+          "source_path": "skill-cleaner/SKILL.md",
+          "installed_path": "skill-cleaner/SKILL.md",
+          "reason": "Replace machine-specific Codex home prefix with portable home notation.",
+          "source_sha256": "9ef0b30e88cf2a1c7dcfad3c82d17b174b174fe82f3d77f0c8c86a3f2ac6d6c6",
+          "installed_sha256": "4447d4c6711713dec5e132e02fdbb8a5d484116a68ce4221ba3b35344aff21eb"
+        }
+      ]
+    },
+    {
+      "name": "skill-researcher",
+      "version": "1.1.0",
+      "source_branch": "Skill-Researcher-Skill",
+      "source_commit": "bacf79312f1ab0ba37c19734650713090e11a47b",
+      "source_tree": "aa0f695026b168e3efd164a39e8dd8057ef30c9b",
+      "source_package_path": "skill-researcher",
+      "target_path": "skill-researcher",
+      "archive_path": "archive/skills-branches/Skill-Researcher-Skill",
+      "archive_tag": "archive/skills-branches/Skill-Researcher-Skill/2026-10-07",
+      "license_status": "no LICENSE file; no license assigned",
+      "source_file_count": 7,
+      "files": [
+        {
+          "source_path": "README.md",
+          "original_path": "archive/skills-branches/Skill-Researcher-Skill/README.md",
+          "installed_path": null,
+          "git_blob": "4d22bbd425dfd05bdd3deace113d29e9cd3846c0",
+          "mode": "100644",
+          "sha256": "1b60ebd6b4f4bd9c7996cf465c8efcebe9fb98a7f548d4d6413580aeef872ece",
+          "bytes": 2243
+        },
+        {
+          "source_path": "REVISION_HISTORY.md",
+          "original_path": "archive/skills-branches/Skill-Researcher-Skill/REVISION_HISTORY.md",
+          "installed_path": null,
+          "git_blob": "a110e454f5bc3ba5f3b83a12a57f87fff4114d1a",
+          "mode": "100644",
+          "sha256": "def0ed8f5ae26c31fc63be4c9b48c6dab254d08f1ade978c5f17efec353972ab",
+          "bytes": 901
+        },
+        {
+          "source_path": "manifest.json",
+          "original_path": "archive/skills-branches/Skill-Researcher-Skill/manifest.json",
+          "installed_path": null,
+          "git_blob": "d25e2b6cd136970bc61c3ac61126cdd8bf1c9e97",
+          "mode": "100644",
+          "sha256": "2048b85eebd3e42025f1004558d28c592596008d00931d824499d009508b512d",
+          "bytes": 638
+        },
+        {
+          "source_path": "skill-researcher/SKILL.md",
+          "original_path": "skill-researcher/SKILL.md",
+          "installed_path": "skill-researcher/SKILL.md",
+          "git_blob": "8d1545f04f708dab81dfc9f212454f330e116692",
+          "mode": "100644",
+          "sha256": "287d9f0e9a7d33736bf7c306d23eac5f28ed3d10082e6b8118f722a04cffb389",
+          "bytes": 5620
+        },
+        {
+          "source_path": "skill-researcher/agents/openai.yaml",
+          "original_path": "skill-researcher/agents/openai.yaml",
+          "installed_path": "skill-researcher/agents/openai.yaml",
+          "git_blob": "55348e9c8e38fb38438de2b6b3c5d3efb23c554d",
+          "mode": "100644",
+          "sha256": "4a3ad6695b212387367bd7b56fc23d41318be0435ffbbec8c1bb5b164149648a",
+          "bytes": 382
+        },
+        {
+          "source_path": "skill-researcher/references/skill_research_methodology.md",
+          "original_path": "skill-researcher/references/skill_research_methodology.md",
+          "installed_path": "skill-researcher/references/skill_research_methodology.md",
+          "git_blob": "3bd2dee0b06bcd13b869894cc71544d6c1093a5a",
+          "mode": "100644",
+          "sha256": "c4c9ff1ad1862b1aee0d6b5c144f8d84e06c837fa6435beb61048cfb10a2b4d6",
+          "bytes": 3770
+        },
+        {
+          "source_path": "skill-researcher/scripts/validate_skill_researcher.py",
+          "original_path": "skill-researcher/scripts/validate_skill_researcher.py",
+          "installed_path": "skill-researcher/scripts/validate_skill_researcher.py",
+          "git_blob": "5f9629a1867391d8d081cecb46dabc13866df226",
+          "mode": "100644",
+          "sha256": "916c78cc4aae29f7cfc0c08a24ed3a48d30ebdb30d95a1e8f98dd6428be8523a",
+          "bytes": 2372
+        }
+      ],
+      "adaptations": []
+    },
+    {
+      "name": "tdd-quality-guarantee",
+      "version": "1.0.0",
+      "source_branch": "TDD-Quality-Guarantee-Skill",
+      "source_commit": "4b490dba9362942a01c8907c2a6d08135ba8ff52",
+      "source_tree": "06d4b7b723270be66759585d279ffe8df53b3fa7",
+      "source_package_path": "tdd-quality-guarantee",
+      "target_path": "tdd-quality-guarantee",
+      "archive_path": "archive/skills-branches/TDD-Quality-Guarantee-Skill",
+      "archive_tag": "archive/skills-branches/TDD-Quality-Guarantee-Skill/2026-10-07",
+      "license_status": "no LICENSE file; no license assigned",
+      "source_file_count": 9,
+      "files": [
+        {
+          "source_path": "README.md",
+          "original_path": "archive/skills-branches/TDD-Quality-Guarantee-Skill/README.md",
+          "installed_path": null,
+          "git_blob": "39d6828c6d8d2147c1aab498cdb5741b4d669307",
+          "mode": "100644",
+          "sha256": "7a0235dc91b18bb1bb73e5a8dc34cdf57384f2e3ff69132ad1798f27e1eb000a",
+          "bytes": 2661
+        },
+        {
+          "source_path": "REVISION_HISTORY.md",
+          "original_path": "archive/skills-branches/TDD-Quality-Guarantee-Skill/REVISION_HISTORY.md",
+          "installed_path": null,
+          "git_blob": "cca852c3fa7c747c217413817ad57422024126ee",
+          "mode": "100644",
+          "sha256": "23187e447bd5aedf159df4b6e65c75f676ccdb44a0abd08d0939f01d8c76e6de",
+          "bytes": 761
+        },
+        {
+          "source_path": "manifest.json",
+          "original_path": "archive/skills-branches/TDD-Quality-Guarantee-Skill/manifest.json",
+          "installed_path": null,
+          "git_blob": "431e57404cee76a53e864822c66e83f39b8bf960",
+          "mode": "100644",
+          "sha256": "7bb1620a92e556dca7a1ce257d60a70bdd3fdf3001d7a45366e41837163a72fb",
+          "bytes": 1158
+        },
+        {
+          "source_path": "tdd-quality-guarantee/SKILL.md",
+          "original_path": "tdd-quality-guarantee/SKILL.md",
+          "installed_path": "tdd-quality-guarantee/SKILL.md",
+          "git_blob": "95cf9a14c3fe99546d95402762bfba2ee0099a27",
+          "mode": "100644",
+          "sha256": "bc6bfa38e7c88e3754a781db415b2034952fbf5c6c3a308ffa4ba92d88594043",
+          "bytes": 4556
+        },
+        {
+          "source_path": "tdd-quality-guarantee/agents/openai.yaml",
+          "original_path": "tdd-quality-guarantee/agents/openai.yaml",
+          "installed_path": "tdd-quality-guarantee/agents/openai.yaml",
+          "git_blob": "188017a8aafa065baeb4a9ad419b791377f7a283",
+          "mode": "100644",
+          "sha256": "3a1d8482013270c1f287b52d83c2e5cdad14b7d217d4d526ea5eb43e2dc9e425",
+          "bytes": 281
+        },
+        {
+          "source_path": "tdd-quality-guarantee/references/quality-guarantee-review.md",
+          "original_path": "tdd-quality-guarantee/references/quality-guarantee-review.md",
+          "installed_path": "tdd-quality-guarantee/references/quality-guarantee-review.md",
+          "git_blob": "0868c71bd8f7aa493b9643654e2066dfe4e77535",
+          "mode": "100644",
+          "sha256": "c28154316c9c71ee9fd224379e40a64c0265ba63851f5c6a97dcadae4dce7792",
+          "bytes": 1680
+        },
+        {
+          "source_path": "tdd-quality-guarantee/references/tdd-output-contract.md",
+          "original_path": "tdd-quality-guarantee/references/tdd-output-contract.md",
+          "installed_path": "tdd-quality-guarantee/references/tdd-output-contract.md",
+          "git_blob": "3cba75c83d80b7cef3693489e5e2578c7a2b2024",
+          "mode": "100644",
+          "sha256": "703feabac6f2b61a2653f9c8599e8a7d8070c91268f07dfe79cc6a904843f5ea",
+          "bytes": 2484
+        },
+        {
+          "source_path": "tdd-quality-guarantee/scripts/scaffold_tdd.py",
+          "original_path": "tdd-quality-guarantee/scripts/scaffold_tdd.py",
+          "installed_path": "tdd-quality-guarantee/scripts/scaffold_tdd.py",
+          "git_blob": "eb25eee88e86e11a4258f31ca83370b2578d8719",
+          "mode": "100644",
+          "sha256": "54471f40544fb48a9987c5127326599dff6f715e6246d64e94c215ac0536e54b",
+          "bytes": 2652
+        },
+        {
+          "source_path": "tdd-quality-guarantee/scripts/validate_tdd_report.py",
+          "original_path": "tdd-quality-guarantee/scripts/validate_tdd_report.py",
+          "installed_path": "tdd-quality-guarantee/scripts/validate_tdd_report.py",
+          "git_blob": "403ca3cee70c0c38de0850f5e52f6c5258c83380",
+          "mode": "100644",
+          "sha256": "edd418aa5d7129bf014ded1334baa3900ec860378954fac287d8bfb2a257722b",
+          "bytes": 2012
+        }
+      ],
+      "adaptations": []
+    },
+    {
+      "name": "token-gate",
+      "version": "0.1.0",
+      "source_branch": "Token-Gate-Skill",
+      "source_commit": "2bd1faeaa6dfd4f52094f1ed0b96b82e25490bc5",
+      "source_tree": "dc2e397d152255656a3402fb22b74599a2db7631",
+      "source_package_path": "token-gate",
+      "target_path": "token-gate",
+      "archive_path": "archive/skills-branches/Token-Gate-Skill",
+      "archive_tag": "archive/skills-branches/Token-Gate-Skill/2026-10-07",
+      "license_status": "no LICENSE file; no license assigned",
+      "source_file_count": 5,
+      "files": [
+        {
+          "source_path": "README.md",
+          "original_path": "archive/skills-branches/Token-Gate-Skill/README.md",
+          "installed_path": null,
+          "git_blob": "371ece6daa9aa3653fd6c2c32bb46614979c2126",
+          "mode": "100644",
+          "sha256": "e23c1ef59ec1ce9fd6eb5fcfae781ac673250ee22fe9790ab74e503fded2c09f",
+          "bytes": 5590
+        },
+        {
+          "source_path": "RELEASE_NOTES.md",
+          "original_path": "archive/skills-branches/Token-Gate-Skill/RELEASE_NOTES.md",
+          "installed_path": null,
+          "git_blob": "63639efc6c643046447f7d225386435af81c0ca6",
+          "mode": "100644",
+          "sha256": "84b8cc8b858fb42a19fe43a2a4409b13a58c51cf4c5a122bdf764d55b94814ff",
+          "bytes": 741
+        },
+        {
+          "source_path": "manifest.json",
+          "original_path": "archive/skills-branches/Token-Gate-Skill/manifest.json",
+          "installed_path": null,
+          "git_blob": "afc3bcaa5dd099fd276c589f625e572845cbd832",
+          "mode": "100644",
+          "sha256": "b772de35c7fe9b35917c1272560b995d685a3504c803385627eb3563ad8690dd",
+          "bytes": 911
+        },
+        {
+          "source_path": "token-gate/SKILL.md",
+          "original_path": "token-gate/SKILL.md",
+          "installed_path": "token-gate/SKILL.md",
+          "git_blob": "0045b9911d12b411d6a5cccb43abd7e105d6a409",
+          "mode": "100644",
+          "sha256": "b56811c61d95628bdbe236b956959eeb8275870b2fd5ffb191298b36631f7724",
+          "bytes": 15403
+        },
+        {
+          "source_path": "token-gate/agents/openai.yaml",
+          "original_path": "token-gate/agents/openai.yaml",
+          "installed_path": "token-gate/agents/openai.yaml",
+          "git_blob": "7577a02702207600f16ce5c16d4820b85e93c0cb",
+          "mode": "100644",
+          "sha256": "4bb63dbbd0bd06761663d3ef071c8ba5701347e49bf9855a7d4e57c19eeb2b38",
+          "bytes": 302
+        }
+      ],
+      "adaptations": []
+    },
+    {
+      "name": "wechat-message",
+      "version": "1.0.0",
+      "source_branch": "Wechat-Message-Skill",
+      "source_commit": "58163fec2f33ad3a48bb469df57deb46a6ce48e2",
+      "source_tree": "e5bb12faf66a1fd8766190c09892027bc767c45e",
+      "source_package_path": "wechat-message",
+      "target_path": "wechat-message",
+      "archive_path": "archive/skills-branches/Wechat-Message-Skill",
+      "archive_tag": "archive/skills-branches/Wechat-Message-Skill/2026-10-07",
+      "license_status": "no LICENSE file; no license assigned",
+      "source_file_count": 4,
+      "files": [
+        {
+          "source_path": "README.md",
+          "original_path": "archive/skills-branches/Wechat-Message-Skill/README.md",
+          "installed_path": null,
+          "git_blob": "9f0dd5aa94360eca3f4a203a10a2c1b980ae07d0",
+          "mode": "100644",
+          "sha256": "9c9e577cee0aeb101c9ca089b54b4b8ddfba25578ff28fbafa007b5db79e01cf",
+          "bytes": 4541
+        },
+        {
+          "source_path": "manifest.json",
+          "original_path": "archive/skills-branches/Wechat-Message-Skill/manifest.json",
+          "installed_path": null,
+          "git_blob": "f36e21ff96150369c6bcbb2067811b70431f4984",
+          "mode": "100644",
+          "sha256": "07b80e4cddcbc61753db16f8edb0e72b460093eec53421cf642e97fb1528286a",
+          "bytes": 399
+        },
+        {
+          "source_path": "wechat-message/SKILL.md",
+          "original_path": "wechat-message/SKILL.md",
+          "installed_path": "wechat-message/SKILL.md",
+          "git_blob": "83ac13c8881165bbd0c30f21c13d9580c7138ae2",
+          "mode": "100644",
+          "sha256": "c8a42ff38cac83d75ed533e7c575097a43ac0b0768a5d0082d2b74aa8063d9d3",
+          "bytes": 2257
+        },
+        {
+          "source_path": "wechat-message/agents/openai.yaml",
+          "original_path": "wechat-message/agents/openai.yaml",
+          "installed_path": "wechat-message/agents/openai.yaml",
+          "git_blob": "8c2b18f2be6472ffbbe3b4d34d16f6d3134d9fc5",
+          "mode": "100644",
+          "sha256": "04997bc8a2ca821e601ae919edf000d7425d891f55fd3ea207acd3c529e7a75c",
+          "bytes": 253
+        }
+      ],
+      "adaptations": []
+    },
+    {
+      "name": "imessage-gateway",
+      "version": "1.0.0",
+      "source_branch": "Willis-x-AI-iMessage-Gateway-Skill",
+      "source_commit": "34a35e88e1d3d958c2cfd2c14efbb0ae7ca06a87",
+      "source_tree": "897afa34ab9fd68e718b1fc175aeb0ffc2bc5b0d",
+      "source_package_path": "imessage-gateway",
+      "target_path": "imessage-gateway",
+      "archive_path": "archive/skills-branches/Willis-x-AI-iMessage-Gateway-Skill",
+      "archive_tag": "archive/skills-branches/Willis-x-AI-iMessage-Gateway-Skill/2026-10-07",
+      "license_status": "MIT declaration; LICENSE file missing",
+      "source_file_count": 9,
+      "files": [
+        {
+          "source_path": ".gitignore",
+          "original_path": "archive/skills-branches/Willis-x-AI-iMessage-Gateway-Skill/.gitignore",
+          "installed_path": null,
+          "git_blob": "43ae0e2a6c6d8fca34872506ca0f2e64194fec7c",
+          "mode": "100644",
+          "sha256": "6feaded4e28ea86e001a6751b4e3d960e8b7c31b9616ff9936b79297086e809b",
+          "bytes": 23
+        },
+        {
+          "source_path": "README.md",
+          "original_path": "archive/skills-branches/Willis-x-AI-iMessage-Gateway-Skill/README.md",
+          "installed_path": null,
+          "git_blob": "874ce25cc170699b1e4c5646d8eb4d0f5b3f2ad6",
+          "mode": "100644",
+          "sha256": "34074eda312e52871a19344de03ca064685c4c46e40d41dd7d33df24ad0edd6b",
+          "bytes": 3174
+        },
+        {
+          "source_path": "REVISION_HISTORY.md",
+          "original_path": "archive/skills-branches/Willis-x-AI-iMessage-Gateway-Skill/REVISION_HISTORY.md",
+          "installed_path": null,
+          "git_blob": "72e1c338e5246ced608cdc3c1cc7ebb78f16e0b3",
+          "mode": "100644",
+          "sha256": "c8a09004dac73825c093d65786c393c423435341ae0f12ae0e195ed964c90c68",
+          "bytes": 239
+        },
+        {
+          "source_path": "imessage-gateway/SKILL.md",
+          "original_path": "imessage-gateway/SKILL.md",
+          "installed_path": "imessage-gateway/SKILL.md",
+          "git_blob": "ce4febb7e2693546bd5a98a39069363ce2179810",
+          "mode": "100644",
+          "sha256": "dc735ffa9ccd3d2e0d8b02a4bb949693453e70308267a1ca8be167b173c86298",
+          "bytes": 2917
+        },
+        {
+          "source_path": "imessage-gateway/agents/openai.yaml",
+          "original_path": "imessage-gateway/agents/openai.yaml",
+          "installed_path": "imessage-gateway/agents/openai.yaml",
+          "git_blob": "5f1876b312116f98ca4a91f8d42c8c9d71f6c19d",
+          "mode": "100644",
+          "sha256": "50bd78a2b534e8c4c6d95590cb8ce7cb5805133640b50d8c693cb6ba91d7c6f7",
+          "bytes": 288
+        },
+        {
+          "source_path": "imessage-gateway/references/delivery-diagnosis.md",
+          "original_path": "imessage-gateway/references/delivery-diagnosis.md",
+          "installed_path": "imessage-gateway/references/delivery-diagnosis.md",
+          "git_blob": "66d0faa3a3d6e3c870ecaadf178eb01b821c5104",
+          "mode": "100644",
+          "sha256": "22b97b03b7eebc0dc6d3869c5ced53c057615089bda793340b21a84a9762a901",
+          "bytes": 1849
+        },
+        {
+          "source_path": "imessage-gateway/scripts/imessage_gateway.py",
+          "original_path": "imessage-gateway/scripts/imessage_gateway.py",
+          "installed_path": "imessage-gateway/scripts/imessage_gateway.py",
+          "git_blob": "52747e4d115a901681ce5653a33cc4eca45c3d03",
+          "mode": "100644",
+          "sha256": "d9b2a827d64100d54f986e618c4695dee30d057002504ef5b97500cefae7b920",
+          "bytes": 8642
+        },
+        {
+          "source_path": "manifest.json",
+          "original_path": "archive/skills-branches/Willis-x-AI-iMessage-Gateway-Skill/manifest.json",
+          "installed_path": null,
+          "git_blob": "e3f160dcf7a68139c4743b72333cf495ce633110",
+          "mode": "100644",
+          "sha256": "e0a7873b5e4a214df45de58745f26943e01489d4ac59dffd25b820d5c720b8c0",
+          "bytes": 447
+        },
+        {
+          "source_path": "test/test_imessage_gateway.py",
+          "original_path": "archive/skills-branches/Willis-x-AI-iMessage-Gateway-Skill/test/test_imessage_gateway.py",
+          "installed_path": "imessage-gateway/test/test_imessage_gateway.py",
+          "git_blob": "d50c62ad69f99ebc0de993434262bb0db1615a08",
+          "mode": "100644",
+          "sha256": "7c33e0ab24ad92efbc1156d67a19a0cd5d6e90d7ad8b4f4b9d2e747ab32ee16e",
+          "bytes": 768
+        }
+      ],
+      "adaptations": [
+        {
+          "source_path": "test/test_imessage_gateway.py",
+          "installed_path": "imessage-gateway/test/test_imessage_gateway.py",
+          "reason": "Relocate existing test next to its scripts; update its import path.",
+          "source_sha256": "7c33e0ab24ad92efbc1156d67a19a0cd5d6e90d7ad8b4f4b9d2e747ab32ee16e",
+          "installed_sha256": "1982aa7fc237193be4461edb37a9107eb13ae16488f82f4d0f88b686e7c0e859"
+        }
+      ]
+    }
+  ],
+  "default_branch_snapshot": {
+    "branch": "main",
+    "commit": "0119c8cd51558f6c14aa8e7792c8f96f2a8398e9",
+    "tree": "7f93d5d1bd2985a49fa04dc00783d9321d67f9c5",
+    "archive_tag": "archive/skills-branches/main/2026-10-07",
+    "files": [
+      {
+        "source_path": "README.md",
+        "original_path": "archive/skills-branches/main/README.md",
+        "git_blob": "bbd70fcaedfe530926a43e6a6869a2d6e2b90b9c",
+        "mode": "100644",
+        "sha256": "cff7ccc117c9411fdf157edf88858b9de3c570ef91650db3a985a9a7be661849",
+        "bytes": 9983
+      }
+    ]
+  },
+  "notes": [
+    "Installation packages and exact original source files are separate mappings.",
+    "Source Git commits and reachable history are retained under archive tags.",
+    "No source LICENSE has been invented or extended to the collection."
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "PM Consultant"
+  short_description: "PRD-first requirement, QC, and Red Team workflow"
+  default_prompt: "Use $pm-consultant to clarify requirements, including interaction and physical-world boundaries, build a user story map, confirm structured requirements, discuss QC checklist coverage, run a Red Team review and remediate high-risk findings, then output PRD Markdown, user-story-map HTML, and QC checklist Markdown without prescribing the implementation path."

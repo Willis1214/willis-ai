@@ -1,0 +1,38 @@
+{
+  "name": "diff-output",
+  "display_name": "Diff Output",
+  "version": "1.0.0",
+  "description": "用统一比较表说明前后变化及改变的原因。",
+  "entrypoint": "SKILL.md",
+  "metadata": "agents/openai.yaml",
+  "repository": "https://github.com/Willis1214/willis-ai",
+  "branch": "main",
+  "license": null,
+  "license_note": "原分支未指定开源许可；迁移未新增授权。",
+  "migration_date": "2026-10-07",
+  "readme": "README.md",
+  "source": {
+    "repository": "Willis1214/Skills",
+    "branch": "Diff-Output-Skill",
+    "commit": "cacdad25f2134d80badcf39ff3ce77addaa98cdc",
+    "manifest": "archive/skills-branches/Diff-Output-Skill/manifest.json",
+    "history_tag": "archive/skills-branches/Diff-Output-Skill/2026-10-07"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "ad79f1e6fa5817296f25f5aaa32c98870f1d3b24f22d1830fccc5a50a13fdf05",
+      "bytes": 2499
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "becc5c83a9495df45938d1f990e35395d9d0894daacac9ba8677cda738c6ea89",
+      "bytes": 3979
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "aa5da6083a7e8b0099514782a87fcef393b2d2cca830f1d937736302d976bf1f",
+      "bytes": 302
+    }
+  ]
+}

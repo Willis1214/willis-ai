@@ -1,0 +1,53 @@
+{
+  "name": "code-reviewer",
+  "display_name": "Code Reviewer",
+  "version": "1.0.0",
+  "description": "基于源代码和差异进行静态审查，说明问题与发布判断。",
+  "entrypoint": "SKILL.md",
+  "metadata": "agents/openai.yaml",
+  "repository": "https://github.com/Willis1214/willis-ai",
+  "branch": "main",
+  "license": null,
+  "license_note": "原分支未指定开源许可；迁移未新增授权。",
+  "migration_date": "2026-10-07",
+  "readme": "README.md",
+  "source": {
+    "repository": "Willis1214/Skills",
+    "branch": "Code-Reviewer-Skill",
+    "commit": "fd1cdcf53a351b2e23bc0f994e117766fafa7bea",
+    "manifest": "archive/skills-branches/Code-Reviewer-Skill/manifest.json",
+    "history_tag": "archive/skills-branches/Code-Reviewer-Skill/2026-10-07"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "1a797bbf2aef0e730664edf88d8b327c5dbfbe769e061246cf6c9d5f41001e65",
+      "bytes": 2525
+    },
+    {
+      "path": "REVISION_HISTORY.md",
+      "sha256": "b1a3d52cfbb8488fbd15ee9d1729115e2f624ffac8682cafb21cbf82676d3d31",
+      "bytes": 758
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "0b34ad95e7419d7ed0eae12be6ee31bb0c221522171637c03b3f71297d39a365",
+      "bytes": 6059
+    },
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "aaee1305b465fe22fbc36133be1f62e9ff4942787ddc75c39a4c41bab00a7da7",
+      "bytes": 281
+    },
+    {
+      "path": "references/report-template.md",
+      "sha256": "37caf61cebd0f0f9f28e17446696f7a8dc39bb98566b8c9fb288b8e3f7f2f96b",
+      "bytes": 989
+    },
+    {
+      "path": "references/static-review-rubric.md",
+      "sha256": "5ce7f542802c864e7db02850b51475f811f67c34098cb669641beab7c7f3e7e0",
+      "bytes": 3680
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "SDD Quality Guarantee"
+  short_description: "Create spec and acceptance quality reports"
+  default_prompt: "Use $sdd-quality-guarantee when the user explicitly requests SDD Quality Guarantee for a task."
+policy:
+  allow_implicit_invocation: false

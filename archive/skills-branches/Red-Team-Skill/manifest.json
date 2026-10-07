@@ -1,0 +1,26 @@
+{
+  "name": "red-team",
+  "display_title": "Red Team",
+  "version": "1.0.0",
+  "release_date": "2026-05-18",
+  "description": "Codex skill for strict adversarial review of plans, prompts, workflows, proposals, and decision materials, focused on boundary conditions, hidden assumptions, logic gaps, execution risks, and top-five required improvements.",
+  "language": [
+    "en",
+    "zh-CN"
+  ],
+  "source_skill_path": "/Users/lizhendong/.codex/skills/red-team",
+  "repository": {
+    "owner": "Willis1214",
+    "requested_name": "Red Team",
+    "repo_slug": "Red-Team-Skill",
+    "visibility": "public"
+  },
+  "skill_files": [
+    "red-team/SKILL.md",
+    "red-team/agents/openai.yaml"
+  ],
+  "documentation": [
+    "README.md"
+  ],
+  "license": "UNLICENSED"
+}

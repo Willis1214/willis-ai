@@ -1,0 +1,6 @@
+interface:
+  display_name: "Skill Researcher"
+  short_description: "Research gate before creating Codex skills"
+  default_prompt: "Use $skill-researcher before creating or substantially updating a Codex skill to research existing open skills, summarize options in the Chinese gate template, and ask for confirmation before implementation."
+policy:
+  allow_implicit_invocation: true

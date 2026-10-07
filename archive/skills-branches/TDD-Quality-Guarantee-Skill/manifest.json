@@ -1,0 +1,29 @@
+{
+  "name": "tdd-quality-guarantee",
+  "display_title": "TDD Quality Guarantee",
+  "version": "1.0.0",
+  "release_date": "2026-07-12",
+  "description": "Creates Markdown-only TDD Quality & Control documents with Spec inventories, detailed positive/negative/edge/regression/integration cases, execution evidence, and final conclusions.",
+  "language": ["en", "zh-CN"],
+  "source_skill_path": "tdd-quality-guarantee",
+  "repository": {
+    "owner": "Willis1214",
+    "central_repository": "Skills",
+    "branch": "TDD-Quality-Guarantee-Skill",
+    "visibility": "public"
+  },
+  "skill_files": [
+    "tdd-quality-guarantee/SKILL.md",
+    "tdd-quality-guarantee/agents/openai.yaml",
+    "tdd-quality-guarantee/references/tdd-output-contract.md",
+    "tdd-quality-guarantee/references/quality-guarantee-review.md",
+    "tdd-quality-guarantee/scripts/scaffold_tdd.py",
+    "tdd-quality-guarantee/scripts/validate_tdd_report.py"
+  ],
+  "artifact_contract": {
+    "format": "Markdown-only",
+    "root": "output/<task-slug>/tdd-quality-guarantee/TDD/",
+    "files": ["spec_inventory.md", "test_cases.md", "test_results.md", "TDD.md"]
+  },
+  "license": "UNLICENSED"
+}
