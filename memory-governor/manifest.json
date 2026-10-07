@@ -16,13 +16,13 @@
     "branch": "Memory-Governor-Skill",
     "commit": "d49972cc4cf51a4997a237dea26dd0d5fa0fbe8e",
     "manifest": "archive/skills-branches/Memory-Governor-Skill/manifest.json",
-    "history_tag": "archive/skills-branches/Memory-Governor-Skill/2026-10-07"
+    "history_tag": "skills-archive-Memory-Governor-Skill-2026-10-07"
   },
   "files": [
     {
       "path": "README.md",
-      "sha256": "0a32ed994505fb874db675048ccebf7dfd40b9f052d09dae6264cf7ee7029cb9",
-      "bytes": 2423
+      "sha256": "2279d3351578f59a7a9fa060750df3ab5786af2b11df1816388cc3df04d800ac",
+      "bytes": 2414
     },
     {
       "path": "SKILL.md",

@@ -16,13 +16,13 @@
     "branch": "HTML-Creator-Skill",
     "commit": "b2cc9fe29b49c41c3e505e16c53384a860b5b6b4",
     "manifest": "archive/skills-branches/HTML-Creator-Skill/manifest.json",
-    "history_tag": "archive/skills-branches/HTML-Creator-Skill/2026-10-07"
+    "history_tag": "skills-archive-HTML-Creator-Skill-2026-10-07"
   },
   "files": [
     {
       "path": "README.md",
-      "sha256": "28f162adf34f3078db6e78e315999e7388bfdcf70833b793ca7a6a98dfa53f06",
-      "bytes": 2558
+      "sha256": "669b4f6e337612355b40779140ad8985362b48e2b76d801192d469cef2e1b2ce",
+      "bytes": 2549
     },
     {
       "path": "REVISION_HISTORY.md",

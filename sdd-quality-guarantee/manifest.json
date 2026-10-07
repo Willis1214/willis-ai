@@ -16,13 +16,13 @@
     "branch": "SDD-Quality-Guarantee-Skill",
     "commit": "7e43f8010cef42d7056a77aa2f729489ae24af32",
     "manifest": "archive/skills-branches/SDD-Quality-Guarantee-Skill/manifest.json",
-    "history_tag": "archive/skills-branches/SDD-Quality-Guarantee-Skill/2026-10-07"
+    "history_tag": "skills-archive-SDD-Quality-Guarantee-Skill-2026-10-07"
   },
   "files": [
     {
       "path": "README.md",
-      "sha256": "b8535e30d53ad83873a7f70d1f845f39cc3b7b215c34dae127b8304664b5eea5",
-      "bytes": 2549
+      "sha256": "0b487fc555ca87d7b8cb0fabc33839a153755a0501985d69a2082922e9bd7dda",
+      "bytes": 2540
     },
     {
       "path": "REVISION_HISTORY.md",

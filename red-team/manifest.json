@@ -16,13 +16,13 @@
     "branch": "Red-Team-Skill",
     "commit": "bfa25cf79dee4e1246107dd1c789aea327ba7492",
     "manifest": "archive/skills-branches/Red-Team-Skill/manifest.json",
-    "history_tag": "archive/skills-branches/Red-Team-Skill/2026-10-07"
+    "history_tag": "skills-archive-Red-Team-Skill-2026-10-07"
   },
   "files": [
     {
       "path": "README.md",
-      "sha256": "a1d89072aafd7ffdcc51612ad398d34085f6f09f94ab6c4514e16527e03884d9",
-      "bytes": 2499
+      "sha256": "1ddfeec3dfbaa140d09298090443afac77184b93bec3ca4169b254b2dacac61a",
+      "bytes": 2490
     },
     {
       "path": "SKILL.md",

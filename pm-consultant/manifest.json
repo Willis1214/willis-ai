@@ -16,13 +16,13 @@
     "branch": "PM-Consultant-Skill",
     "commit": "ef29d53d833143cd6d76cb130120966093861586",
     "manifest": "archive/skills-branches/PM-Consultant-Skill/manifest.json",
-    "history_tag": "archive/skills-branches/PM-Consultant-Skill/2026-10-07"
+    "history_tag": "skills-archive-PM-Consultant-Skill-2026-10-07"
   },
   "files": [
     {
       "path": "README.md",
-      "sha256": "6e1882382b0f83f540eada8f0838e08c7a03b7a5d2905eb59700df7e5fd5c2d8",
-      "bytes": 2826
+      "sha256": "6e765a76080a14994ece398ba6314af12c6278b0d902dd0704c66a08227a271a",
+      "bytes": 2817
     },
     {
       "path": "REVISION_HISTORY.md",

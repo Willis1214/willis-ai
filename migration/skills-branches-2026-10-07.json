@@ -16,7 +16,7 @@
       "source_package_path": "brainstorm",
       "target_path": "brainstorm",
       "archive_path": "archive/skills-branches/Brainstorm-Skill",
-      "archive_tag": "archive/skills-branches/Brainstorm-Skill/2026-10-07",
+      "archive_tag": "skills-archive-Brainstorm-Skill-2026-10-07",
       "license_status": "no LICENSE file; no license assigned",
       "source_file_count": 13,
       "files": [
@@ -149,7 +149,7 @@
       "source_package_path": "code-qc-uat",
       "target_path": "code-qc-uat",
       "archive_path": "archive/skills-branches/Code-QC-UAT-Skill",
-      "archive_tag": "archive/skills-branches/Code-QC-UAT-Skill/2026-10-07",
+      "archive_tag": "skills-archive-Code-QC-UAT-Skill-2026-10-07",
       "license_status": "no LICENSE file; no license assigned",
       "source_file_count": 8,
       "files": [
@@ -237,7 +237,7 @@
       "source_package_path": "code-reviewer",
       "target_path": "code-reviewer",
       "archive_path": "archive/skills-branches/Code-Reviewer-Skill",
-      "archive_tag": "archive/skills-branches/Code-Reviewer-Skill/2026-10-07",
+      "archive_tag": "skills-archive-Code-Reviewer-Skill-2026-10-07",
       "license_status": "no LICENSE file; no license assigned",
       "source_file_count": 7,
       "files": [
@@ -316,7 +316,7 @@
       "source_package_path": "deeply-reader",
       "target_path": "deeply-reader",
       "archive_path": "archive/skills-branches/Deeply-Reader-Skill",
-      "archive_tag": "archive/skills-branches/Deeply-Reader-Skill/2026-10-07",
+      "archive_tag": "skills-archive-Deeply-Reader-Skill-2026-10-07",
       "license_status": "no LICENSE file; no license assigned",
       "source_file_count": 9,
       "files": [
@@ -421,7 +421,7 @@
       "source_package_path": "diff-output",
       "target_path": "diff-output",
       "archive_path": "archive/skills-branches/Diff-Output-Skill",
-      "archive_tag": "archive/skills-branches/Diff-Output-Skill/2026-10-07",
+      "archive_tag": "skills-archive-Diff-Output-Skill-2026-10-07",
       "license_status": "no LICENSE file; no license assigned",
       "source_file_count": 4,
       "files": [
@@ -481,7 +481,7 @@
       "source_package_path": "html-creator",
       "target_path": "html-creator",
       "archive_path": "archive/skills-branches/HTML-Creator-Skill",
-      "archive_tag": "archive/skills-branches/HTML-Creator-Skill/2026-10-07",
+      "archive_tag": "skills-archive-HTML-Creator-Skill-2026-10-07",
       "license_status": "no LICENSE file; no license assigned",
       "source_file_count": 13,
       "files": [
@@ -614,7 +614,7 @@
       "source_package_path": "intelligence-forge",
       "target_path": "intelligence-forge",
       "archive_path": "archive/skills-branches/Intelligence-Forge-Skill",
-      "archive_tag": "archive/skills-branches/Intelligence-Forge-Skill/2026-10-07",
+      "archive_tag": "skills-archive-Intelligence-Forge-Skill-2026-10-07",
       "license_status": "no LICENSE file; no license assigned",
       "source_file_count": 30,
       "files": [
@@ -900,7 +900,7 @@
       "source_package_path": "issue-analyse",
       "target_path": "issue-analyse",
       "archive_path": "archive/skills-branches/Issue-Analyse-Skill",
-      "archive_tag": "archive/skills-branches/Issue-Analyse-Skill/2026-10-07",
+      "archive_tag": "skills-archive-Issue-Analyse-Skill-2026-10-07",
       "license_status": "no LICENSE file; no license assigned",
       "source_file_count": 9,
       "files": [
@@ -997,7 +997,7 @@
       "source_package_path": "memory-governor",
       "target_path": "memory-governor",
       "archive_path": "archive/skills-branches/Memory-Governor-Skill",
-      "archive_tag": "archive/skills-branches/Memory-Governor-Skill/2026-10-07",
+      "archive_tag": "skills-archive-Memory-Governor-Skill-2026-10-07",
       "license_status": "no LICENSE file; no license assigned",
       "source_file_count": 5,
       "files": [
@@ -1058,7 +1058,7 @@
       "source_package_path": "pm-consultant",
       "target_path": "pm-consultant",
       "archive_path": "archive/skills-branches/PM-Consultant-Skill",
-      "archive_tag": "archive/skills-branches/PM-Consultant-Skill/2026-10-07",
+      "archive_tag": "skills-archive-PM-Consultant-Skill-2026-10-07",
       "license_status": "no LICENSE file; no license assigned",
       "source_file_count": 12,
       "files": [
@@ -1182,7 +1182,7 @@
       "source_package_path": "red-team",
       "target_path": "red-team",
       "archive_path": "archive/skills-branches/Red-Team-Skill",
-      "archive_tag": "archive/skills-branches/Red-Team-Skill/2026-10-07",
+      "archive_tag": "skills-archive-Red-Team-Skill-2026-10-07",
       "license_status": "no LICENSE file; no license assigned",
       "source_file_count": 4,
       "files": [
@@ -1234,7 +1234,7 @@
       "source_package_path": "sdd-quality-guarantee",
       "target_path": "sdd-quality-guarantee",
       "archive_path": "archive/skills-branches/SDD-Quality-Guarantee-Skill",
-      "archive_tag": "archive/skills-branches/SDD-Quality-Guarantee-Skill/2026-10-07",
+      "archive_tag": "skills-archive-SDD-Quality-Guarantee-Skill-2026-10-07",
       "license_status": "no LICENSE file; no license assigned",
       "source_file_count": 9,
       "files": [
@@ -1331,7 +1331,7 @@
       "source_package_path": "skill-cleaner",
       "target_path": "skill-cleaner",
       "archive_path": "archive/skills-branches/Skill-Cleaner-Skill",
-      "archive_tag": "archive/skills-branches/Skill-Cleaner-Skill/2026-10-07",
+      "archive_tag": "skills-archive-Skill-Cleaner-Skill-2026-10-07",
       "license_status": "no LICENSE file; no license assigned",
       "source_file_count": 7,
       "files": [
@@ -1418,7 +1418,7 @@
       "source_package_path": "skill-researcher",
       "target_path": "skill-researcher",
       "archive_path": "archive/skills-branches/Skill-Researcher-Skill",
-      "archive_tag": "archive/skills-branches/Skill-Researcher-Skill/2026-10-07",
+      "archive_tag": "skills-archive-Skill-Researcher-Skill-2026-10-07",
       "license_status": "no LICENSE file; no license assigned",
       "source_file_count": 7,
       "files": [
@@ -1497,7 +1497,7 @@
       "source_package_path": "tdd-quality-guarantee",
       "target_path": "tdd-quality-guarantee",
       "archive_path": "archive/skills-branches/TDD-Quality-Guarantee-Skill",
-      "archive_tag": "archive/skills-branches/TDD-Quality-Guarantee-Skill/2026-10-07",
+      "archive_tag": "skills-archive-TDD-Quality-Guarantee-Skill-2026-10-07",
       "license_status": "no LICENSE file; no license assigned",
       "source_file_count": 9,
       "files": [
@@ -1594,7 +1594,7 @@
       "source_package_path": "token-gate",
       "target_path": "token-gate",
       "archive_path": "archive/skills-branches/Token-Gate-Skill",
-      "archive_tag": "archive/skills-branches/Token-Gate-Skill/2026-10-07",
+      "archive_tag": "skills-archive-Token-Gate-Skill-2026-10-07",
       "license_status": "no LICENSE file; no license assigned",
       "source_file_count": 5,
       "files": [
@@ -1655,7 +1655,7 @@
       "source_package_path": "wechat-message",
       "target_path": "wechat-message",
       "archive_path": "archive/skills-branches/Wechat-Message-Skill",
-      "archive_tag": "archive/skills-branches/Wechat-Message-Skill/2026-10-07",
+      "archive_tag": "skills-archive-Wechat-Message-Skill-2026-10-07",
       "license_status": "no LICENSE file; no license assigned",
       "source_file_count": 4,
       "files": [
@@ -1707,7 +1707,7 @@
       "source_package_path": "imessage-gateway",
       "target_path": "imessage-gateway",
       "archive_path": "archive/skills-branches/Willis-x-AI-iMessage-Gateway-Skill",
-      "archive_tag": "archive/skills-branches/Willis-x-AI-iMessage-Gateway-Skill/2026-10-07",
+      "archive_tag": "skills-archive-Willis-x-AI-iMessage-Gateway-Skill-2026-10-07",
       "license_status": "MIT declaration; LICENSE file missing",
       "source_file_count": 9,
       "files": [
@@ -1808,7 +1808,7 @@
     "branch": "main",
     "commit": "0119c8cd51558f6c14aa8e7792c8f96f2a8398e9",
     "tree": "7f93d5d1bd2985a49fa04dc00783d9321d67f9c5",
-    "archive_tag": "archive/skills-branches/main/2026-10-07",
+    "archive_tag": "skills-archive-main-2026-10-07",
     "files": [
       {
         "source_path": "README.md",

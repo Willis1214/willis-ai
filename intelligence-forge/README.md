@@ -46,7 +46,7 @@ Use $intelligence-forge to build a domain_intelligence.md from a same-domain pro
 - [集合迁移说明](../MIGRATION.md)
 - [原文件与历史映射](../migration/skills-branches-2026-10-07.json)
 
-来源：`Willis1214/Skills` / `Intelligence-Forge-Skill` / `f89cc3ad315f8328abdb94bb05172f2ee7dc77d7`。完整旧 Git 历史保留在 `archive/skills-branches/Intelligence-Forge-Skill/2026-10-07` 标签下。历史原件中的旧仓库安装命令仅供追溯，当前安装使用上面的集合地址。
+来源：`Willis1214/Skills` / `Intelligence-Forge-Skill` / `f89cc3ad315f8328abdb94bb05172f2ee7dc77d7`。完整旧 Git 历史保留在 `skills-archive-Intelligence-Forge-Skill-2026-10-07` 标签下。历史原件中的旧仓库安装命令仅供追溯，当前安装使用上面的集合地址。
 
 ## 许可
 

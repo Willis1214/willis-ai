@@ -46,7 +46,7 @@ Use $skill-researcher before creating or substantially updating a Codex skill to
 - [集合迁移说明](../MIGRATION.md)
 - [原文件与历史映射](../migration/skills-branches-2026-10-07.json)
 
-来源：`Willis1214/Skills` / `Skill-Researcher-Skill` / `bacf79312f1ab0ba37c19734650713090e11a47b`。完整旧 Git 历史保留在 `archive/skills-branches/Skill-Researcher-Skill/2026-10-07` 标签下。历史原件中的旧仓库安装命令仅供追溯，当前安装使用上面的集合地址。
+来源：`Willis1214/Skills` / `Skill-Researcher-Skill` / `bacf79312f1ab0ba37c19734650713090e11a47b`。完整旧 Git 历史保留在 `skills-archive-Skill-Researcher-Skill-2026-10-07` 标签下。历史原件中的旧仓库安装命令仅供追溯，当前安装使用上面的集合地址。
 
 ## 许可
 

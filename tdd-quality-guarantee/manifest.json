@@ -16,13 +16,13 @@
     "branch": "TDD-Quality-Guarantee-Skill",
     "commit": "4b490dba9362942a01c8907c2a6d08135ba8ff52",
     "manifest": "archive/skills-branches/TDD-Quality-Guarantee-Skill/manifest.json",
-    "history_tag": "archive/skills-branches/TDD-Quality-Guarantee-Skill/2026-10-07"
+    "history_tag": "skills-archive-TDD-Quality-Guarantee-Skill-2026-10-07"
   },
   "files": [
     {
       "path": "README.md",
-      "sha256": "2e9340d4dcd83932326599d7159e0502b61ee4f7a9e3d0a6223d9806471114ee",
-      "bytes": 2547
+      "sha256": "c723ba873ee535c03bfc52d6588d6ca4c39b2fe1d307091a560a523f3e7b14ae",
+      "bytes": 2538
     },
     {
       "path": "REVISION_HISTORY.md",

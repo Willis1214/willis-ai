@@ -16,13 +16,13 @@
     "branch": "Willis-x-AI-iMessage-Gateway-Skill",
     "commit": "34a35e88e1d3d958c2cfd2c14efbb0ae7ca06a87",
     "manifest": "archive/skills-branches/Willis-x-AI-iMessage-Gateway-Skill/manifest.json",
-    "history_tag": "archive/skills-branches/Willis-x-AI-iMessage-Gateway-Skill/2026-10-07"
+    "history_tag": "skills-archive-Willis-x-AI-iMessage-Gateway-Skill-2026-10-07"
   },
   "files": [
     {
       "path": "README.md",
-      "sha256": "c6cd32cfa173130ff86be4aacd6b4bfa011af246eaf3228cbf77b4830bd68785",
-      "bytes": 2679
+      "sha256": "65d39de23dca6578d8b5a2e674c232a0cbe65d66f837d77de5e8739b7e21c5f7",
+      "bytes": 2670
     },
     {
       "path": "REVISION_HISTORY.md",

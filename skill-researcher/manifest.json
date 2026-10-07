@@ -16,13 +16,13 @@
     "branch": "Skill-Researcher-Skill",
     "commit": "bacf79312f1ab0ba37c19734650713090e11a47b",
     "manifest": "archive/skills-branches/Skill-Researcher-Skill/manifest.json",
-    "history_tag": "archive/skills-branches/Skill-Researcher-Skill/2026-10-07"
+    "history_tag": "skills-archive-Skill-Researcher-Skill-2026-10-07"
   },
   "files": [
     {
       "path": "README.md",
-      "sha256": "c597efcfb545975440da7eba9764d9e9cd71432b5467f790230d3d9c5381e559",
-      "bytes": 2610
+      "sha256": "e2ec8e4abfb82aabccb7fdfbde519f8a3be68c28c040e2e5bde1eba8897ab326",
+      "bytes": 2601
     },
     {
       "path": "REVISION_HISTORY.md",

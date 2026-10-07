@@ -48,7 +48,7 @@ Use $imessage-gateway to run a Mac-to-iPhone iMessage self-test and explain the 
 - [集合迁移说明](../MIGRATION.md)
 - [原文件与历史映射](../migration/skills-branches-2026-10-07.json)
 
-来源：`Willis1214/Skills` / `Willis-x-AI-iMessage-Gateway-Skill` / `34a35e88e1d3d958c2cfd2c14efbb0ae7ca06a87`。完整旧 Git 历史保留在 `archive/skills-branches/Willis-x-AI-iMessage-Gateway-Skill/2026-10-07` 标签下。历史原件中的旧仓库安装命令仅供追溯，当前安装使用上面的集合地址。
+来源：`Willis1214/Skills` / `Willis-x-AI-iMessage-Gateway-Skill` / `34a35e88e1d3d958c2cfd2c14efbb0ae7ca06a87`。完整旧 Git 历史保留在 `skills-archive-Willis-x-AI-iMessage-Gateway-Skill-2026-10-07` 标签下。历史原件中的旧仓库安装命令仅供追溯，当前安装使用上面的集合地址。
 
 ## 许可
 

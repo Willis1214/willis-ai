@@ -16,13 +16,13 @@
     "branch": "Token-Gate-Skill",
     "commit": "2bd1faeaa6dfd4f52094f1ed0b96b82e25490bc5",
     "manifest": "archive/skills-branches/Token-Gate-Skill/manifest.json",
-    "history_tag": "archive/skills-branches/Token-Gate-Skill/2026-10-07"
+    "history_tag": "skills-archive-Token-Gate-Skill-2026-10-07"
   },
   "files": [
     {
       "path": "README.md",
-      "sha256": "904c3084bd290d53434dc704504af63a37c4589228cbdffe906339d5492453a4",
-      "bytes": 2512
+      "sha256": "9fc8164656d7d19b0d7dffc9732786e5d196efb44b4c30d5d5df767ae68e90f4",
+      "bytes": 2503
     },
     {
       "path": "RELEASE_NOTES.md",

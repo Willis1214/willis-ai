@@ -16,13 +16,13 @@
     "branch": "Issue-Analyse-Skill",
     "commit": "f014c49e3515f1e38989429aced49712eabab9dc",
     "manifest": "archive/skills-branches/Issue-Analyse-Skill/manifest.json",
-    "history_tag": "archive/skills-branches/Issue-Analyse-Skill/2026-10-07"
+    "history_tag": "skills-archive-Issue-Analyse-Skill-2026-10-07"
   },
   "files": [
     {
       "path": "README.md",
-      "sha256": "b39eb4b923819329aaac52e11a59df5f276a72942a66dd33fbf768549ca58787",
-      "bytes": 2742
+      "sha256": "c6651d269c56c58d0bc07ecfeff853391797d2eba4487b5d8719e2e41c283bd1",
+      "bytes": 2733
     },
     {
       "path": "REVISION_HISTORY.md",

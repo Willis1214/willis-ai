@@ -46,7 +46,7 @@ Use $issue-analyse for customer issue support: first challenge whether the repor
 - [集合迁移说明](../MIGRATION.md)
 - [原文件与历史映射](../migration/skills-branches-2026-10-07.json)
 
-来源：`Willis1214/Skills` / `Issue-Analyse-Skill` / `f014c49e3515f1e38989429aced49712eabab9dc`。完整旧 Git 历史保留在 `archive/skills-branches/Issue-Analyse-Skill/2026-10-07` 标签下。历史原件中的旧仓库安装命令仅供追溯，当前安装使用上面的集合地址。
+来源：`Willis1214/Skills` / `Issue-Analyse-Skill` / `f014c49e3515f1e38989429aced49712eabab9dc`。完整旧 Git 历史保留在 `skills-archive-Issue-Analyse-Skill-2026-10-07` 标签下。历史原件中的旧仓库安装命令仅供追溯，当前安装使用上面的集合地址。
 
 ## 许可
 

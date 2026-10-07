@@ -16,13 +16,13 @@
     "branch": "Wechat-Message-Skill",
     "commit": "58163fec2f33ad3a48bb469df57deb46a6ce48e2",
     "manifest": "archive/skills-branches/Wechat-Message-Skill/manifest.json",
-    "history_tag": "archive/skills-branches/Wechat-Message-Skill/2026-10-07"
+    "history_tag": "skills-archive-Wechat-Message-Skill-2026-10-07"
   },
   "files": [
     {
       "path": "README.md",
-      "sha256": "13d2777b1e4cc13f1fa57d38f44a73e56297e360496fb1f70f0564b63b6395a4",
-      "bytes": 2558
+      "sha256": "d42bc162811cfa9b9389daecf8b44c333d9dd245f608393d1e5c2d83ea6b1f8f",
+      "bytes": 2549
     },
     {
       "path": "SKILL.md",

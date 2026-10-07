@@ -46,7 +46,7 @@ Use $code-qc-uat to run executable code QC/UAT. Create all QC artifacts under qc
 - [集合迁移说明](../MIGRATION.md)
 - [原文件与历史映射](../migration/skills-branches-2026-10-07.json)
 
-来源：`Willis1214/Skills` / `Code-QC-UAT-Skill` / `e6c21aac914c8c5cf16427caf0a0769f1a63a482`。完整旧 Git 历史保留在 `archive/skills-branches/Code-QC-UAT-Skill/2026-10-07` 标签下。历史原件中的旧仓库安装命令仅供追溯，当前安装使用上面的集合地址。
+来源：`Willis1214/Skills` / `Code-QC-UAT-Skill` / `e6c21aac914c8c5cf16427caf0a0769f1a63a482`。完整旧 Git 历史保留在 `skills-archive-Code-QC-UAT-Skill-2026-10-07` 标签下。历史原件中的旧仓库安装命令仅供追溯，当前安装使用上面的集合地址。
 
 ## 许可
 

@@ -48,7 +48,7 @@ Use $wechat-message to send a desktop WeChat message to <用户> with <信息>.
 - [集合迁移说明](../MIGRATION.md)
 - [原文件与历史映射](../migration/skills-branches-2026-10-07.json)
 
-来源：`Willis1214/Skills` / `Wechat-Message-Skill` / `58163fec2f33ad3a48bb469df57deb46a6ce48e2`。完整旧 Git 历史保留在 `archive/skills-branches/Wechat-Message-Skill/2026-10-07` 标签下。历史原件中的旧仓库安装命令仅供追溯，当前安装使用上面的集合地址。
+来源：`Willis1214/Skills` / `Wechat-Message-Skill` / `58163fec2f33ad3a48bb469df57deb46a6ce48e2`。完整旧 Git 历史保留在 `skills-archive-Wechat-Message-Skill-2026-10-07` 标签下。历史原件中的旧仓库安装命令仅供追溯，当前安装使用上面的集合地址。
 
 ## 许可
 

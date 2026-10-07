@@ -46,7 +46,7 @@ Use $memory-governor for my task.
 - [集合迁移说明](../MIGRATION.md)
 - [原文件与历史映射](../migration/skills-branches-2026-10-07.json)
 
-来源：`Willis1214/Skills` / `Memory-Governor-Skill` / `d49972cc4cf51a4997a237dea26dd0d5fa0fbe8e`。完整旧 Git 历史保留在 `archive/skills-branches/Memory-Governor-Skill/2026-10-07` 标签下。历史原件中的旧仓库安装命令仅供追溯，当前安装使用上面的集合地址。
+来源：`Willis1214/Skills` / `Memory-Governor-Skill` / `d49972cc4cf51a4997a237dea26dd0d5fa0fbe8e`。完整旧 Git 历史保留在 `skills-archive-Memory-Governor-Skill-2026-10-07` 标签下。历史原件中的旧仓库安装命令仅供追溯，当前安装使用上面的集合地址。
 
 ## 许可
 

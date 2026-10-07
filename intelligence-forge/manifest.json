@@ -16,13 +16,13 @@
     "branch": "Intelligence-Forge-Skill",
     "commit": "f89cc3ad315f8328abdb94bb05172f2ee7dc77d7",
     "manifest": "archive/skills-branches/Intelligence-Forge-Skill/manifest.json",
-    "history_tag": "archive/skills-branches/Intelligence-Forge-Skill/2026-10-07"
+    "history_tag": "skills-archive-Intelligence-Forge-Skill-2026-10-07"
   },
   "files": [
     {
       "path": "README.md",
-      "sha256": "b4716bbf69b07caf69b5edb94f2b805909426f86529797beb571cffc51c0748f",
-      "bytes": 2587
+      "sha256": "37c93e539f18abaef3a7760a441b044a72c6231859adfa8eef7accd99d3324d6",
+      "bytes": 2578
     },
     {
       "path": "REVISION_HISTORY.md",

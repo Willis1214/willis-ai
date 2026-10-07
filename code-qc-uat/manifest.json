@@ -16,13 +16,13 @@
     "branch": "Code-QC-UAT-Skill",
     "commit": "e6c21aac914c8c5cf16427caf0a0769f1a63a482",
     "manifest": "archive/skills-branches/Code-QC-UAT-Skill/manifest.json",
-    "history_tag": "archive/skills-branches/Code-QC-UAT-Skill/2026-10-07"
+    "history_tag": "skills-archive-Code-QC-UAT-Skill-2026-10-07"
   },
   "files": [
     {
       "path": "README.md",
-      "sha256": "b5b54d7c4c1c40dd6496f95624905a2f6fa7ccfed6b580ea3a2b26e2487633e8",
-      "bytes": 2528
+      "sha256": "f96b94597a9e6bf7bc3a5bb5a4cb9f04076d72031df030d7989f075dcf798d05",
+      "bytes": 2519
     },
     {
       "path": "REVISION_HISTORY.md",

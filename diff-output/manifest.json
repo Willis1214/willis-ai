@@ -16,13 +16,13 @@
     "branch": "Diff-Output-Skill",
     "commit": "cacdad25f2134d80badcf39ff3ce77addaa98cdc",
     "manifest": "archive/skills-branches/Diff-Output-Skill/manifest.json",
-    "history_tag": "archive/skills-branches/Diff-Output-Skill/2026-10-07"
+    "history_tag": "skills-archive-Diff-Output-Skill-2026-10-07"
   },
   "files": [
     {
       "path": "README.md",
-      "sha256": "ad79f1e6fa5817296f25f5aaa32c98870f1d3b24f22d1830fccc5a50a13fdf05",
-      "bytes": 2499
+      "sha256": "7352e8ecd96c19af812e1e0fa1b23039db7dc105748b99c93fac37d52666bd7d",
+      "bytes": 2490
     },
     {
       "path": "SKILL.md",

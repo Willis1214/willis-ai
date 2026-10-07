@@ -6,7 +6,7 @@ Willis AI 是面向微信公众号粉丝的公开 Skill 集合，不限定题材
 
 安装目录保留旧包源码；旧分支根 README、manifest、版本记录、release notes、测试和忽略规则等原件保存在 `archive/skills-branches/<branch>/`。需要路径适配的原源码也在那里保留未改原件；逐个文件映射、指纹、mode 和来源 Git blob 见 [迁移索引](migration/skills-branches-2026-10-07.json)。165 个原文件（18 包分支的 164 文件，加旧 main 目录 1 文件）均可通过索引重建。
 
-每个源提交及其可达 Git 历史保存到 `archive/skills-branches/<branch>/2026-10-07` 标签，旧 main 目录亦有标签与原件。历史资料的旧安装命令不作为当前安装指南；当前使用各包 README 的集合地址。
+每个源提交及其可达 Git 历史保存到 `skills-archive-<branch>-2026-10-07` 标签，旧 main 目录亦有标签与原件。历史资料的旧安装命令不作为当前安装指南；当前使用各包 README 的集合地址。
 
 安装包的新 README 和 manifest 适配集合位置，Skill 业务版本沿用源版本。deeply-reader/skill-cleaner 的机器绝对路径改为通用 home 路径；既有 iMessage 测试移入包后同步导入路径；diff-output 的原 description 仅加引号修复 YAML 格式，语义不变。这些适配各有原件和指纹记录，不能把它们说成原树逐字未变。
 
@@ -38,7 +38,7 @@ Willis AI 是面向微信公众号粉丝的公开 Skill 集合，不限定题材
 ```bash
 git clone https://github.com/Willis1214/willis-ai.git
 cd willis-ai
-git show archive/skills-branches/Brainstorm-Skill/2026-10-07:brainstorm/SKILL.md
+git show skills-archive-Brainstorm-Skill-2026-10-07:brainstorm/SKILL.md
 ```
 
 标签指向真正旧提交，不只是记录 SHA；原有两个包及拼贴根 manifest 保持原内容。旧包的许可证状况按原件说明，未统一赋予 MIT。

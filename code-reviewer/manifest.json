@@ -16,13 +16,13 @@
     "branch": "Code-Reviewer-Skill",
     "commit": "fd1cdcf53a351b2e23bc0f994e117766fafa7bea",
     "manifest": "archive/skills-branches/Code-Reviewer-Skill/manifest.json",
-    "history_tag": "archive/skills-branches/Code-Reviewer-Skill/2026-10-07"
+    "history_tag": "skills-archive-Code-Reviewer-Skill-2026-10-07"
   },
   "files": [
     {
       "path": "README.md",
-      "sha256": "1a797bbf2aef0e730664edf88d8b327c5dbfbe769e061246cf6c9d5f41001e65",
-      "bytes": 2525
+      "sha256": "38faefb28564d560a682b347fc89afbddee5695536575f40beace2386937d2c0",
+      "bytes": 2516
     },
     {
       "path": "REVISION_HISTORY.md",

@@ -16,13 +16,13 @@
     "branch": "Deeply-Reader-Skill",
     "commit": "57d83426a4567f2cc1a460c8a7ed0a58794c8faf",
     "manifest": "archive/skills-branches/Deeply-Reader-Skill/manifest.json",
-    "history_tag": "archive/skills-branches/Deeply-Reader-Skill/2026-10-07"
+    "history_tag": "skills-archive-Deeply-Reader-Skill-2026-10-07"
   },
   "files": [
     {
       "path": "README.md",
-      "sha256": "4c6679898c2a2952d5ea043ad338255e5b4b684252d06db64eb4bdc4a3b446c2",
-      "bytes": 2559
+      "sha256": "46b1a9a257ca7f8adc813fa82f18aea15c65253403d17359a2f893a321ed3237",
+      "bytes": 2550
     },
     {
       "path": "REVISION_HISTORY.md",

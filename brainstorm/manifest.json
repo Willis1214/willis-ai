@@ -16,13 +16,13 @@
     "branch": "Brainstorm-Skill",
     "commit": "df843c83b99a90060691dd53e3d2883c79df027c",
     "manifest": "archive/skills-branches/Brainstorm-Skill/manifest.json",
-    "history_tag": "archive/skills-branches/Brainstorm-Skill/2026-10-07"
+    "history_tag": "skills-archive-Brainstorm-Skill-2026-10-07"
   },
   "files": [
     {
       "path": "README.md",
-      "sha256": "1da9f4a9e0a6596c285bd8f065c5df89be70e292ded00d58d743fb949cb7fb32",
-      "bytes": 2807
+      "sha256": "dee3559745671a0eaf18feb9c1074aea1a49f8bdf1ff7b954985836b5ac9daf8",
+      "bytes": 2798
     },
     {
       "path": "REVISION_HISTORY.md",

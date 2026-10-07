@@ -16,13 +16,13 @@
     "branch": "Skill-Cleaner-Skill",
     "commit": "066b1f10218b4a801e77715d69b4f6e16eada455",
     "manifest": "archive/skills-branches/Skill-Cleaner-Skill/manifest.json",
-    "history_tag": "archive/skills-branches/Skill-Cleaner-Skill/2026-10-07"
+    "history_tag": "skills-archive-Skill-Cleaner-Skill-2026-10-07"
   },
   "files": [
     {
       "path": "README.md",
-      "sha256": "239aba5b4f24d5e8d13b670fafe497b551da4af22c7ed189d0c8f9b7d2be19e4",
-      "bytes": 2757
+      "sha256": "c2b61b5c7f8384fcd9d16818c7c95646cc0453c28b9d6e6535d2f53d920c2efe",
+      "bytes": 2748
     },
     {
       "path": "REVISION_HISTORY.md",

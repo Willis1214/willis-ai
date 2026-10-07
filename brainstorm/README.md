@@ -48,7 +48,7 @@ Use $brainstorm for role-based requirement rounds: clarify requirements, map sto
 - [集合迁移说明](../MIGRATION.md)
 - [原文件与历史映射](../migration/skills-branches-2026-10-07.json)
 
-来源：`Willis1214/Skills` / `Brainstorm-Skill` / `df843c83b99a90060691dd53e3d2883c79df027c`。完整旧 Git 历史保留在 `archive/skills-branches/Brainstorm-Skill/2026-10-07` 标签下。历史原件中的旧仓库安装命令仅供追溯，当前安装使用上面的集合地址。
+来源：`Willis1214/Skills` / `Brainstorm-Skill` / `df843c83b99a90060691dd53e3d2883c79df027c`。完整旧 Git 历史保留在 `skills-archive-Brainstorm-Skill-2026-10-07` 标签下。历史原件中的旧仓库安装命令仅供追溯，当前安装使用上面的集合地址。
 
 ## 许可
 
