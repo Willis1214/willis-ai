@@ -8,6 +8,7 @@
 - 更新包安装说明、独立 manifest、catalog 和 README；机器路径、既有测试导入路径作必要适配，并修复 diff-output 的 description 引号，保留原件。
 - 许可仍按各包范围记录；原有文章包、拼贴包及根拼贴 manifest 保持兼容。
 - 迁移映射、指纹和退役顺序见 MIGRATION.md 及 migration/ 索引。
+- 全部迁入内容与历史远端读回通过后，按源提交条件删除了 18 个旧包分支；Skills 的 main 已改为迁移指引，并完成独立读回。
 
 
 ## AI Article Clarify 1.0.0 — 2026-09-20

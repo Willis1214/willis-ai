@@ -45,4 +45,6 @@ git show skills-archive-Brainstorm-Skill-2026-10-07:brainstorm/SKILL.md
 
 ## 旧分支退役
 
+**已完成：2026-10-07 核验全部迁入文件与 19 个历史标签后，已删除源仓库的 18 个独立包分支；`Skills` 现在仅保留 `main` 迁移指引。** 源指引提交为 [`141830446b41eaf5e5c2a4c70e8eddb80dae8d0e`](https://github.com/Willis1214/Skills/commit/141830446b41eaf5e5c2a4c70e8eddb80dae8d0e)，各包的原文件与历史仍在本集合可查。
+
 源分支在迁入内容、文件指纹和历史标签完成远端核验后退役；删除前检查源 HEAD 仍等于索引中的提交，发生并发变化则保留源分支并重新迁移。删除清单仅含此表的 18 个包分支，旧 Skills 默认分支保留迁移指引，不删除整个仓库。
